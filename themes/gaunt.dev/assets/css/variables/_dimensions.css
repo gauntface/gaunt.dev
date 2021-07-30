@@ -1,0 +1,4 @@
+:root{
+    --padding: 12px;
+    --font-size: calc(var(--padding) * 1.5);
+}

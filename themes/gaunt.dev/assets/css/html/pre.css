@@ -1,0 +1,10 @@
+pre {
+    padding: var(--padding);
+    background: var(--off-black);
+    color: var(--off-white);
+}
+
+pre code {
+    background: inherit;
+    color: inherit;
+}

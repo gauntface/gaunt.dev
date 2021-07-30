@@ -1,0 +1,7 @@
+body {
+    font-size: var(--font-size);
+    font-family: var(--title-font);
+
+    background: var(--off-white);
+    color: var(--off-black);
+}

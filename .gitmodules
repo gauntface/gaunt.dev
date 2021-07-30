@@ -1,6 +1,3 @@
-[submodule "themes/base-theme"]
-	path = themes/base-theme
-	url = https://github.com/gauntface/hugo-base-theme.git
 [submodule "themes/styleguide"]
 	path = themes/styleguide
 	url = https://github.com/gauntface/hugo-styleguide.git

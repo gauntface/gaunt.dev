@@ -2,3 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = ["gaunt.dev", "styleguide", "base-theme"]
+disableHugoGeneratorInject = true
+[markup]
+  [markup.highlight]
+    codeFences = false
