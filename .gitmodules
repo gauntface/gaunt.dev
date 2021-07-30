@@ -1,0 +1,11 @@
+[submodule "themes/base-theme"]
+	path = themes/base-theme
+	url = https://github.com/gauntface/hugo-base-theme.git
+[submodule "themes/styleguide"]
+	path = themes/styleguide
+	url = https://github.com/gauntface/hugo-styleguide.git
+	branch = release-theme
+[submodule "content/styleguide"]
+	path = content/styleguide
+	url = https://github.com/gauntface/hugo-styleguide.git
+	branch = release-content
