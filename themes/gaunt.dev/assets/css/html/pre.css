@@ -2,6 +2,7 @@ pre {
     padding: var(--padding);
     background: var(--off-black);
     color: var(--off-white);
+    font-family: var(--code-font);
 }
 
 pre code {
