@@ -1,0 +1,17 @@
+:root {
+    /* const, async, function */
+    --syntax-keyword: var(--light-blue);
+    /* read() */
+    --syntax-fn-name: var(--pink);
+    /* 'example' */
+    --syntax-string: var(--yellow);
+    /* // Hello */
+    --syntax-comment: var(--off-white);
+    /* ( ); */
+    --syntax-punctuation: var(--off-white);
+    /* var(--example) */
+    --syntax-variable: #f39c12;
+
+    /* ???? */
+    --syntax-constant: #74a4d4;
+}
