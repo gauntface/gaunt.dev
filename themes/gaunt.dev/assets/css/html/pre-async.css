@@ -3,6 +3,7 @@
 .token.doctype,
 .token.cdata {
 	color: var(--syntax-comment);
+    opacity: 0.6;
 }
 
 .token.punctuation {
