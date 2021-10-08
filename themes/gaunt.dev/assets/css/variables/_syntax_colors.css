@@ -10,8 +10,8 @@
     /* ( ); */
     --syntax-punctuation: var(--off-white);
     /* var(--example) */
-    --syntax-variable: #f39c12;
+    --syntax-variable: var(--yellow);
 
     /* ???? */
-    --syntax-constant: #74a4d4;
+    --syntax-constant: var(--light-blue);
 }

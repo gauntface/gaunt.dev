@@ -1,3 +1,34 @@
 {
-  "name": "gaunt.dev"
+  "name": "gaunt.dev",
+  "scripts": {
+    "build": "rm -rf public && genimgs && hugo && npm run lint && node rollup.js && htmlassets && npm run htmlmin",
+    "htmlmin": "node minifyhtml.js",
+    "server": "hugo server --disableFastRender",
+    "lint": "echo \"Nothing to do\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "7.15.4",
+    "@babel/core": "7.15.5",
+    "@babel/preset-env": "7.15.4",
+    "@babel/preset-typescript": "7.15.0",
+    "@rollup/plugin-babel": "5.3.0",
+    "@types/glob": "7.1.4",
+    "@types/google.maps": "3.45.6",
+    "@types/html-minifier": "4.0.1",
+    "@types/node": "15.12.1",
+    "cssnano": "5.0.8",
+    "fs-extra": "9.1.0",
+    "glob": "7.1.7",
+    "html-minifier": "4.0.0",
+    "postcss": "8.3.6",
+    "postcss-cli": "8.3.1",
+    "postcss-import": "14.0.2",
+    "postcss-preset-env": "6.7.0",
+    "rollup": "2.56.3",
+    "rollup-plugin-sourcemaps": "0.6.3",
+    "rollup-plugin-terser": "7.0.2",
+    "typescript": "4.4.2"
+  }
 }

@@ -1,0 +1,4 @@
+.c-header svg {
+    width: calc(var(--padding) * 24);
+    margin: 0 auto;
+}

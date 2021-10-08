@@ -1,0 +1,18 @@
+{
+    "html-dir": "public/",
+    "base-url": "https://www.gaunt.dev",
+    "assets": {
+      "static-dir": "public/",
+      "generated-dir": "public/generated/",
+      "json-dir": "data/hopin/"
+    },
+    "gen-assets": {
+      "static-dir": "static/",
+      "output-dir": "static/generated/",
+      "max-width": 700,
+      "max-density": 3
+    },
+    "img-to-picture": [
+    ],
+    "ratio-wrapper": []
+  }
