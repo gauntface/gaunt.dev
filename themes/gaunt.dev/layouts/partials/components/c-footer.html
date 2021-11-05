@@ -1,0 +1,10 @@
+<footer class="c-footer">
+    <p>
+        &copy; {{ now.Format "2006" }} Matt Gaunt
+        <br />
+        <a href="//twitter.com/gauntface">Twitter</a> -
+        <a href="//github.com/gauntface">GitHub</a> -
+        <a href="//www.linkedin.com/in/mattgaunt/">LinkedIn</a>
+        {{ with $.Site.Home.OutputFormats.Get "RSS" }} - <a href="{{ .RelPermalink }}">RSS</a>{{ end }}
+    </p>
+</footer>

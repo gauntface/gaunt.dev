@@ -1,0 +1,12 @@
+<div class="l-blog">
+    {{ partial "components/c-header"}}
+
+    {{ if .Params.mainImage }}
+    {{ $alt := ( printf "Key art image for %s" .Title ) }}
+    {{ if .Params.mainImageAlt }}{{ $alt = .Params.mainImageAlt }}{{ end }}
+    <div class="l-blog__keyart">
+        <img src= "{{ .Params.mainImage }}" alt= "{{ $alt }}" />
+    </div>
+    {{ end }}
+
+    <main class="l-blog__main">

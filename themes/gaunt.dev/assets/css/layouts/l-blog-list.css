@@ -1,0 +1,8 @@
+.l-blog-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .l-blog-list > * {
+    margin: 22px 0 ;
+  }

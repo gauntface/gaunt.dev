@@ -1,0 +1,33 @@
+{
+  "disableHugoGeneratorInject": true,
+  "markup": {
+      "goldmark": {
+        "renderer": {
+            "unsafe": true
+        }
+      },
+      "highlight": {
+        "codeFences": false
+      }
+  },
+
+  "baseURL": "https://www.gaunt.dev/",
+  "languageCode": "en-us",
+  "title": "The homepage of Matt Gaunt - gaunt.dev",
+  "theme": ["gaunt.dev", "styleguide", "base-theme"],
+  "summaryLength": 45,
+
+  "rssLimit": 50,
+  "outputFormats": {
+    "RSS": {
+      "baseName": "rss"
+    }
+  },
+
+  "params": {
+      "description": "The personal site for Matt Gaunt, a software engineer from the UK living in California.",
+      "themecolor": "#F8F6F4",
+      "socialimage": "/images/default-social.png",
+      "twittercreator": "@gauntface"
+  }
+}

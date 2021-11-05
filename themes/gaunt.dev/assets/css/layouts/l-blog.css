@@ -1,0 +1,25 @@
+.l-blog {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100%;
+  }
+
+  .l-blog__main, .l-blog__keyart {
+    width: 100%;
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    padding: var(--page-padding);
+  }
+
+  .l-blog__keyart {
+    padding-bottom: 0;
+  }
+
+  .l-blog__main {
+    flex: 1;
+  }
+
+  .l-blog__main .n-hopin-u-ratio-container {
+    margin: 2rem;
+  }

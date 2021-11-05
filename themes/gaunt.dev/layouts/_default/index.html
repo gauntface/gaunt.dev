@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "layouts/l-default-open.html"}}
+{{.Content}}
+
+<h2>Recent Posts...</h2>
+
+{{- $blogPosts := where $.Site.RegularPages "Section" "blog" -}}
+
+<div class="l-blog-list">
+{{ range first 6 $blogPosts }}
+  {{ partial "components/c-blog-item.html" . }}
+{{ end }}
+</div>
+
+<p style="text-align:center"><a href="/blog/">View Archive</a></p>
+
+{{ partial "layouts/l-default-close.html"}}
+{{ end }}

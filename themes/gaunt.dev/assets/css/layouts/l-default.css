@@ -1,0 +1,14 @@
+.l-default {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100%;
+  }
+
+  .l-default__main {
+    width: 100%;
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    flex: 1;
+    padding: var(--page-padding);
+  }

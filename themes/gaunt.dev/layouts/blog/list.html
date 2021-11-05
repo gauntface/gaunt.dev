@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ partial "layouts/l-blog-open.html"}}
+
+<h1>Blog</h1>
+
+{{ $paginator := .Paginator 25 }}
+<div class="l-blog-list">
+{{ range $paginator.Pages }}
+  {{ partial "components/c-blog-item.html" . }}
+{{ end }}
+</div>
+
+<div class="c-blog-nav">
+  <div class="c-blog-nav__item">
+    {{ if $paginator.HasPrev }}
+    <a class="c-blog-nav__btn" href="{{ $paginator.Prev.URL }}" class="c-blog-nav__prev">👈</a>
+    {{ end }}
+  </div>
+
+  <div class="c-blog-nav__item">Page {{ $paginator.PageNumber }} of {{ $paginator.Last.PageNumber }}</div>
+
+  <div class="c-blog-nav__item">
+    {{ if $paginator.HasNext }}
+    <a class="c-blog-nav__btn" href="{{ $paginator.Next.URL }}" class="c-blog-nav__next">👉</a>
+    {{ end }}
+  </div>
+</div>
+
+{{ partial "layouts/l-blog-close.html"}}
+{{ end }}

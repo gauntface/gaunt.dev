@@ -1,0 +1,10 @@
+<a class="c-blog-item" href="{{.RelPermalink}}">
+    <div class="c-blog-item__img">
+      <img src="{{ .Params.mainImage }}" alt="Blog post image for {{ .Title }}" />
+    </div>
+    <div class="c-blog-item__header">
+      <h2 class="c-blog-item__title">{{.Title}}</h2>
+      <time class="c-blog-item__time">{{ dateFormat "2006-01-02" .Params.date}}</time>
+    </div>
+    <p class="c-blog-item__excerpt">{{ if .Params.excerpt }}{{ .Params.excerpt }}{{ else }}{{ .Summary }}{{ end }}</p>
+  </a>
