@@ -1,0 +1,18 @@
+@media print {
+    .c-resume-heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .c-resume-heading_title {
+        font-size: 2.8em;
+    }
+
+    .c-resume-heading_links {
+        display: unset;
+        margin: unset;
+        padding: unset;
+    }
+}

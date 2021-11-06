@@ -1,0 +1,27 @@
+@media print {
+    .l-resume * {
+        color: var(--off-black);
+    }
+
+    .l-resume a {
+        text-decoration: none;
+    }
+
+    .l-resume h3 {
+        margin-bottom: 0.5em;
+    }
+
+    .l-resume h6 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .l-resume h5 {
+        margin-bottom: 0;
+    }
+
+    .l-resume ul > li::marker {
+        color: var(--off-black);
+        font-size: 1em;
+    }
+}

@@ -1,10 +1,16 @@
 ---
 title: "Matt Gaunt Résumé"
+pageClass: l-resume
 ---
 
-# Matt Gaunt
-
-[GitHub](http://github.com/gauntface) | [LinkedIn](http://www.linkedin.com/in/mattgaunt/) | [hello@gaunt.dev](hello@gaunt.dev)
+<section class="c-resume-heading">
+    <h1 class="c-resume-heading_title">Matt Gaunt</h1>
+    <ul class="c-resume-heading_links">
+    <li><a href="mailto:hello@gaunt.dev">hello@gaunt.dev</a></li>
+    <li><a href="https://www.linkedin.com/in/mattgaunt/">linkedin.com/in/mattgaunt/</a></li>
+    <li><a href="https://github.com/gauntface">github.com/gauntface</a></li>
+    </ul>
+</section>
 
 ## About Me
 
@@ -160,21 +166,19 @@ I was an intern for Mubaloo and consultant before joining
 
 ## Skills
 
-TL;DR: I'm a jack of all trades, master of none, but better than one.
+I'm a jack of all trades, master of none, but better than one.
 
-I'm finding myself drawn towards testing and DevOps style work in the past
-few years of my work as it's helped me find confidence in the work I'm doing
-in new technologies and it provides the project with an avenue for team growth.
+Currently drawn towards testing and DevOps style work over the past
+few years as it's helped me find confidence in the work I'm doing
+in new technologies and it provides the project with an avenue for new
+contributors to make changes safely.
 
-A project with good tests shouldn't fear new contributors because the risk of
-change is lower than a project without tests.
-
-If you'd like a list of recent areas of recent work:
+Technologies I regularly use at the moment:
 
 - Testing
 - Golang
 - TypeScript/JavaScript
-- Web Technologies
+- Web platform
 - Node
 
 ## Education
