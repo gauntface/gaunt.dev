@@ -1,0 +1,5 @@
+@media print {
+    .c-resume-secondary-role {
+        display: none;
+    }
+}
