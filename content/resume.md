@@ -1,5 +1,5 @@
 ---
-title: "Matt Gaunt Résumé"
+title: "Matt Gaunts Résumé"
 pageClass: l-resume
 ---
 

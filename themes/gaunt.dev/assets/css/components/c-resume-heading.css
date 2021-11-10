@@ -1,18 +1,9 @@
 .c-resume-heading {
-    margin: calc(var(--padding) * 2) 0;
-}
-
-.c-resume-heading_title {
-    margin: 0;
 }
 
 .c-resume-heading_links {
-    display:flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
     list-style: none;
-    gap: var(--padding);
+    padding: 0;
 }
 
 .c-resume-heading_links li {

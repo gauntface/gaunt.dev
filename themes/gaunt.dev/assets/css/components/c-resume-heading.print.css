@@ -8,6 +8,7 @@
 
     .c-resume-heading_title {
         font-size: 2.8em;
+        margin: var(--padding) 0;
     }
 
     .c-resume-heading_links {

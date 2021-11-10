@@ -1,5 +1,6 @@
 <div class="l-blog">
     {{ partial "components/c-header"}}
+    {{ partial "components/c-nav" . }}
 
     {{ if .Params.mainImage }}
     {{ $alt := ( printf "Key art image for %s" .Title ) }}

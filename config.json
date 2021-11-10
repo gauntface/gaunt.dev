@@ -16,6 +16,28 @@
   "title": "The homepage of Matt Gaunt - gaunt.dev",
   "theme": ["gaunt.dev", "styleguide", "base-theme"],
   "summaryLength": 45,
+  "menu": {
+    "main": [
+      {
+        "identifier": "home",
+        "name": "Home",
+        "url": "/",
+        "weight": -3
+      },
+      {
+        "identifier": "blog",
+        "name": "Blog",
+        "url": "/blog/",
+        "weight": -2
+      },
+      {
+        "identifier": "resume",
+        "name": "Résumé",
+        "url": "/resume/",
+        "weight": -1
+      }
+    ]
+  },
 
   "rssLimit": 50,
   "outputFormats": {

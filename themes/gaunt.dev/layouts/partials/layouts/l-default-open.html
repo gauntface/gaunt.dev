@@ -1,3 +1,4 @@
 <div class="l-default">
     {{ partial "components/c-header"}}
+    {{ partial "components/c-nav" . }}
     <main class="l-default__main {{ if .Params.pageClass }} {{ .Params.pageClass }}{{ end }}">
