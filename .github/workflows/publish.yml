@@ -13,7 +13,8 @@ jobs:
     # Get the code
     - uses: actions/checkout@v2
       with:
-        ref: master
+        ref: main
+        submodules: true
 
     # Install dependencies
     - name: Install Go
