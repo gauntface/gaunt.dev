@@ -1,8 +1,7 @@
 {
   "name": "gaunt.dev",
   "scripts": {
-    "build": "rm -rf public && genimgs && hugo && npm run lint && node rollup.js && htmlassets && npm run htmlmin",
-    "htmlmin": "node minifyhtml.js",
+    "build": "rm -rf public && genimgs && hugo && npm run lint && htmlassets",
     "server": "hugo server --disableFastRender",
     "lint": "echo \"Nothing to do\"",
     "test": "echo \"Error: no test specified\" && exit 1"
