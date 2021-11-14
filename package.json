@@ -22,7 +22,7 @@
     "fs-extra": "9.1.0",
     "glob": "7.1.7",
     "html-minifier-terser": "6.0.2",
-    "postcss": "8.3.6",
+    "postcss": "8.3.11",
     "postcss-cli": "8.3.1",
     "postcss-import": "14.0.2",
     "postcss-preset-env": "6.7.0",
