@@ -2,7 +2,7 @@
   "name": "gaunt.dev",
   "scripts": {
     "build": "rm -rf public && genimgs && hugo && npm run lint && htmlassets && npm run minify-html",
-    "minify-html": "html-minifier-terser --input-dir=public/ --output-dir=public/ --file-ext=html --config-file=htmlminifier.json",
+    "minify-html": "node minify-html.js",
     "server": "hugo server --disableFastRender",
     "lint": "echo \"Nothing to do\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,7 @@
     "html-minifier-terser": "6.0.2",
     "postcss": "8.3.11",
     "postcss-cli": "8.3.1",
+    "postcss-custom-properties": "^12.0.0",
     "postcss-import": "14.0.2",
     "postcss-preset-env": "6.7.0",
     "rollup": "2.56.3",
