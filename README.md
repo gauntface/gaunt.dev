@@ -1,1 +1,1 @@
-# gaunt.dev
+![gaunt.dev](gaunt.dev-social.png)
