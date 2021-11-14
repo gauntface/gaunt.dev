@@ -18,7 +18,7 @@
     "@types/google.maps": "3.45.6",
     "@types/html-minifier": "4.0.1",
     "@types/node": "15.12.1",
-    "cssnano": "5.0.8",
+    "cssnano": "5.0.10",
     "fs-extra": "9.1.0",
     "glob": "7.1.7",
     "html-minifier-terser": "6.0.2",
