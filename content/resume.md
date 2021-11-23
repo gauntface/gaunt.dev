@@ -46,7 +46,7 @@ refactoring a large codebase of tools (cron jobs, web servers, CLIs).
 ##### Workbox
 
 - I worked with the early implementations of service workers, writing
-[content]https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design)
+[content](https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design)
 on the topic and later became a team lead and core dev for the early
 versions of [Workbox](https://developers.google.com/web/tools/workbox), a set of
 libraries and tools that simplify using service workers.
