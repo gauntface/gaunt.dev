@@ -16,7 +16,7 @@
     "@rollup/plugin-babel": "5.3.0",
     "@types/glob": "7.2.0",
     "@types/google.maps": "3.46.1",
-    "@types/node": "16.11.7",
+    "@types/node": "16.11.10",
     "cssnano": "5.0.10",
     "glob": "7.2.0",
     "html-minifier-terser": "6.0.2",
