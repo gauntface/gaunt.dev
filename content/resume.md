@@ -75,8 +75,7 @@ content, working with key partners, and advocating with external communities.
 ###### May 2011 - June 2012 [Software Engineer]
 
 [Future Platforms](https://www.futureplatforms.com/) was a small agency
-when I joined in the beautiful city of Brighton, UK, which was later [purchased
-by Vexed](https://www.campaignlive.co.uk/article/vexed-digital-acquires-mobile-specialist-future-platforms/1098627).
+when I joined in the beautiful city of Brighton, UK.
 
 - Worked in a small team to deliver a range of applications to clients.
 - Developed for the Android, iOS, Nokia QT, and Blackberry platforms.
@@ -105,7 +104,7 @@ Technologies I'm regularly using at the moment:
 <ul class="c-resume-col-list">
 <li>Testing</li>
 <li>Golang</li>
-<li>TypeScript/JavaScript</li>
+<li>TypeScript / JavaScript</li>
 <li>Web platform</li>
 <li>Node</li>
 <li>GitHub</li>
@@ -113,6 +112,4 @@ Technologies I'm regularly using at the moment:
 
 ## Education
 
-Masters with first-class honors in
-[Computer Science from Bristol University](http://www.cs.bris.ac.uk/)
-2006 - 2010
+Masters with first-class honors in [Computer Science from Bristol University](http://www.cs.bris.ac.uk/) 2006 - 2010
