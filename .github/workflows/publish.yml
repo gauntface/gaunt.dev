@@ -35,6 +35,8 @@ jobs:
       run: npm install
 
     # Build it
+    - name: Gen Images
+      run: genimgs
     - name: Build
       run: npm run build
 

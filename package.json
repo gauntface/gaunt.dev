@@ -1,7 +1,7 @@
 {
   "name": "gaunt.dev",
   "scripts": {
-    "build": "rm -rf public && genimgs && hugo && npm run lint && htmlassets && npm run minify-html",
+    "build": "rm -rf public && hugo && npm run lint && htmlassets && npm run minify-html",
     "minify-html": "node minify-html.js",
     "server": "hugo server --disableFastRender",
     "lint": "echo \"Nothing to do\"",
