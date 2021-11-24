@@ -19,7 +19,7 @@
     "@types/node": "16.11.10",
     "cssnano": "5.0.11",
     "glob": "7.2.0",
-    "html-minifier-terser": "6.0.2",
+    "html-minifier-terser": "6.1.0",
     "postcss": "8.3.11",
     "postcss-cli": "9.0.2",
     "postcss-preset-env": "7.0.1",
