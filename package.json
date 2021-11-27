@@ -17,7 +17,7 @@
     "@types/glob": "7.2.0",
     "@types/google.maps": "3.47.0",
     "@types/node": "16.11.10",
-    "cssnano": "5.0.11",
+    "cssnano": "5.0.12",
     "glob": "7.2.0",
     "html-minifier-terser": "6.1.0",
     "postcss": "8.4.4",
