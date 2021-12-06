@@ -13,6 +13,22 @@
       "max-density": 3
     },
     "img-to-picture": [
+      {
+        "id": "l-blog",
+        "max-width": 800,
+        "source-sizes": [
+          "(min-width: 800px) 800px",
+          "100vw"
+        ]
+      },
+      {
+        "id": "c-blog-item__img",
+        "max-width": 620,
+        "source-sizes": [
+          "(min-width: 620px) 200px",
+          "100vw"
+        ]
+      }
     ],
     "ratio-wrapper": []
   }
