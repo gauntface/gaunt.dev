@@ -2,7 +2,7 @@
 title: "Pin-It Chrome Extension"
 ---
 
-# Pin-It
+![Promo image for the Pin-It Chrome extension](/images/projects/pin-it/promo.png)
 
 [Pin-It](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme)
 is a simple Chrome extension that makes it easy to keep a set of tabs pinned.
@@ -19,18 +19,34 @@ on the extension icon, it'll set your pinned tabs to your sites.
 
 ## How?
 
-1. Download the Chrome extension from the
+### Step 1
+Download the Chrome extension from the
 [Chrome Webstore here](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme).
-1. Open the options page by clicking on the Pin-It extension icon
-    ![Screenshot showing clicking the Pin-It extension](/images/projects/pin-it/pin-it-step-1.png)
-1. Click the `Edit URLs` button
+
+### Step 2
+
+Open the options page by clicking on the Pin-It extension icon
+![Screenshot showing clicking the Pin-It extension](/images/projects/pin-it/pin-it-step-1.png)
+
+### Step 3
+
+Click the `Edit URLs` button
+
 ![Screenshot of the options page](/images/projects/pin-it/pin-it-step-2.png)
-1. Add your sites and click the `Save` button
+
+### Step 4
+
+Add your sites and click the `Save` button
+
 ![Screenshot of the options page](/images/projects/pin-it/pin-it-step-3.png)
-1. Now, click the Pin-It extension icon to update your pinned tabs
+
+### Step 5
+
+Now, click the Pin-It extension icon to update your pinned tabs
+
 ![Screenshot showing the Pin-It extension creating pinned tabs](/images/projects/pin-it/pin-it-step-4.png)
 
-### Extra Tip
+### Step 6 - *Optional*
 
 You can make the Pin-It extension stick to your URL bar by pinning the
 extension itself.
@@ -41,7 +57,7 @@ Once it's pinned, you can click on the Pin-It icon to set up your tabs.
 
 ![Screenshot showing how to pin the Pin-It extension](/images/projects/pin-it/pin-it-pinned.png)
 
-### Changing your URLs
+## Changing your URLs
 
 You can change the pinned URLs at any time by right-clicking the Pin-It
 extension (or the menu icon) and selecting `Options`.
