@@ -1,0 +1,6 @@
+<a class="c-project-item" href="{{.RelPermalink}}">
+    <div class="c-project-item__img">
+      <img src="{{ .Params.socialImg }}" alt="Image for the {{ .Title }} project" />
+    </div>
+    <p class="c-project-item__excerpt">{{ if .Params.excerpt }}{{ .Params.excerpt }}{{ else }}{{ .Summary }}{{ end }}</p>
+  </a>

@@ -1,4 +1,4 @@
-.c-blog-nav {
+.c-pagination {
     display: flex;
 
     max-width: 360px;
@@ -11,11 +11,11 @@
     margin: var(--padding) auto 0 auto;
   }
 
-  .c-blog-nav__item {
+  .c-pagination__item {
     flex: 1;
   }
 
-  .c-blog-nav__btn {
+  .c-pagination__btn {
     font-size: 1.8rem;
     line-height: 1.8rem;
     padding: 12px;

@@ -1,0 +1,17 @@
+{{ if or .HasPrev .HasNext }}
+<div class="c-pagination">
+  <div class="c-pagination__item">
+    {{ if .HasPrev }}
+    <a class="c-pagination__btn" href="{{ .Prev.URL }}" class="c-pagination__prev">👈</a>
+    {{ end }}
+  </div>
+
+  <div class="c-pagination__item">Page {{ .PageNumber }} of {{ .Last.PageNumber }}</div>
+
+  <div class="c-pagination__item">
+    {{ if .HasNext }}
+    <a class="c-pagination__btn" href="{{ .Next.URL }}" class="c-pagination__next">👉</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

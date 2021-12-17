@@ -1,0 +1,20 @@
+.c-project-item {
+    text-decoration: none;
+  }
+
+.c-project-item__excerpt {
+  margin: 0;
+  color: var(--off-black);
+}
+
+.c-project-item__img img {
+  width: 100%;
+}
+
+.c-project-item {
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr);
+  grid-gap: 12px;
+  column-gap: 24px;
+}

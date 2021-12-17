@@ -10,21 +10,7 @@
 {{ end }}
 </div>
 
-<div class="c-blog-nav">
-  <div class="c-blog-nav__item">
-    {{ if $paginator.HasPrev }}
-    <a class="c-blog-nav__btn" href="{{ $paginator.Prev.URL }}" class="c-blog-nav__prev">👈</a>
-    {{ end }}
-  </div>
-
-  <div class="c-blog-nav__item">Page {{ $paginator.PageNumber }} of {{ $paginator.Last.PageNumber }}</div>
-
-  <div class="c-blog-nav__item">
-    {{ if $paginator.HasNext }}
-    <a class="c-blog-nav__btn" href="{{ $paginator.Next.URL }}" class="c-blog-nav__next">👉</a>
-    {{ end }}
-  </div>
-</div>
+{{ partial "components/c-pagination.html" $paginator}}
 
 {{ partial "layouts/l-blog-close.html"}}
 {{ end }}
