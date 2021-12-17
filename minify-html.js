@@ -31,11 +31,13 @@ class PromisePool {
 
 function minifyTask(f) {
     return async function() {
+        if (f.indexOf('resume') == -1) {
+            return
+        }
         console.log(`    Minifying ${f}`);
         const b = await fs.readFile(f);
         const mh = await minify(b.toString(), {
             collapseWhitespace: true,
-            collapseInlineTagWhitespace: true,
             removeComments: true,
             minifyCSS: true,
             minifyJS: true,
