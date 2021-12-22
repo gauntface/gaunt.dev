@@ -9,6 +9,8 @@
     "gen-assets": {
       "static-dir": "static/",
       "output-dir": "static/generated/",
+      "output-bucket": "www.gaunt.dev",
+      "output-bucket-dir": "generated/",
       "max-width": 700,
       "max-density": 3
     },
