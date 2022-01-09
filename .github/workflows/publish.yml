@@ -29,14 +29,14 @@ jobs:
       run: sudo apt-get install libaom-dev
     - name: Install go-html-asset-manager
       run: |
-        go install github.com/gauntface/go-html-asset-manager/cmds/htmlassets@latest
-        go install github.com/gauntface/go-html-asset-manager/cmds/genimgs@latest
+        go install github.com/gauntface/go-html-asset-manager/cmds/v2/htmlassets@latest
+        go install github.com/gauntface/go-html-asset-manager/cmds/v2/genimgs@latest
     - name: Install NPM Deps
       run: npm install
 
     # Build it
-    #- name: Gen Images
-    #  run: genimgs
+    - name: Gen Images
+      run: genimgs
     - name: Build
       run: npm run build
 
