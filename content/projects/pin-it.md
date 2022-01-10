@@ -26,7 +26,8 @@ Download the Chrome extension from the
 
 ### Step 2
 
-Open the options page by clicking on the Pin-It extension icon
+Open the options page by clicking on the Pin-It extension icon.
+
 ![Screenshot showing clicking the Pin-It extension](/images/projects/pin-it/pin-it-step-1.png)
 
 ### Step 3

@@ -9,12 +9,22 @@
     "gen-assets": {
       "static-dir": "static/",
       "output-dir": "static/generated/",
+      "output-bucket": "www.gaunt.dev",
+      "output-bucket-dir": "generated/",
       "max-width": 700,
       "max-density": 3
     },
     "img-to-picture": [
       {
         "id": "l-blog",
+        "max-width": 800,
+        "source-sizes": [
+          "(min-width: 800px) 800px",
+          "100vw"
+        ]
+      },
+      {
+        "id": "l-default__main",
         "max-width": 800,
         "source-sizes": [
           "(min-width: 800px) 800px",
