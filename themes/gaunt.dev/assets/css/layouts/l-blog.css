@@ -10,6 +10,7 @@
     max-width: var(--page-max-width);
     margin: 0 auto;
     padding: var(--page-padding);
+    box-sizing: border-box;
   }
 
   .l-blog__keyart {
