@@ -11,4 +11,5 @@
     margin: 0 auto;
     flex: 1;
     padding: var(--page-padding);
+    box-sizing: border-box;
   }

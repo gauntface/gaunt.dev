@@ -2,4 +2,5 @@
     --padding: 12px;
     --font-size: calc(var(--padding) * 1.5);
     --page-max-width: 800px;
+    --page-padding: 12px;
 }

@@ -2,8 +2,10 @@
     --off-white: #F8F6F4;
     --off-black: #373150;
 
-    --dark-blue: #3C55A5;
     --yellow: #FED9A1;
-    --pink: #FF7867;
-    --light-blue: #84D2EE;
+
+    /* Tested with https://colourcontrast.cc/ */
+    --dark-blue: #3b4a9a;
+    --pink: #e40300;
+    --light-blue: #1a99c6;
 }
