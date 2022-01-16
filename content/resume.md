@@ -16,14 +16,14 @@ pageClass: l-resume
 
 ### Google
 
-###### June 2012 - Current [Staff Developer Programs Engineer]
+<div class="c-job-subtitle">June 2012 - Current [Senior Software Engineer]</div>
 
 I originally joined [Google](https://careers.google.com/) as a developer advocate, later became a developer
 programs engineer and my current day-to-day focus has shifted from
 [advocacy](https://www.youtube.com/playlist?list=PLo4WeLIpjn15yye0FCQRy47YjrrCTh99s)
 to software engineering.
 
-##### Engineering Manager
+<div class="c-job-role">Engineering Manager</div>
 
 - The [OSPO](https://opensource.google/) (Open Source Programs Office)
 engineering team doubled in size and split into two teams. I became the
@@ -31,7 +31,7 @@ engineering manager for the compliance team and later took on the GitHub team
 as well.
 - Required setting priorities for the teams, ensuring our services run smoothly, and ensuring the teams were happy during the pandemic.
 
-##### Open Source Programs Office (OSPO)
+<div class="c-job-role">Open Source Programs Office (OSPO)</div>
 
 - Before joining OSPO in 2019, I had little experience of Google
 technologies, having worked predominantly on GitHub. I learned many Google
@@ -43,7 +43,7 @@ integration tests as part of their daily work.
 refactoring a large codebase of tools (cron jobs, web servers, CLIs).
 - I supported Google's GitHub enterprise plan and incident response teams with planning, tooling, and processes.
 
-##### Workbox
+<div class="c-job-role">Workbox</div>
 
 - I worked with the early implementations of service workers, writing
 [content](https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design)
@@ -51,7 +51,7 @@ on the topic and later became a team lead and core dev for the early
 versions of [Workbox](https://developers.google.com/web/tools/workbox), a set of
 libraries and tools that simplify using service workers.
 
-##### Firebase Cloud Messaging
+<div class="c-job-role">Firebase Cloud Messaging</div>
 
 - After working on native
 [web push](https://w3c.github.io/push-api/#acknowledgements), I was asked to
@@ -62,7 +62,7 @@ long-terms plans in the API design and working with early access partners.
 - After its release, I became web platform lead for the Firebase API team,
 reviewing new API proposals.
 
-##### Support & Advocacy
+<div class="c-job-role">Support & Advocacy</div>
 
 - When I first joined Google, I helped several launches, including the
 European launch of Google TV and Chromecast as well as the switch to a
@@ -72,7 +72,7 @@ content, working with key partners, and advocating with external communities.
 
 ### Future Platforms
 
-###### May 2011 - June 2012 [Software Engineer]
+<div class="c-job-subtitle">May 2011 - June 2012 [Software Engineer]</div>
 
 [Future Platforms](https://www.futureplatforms.com/) was a small agency
 when I joined in the beautiful city of Brighton, UK.
@@ -85,7 +85,7 @@ when I joined in the beautiful city of Brighton, UK.
 
 ### Mubaloo
 
-###### Sep 2010 - May 2011 [Software Engineer]
+<div class="c-job-subtitle">Sep 2010 - May 2011 [Software Engineer]</div>
 
 I was an intern for Mubaloo and consultant before joining
 [Mubaloo](https://twitter.com/mubaloo) full time. The company grew from 5 to 40 people during my time there.

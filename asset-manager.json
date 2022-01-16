@@ -38,6 +38,14 @@
           "(min-width: 620px) 200px",
           "100vw"
         ]
+      },
+      {
+        "id": "c-project-item__img",
+        "max-width": 620,
+        "source-sizes": [
+          "(min-width: 700px) 400px",
+          "100vw"
+        ]
       }
     ],
     "ratio-wrapper": []
