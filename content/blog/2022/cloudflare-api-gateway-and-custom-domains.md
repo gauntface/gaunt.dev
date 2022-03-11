@@ -42,3 +42,6 @@ The rule I used was `focus-api*.gaunt.dev/*`, and the settings were `SSL` and
 `Full`.
 
 ![Cloudflare page rule settings](/images/blog/2022/2022-03-11/cloudflare-rule-edit.jpg)
+
+Thank you to the [folks on this thread](https://community.cloudflare.com/t/cloudflare-proxy-for-aws-api-gateway/318825)
+for the breadcrumbs.
