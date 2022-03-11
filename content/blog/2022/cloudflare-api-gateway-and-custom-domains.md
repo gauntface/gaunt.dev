@@ -3,8 +3,8 @@ title: "Cloudflare, AWS API Gateway & Custom Domains"
 excerpt: "After receiving 'Not Found' errors from my Lambda function with API gateway, I was at a loss as to what was wrong. Turned out it was a Cloudflare configuration issue."
 mainImage: "/images/blog/2022/2022-03-11/flare.jpg"
 mainImageAlt: A monochromatic image of a personal holding up a flare with red smoke coming out of it.
-date: "2021-02-15T21:31:00-07:00"
-updatedOn: "2021-02-15T21:31:00-07:00"
+date: "2022-03-11T09:57:00-07:00"
+updatedOn: "2022-03-11T09:57:00-07:00"
 ---
 
 # Cloudflare, AWS API Gateway & Custom Domains
