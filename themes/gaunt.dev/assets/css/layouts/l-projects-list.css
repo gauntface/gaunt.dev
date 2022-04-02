@@ -2,13 +2,10 @@
   display: grid;
 }
 
-.l-projects-list > * {
-  margin: 22px 0 ;
-}
-
 @media (min-width: 700px) {
   .l-projects-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: var(--padding);
   }
 }

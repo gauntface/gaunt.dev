@@ -22,12 +22,18 @@
         "identifier": "home",
         "name": "Home",
         "url": "/",
-        "weight": -3
+        "weight": -4
       },
       {
         "identifier": "blog",
         "name": "Blog",
         "url": "/blog/",
+        "weight": -3
+      },
+      {
+        "identifier": "projects",
+        "name": "Projects",
+        "url": "/projects/",
         "weight": -2
       },
       {
