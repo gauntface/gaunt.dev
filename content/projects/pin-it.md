@@ -1,9 +1,11 @@
 ---
 title: "Pin-It Chrome Extension"
-socialImg: "/images/projects/pin-it/marquee-promo.png"
+excerpt: "Pin-It is a simple Chrome extension that makes it easy to keep a set of tabs pinned."
+socialImg: "/images/projects/pin-it/default-social.png"
+githubFullName: "gauntface/pin-it-extension"
 ---
 
-![Promo image for the Pin-It Chrome extension](/images/projects/pin-it/marquee-promo.png)
+![Promo image for the Pin-It Chrome extension](/images/projects/pin-it/default-social.png)
 
 [Pin-It](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme)
 is a simple Chrome extension that makes it easy to keep a set of tabs pinned.

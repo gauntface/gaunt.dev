@@ -1,0 +1,17 @@
+{{ if .adjective }}
+<div class="c-support">
+  <h2>Found this {{.adjective}} helpful?</h2>
+  <p>If you found this helpful and would like to support me, please consider
+    <a href="https://www.buymeacoffee.com/gauntface">buying me a coffee</a>,
+    any help goes a long way to help me prioritize and maintain this site and
+    my projects.
+  </p>
+  <p>
+    <a class="c-support__bmc-link" href="https://www.buymeacoffee.com/gauntface">
+      <span class="c-support__bmc-button">
+        {{ partial "svgs/bmc-logo.svg" }} Buy me a coffee
+      </span>
+    </a>
+  </p>
+</div>
+{{ end }}

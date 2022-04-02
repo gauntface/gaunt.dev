@@ -1,0 +1,31 @@
+.c-support {
+  margin: calc(var(--padding) * 8) 0;
+  text-align: center;
+}
+
+.c-support__bmc-button {
+  display: inline-flex;
+  flex-direction: row;
+
+  height: calc(var(--button-height) + (2 * var(--padding)));
+  line-height: var(--button-height);
+  border-radius: calc(var(--button-height) + (2 * var(--padding)));
+
+  padding: var(--padding);
+  box-sizing: border-box;
+
+  gap: var(--padding);
+
+  background-color: var(--pink);
+  color: var(--off-white);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c-support__bmc-button > svg {
+  height: var(--button-height);
+}
+
+.c-support__bmc-button .c-bmc__fill {
+  fill: var(--off-white);
+}

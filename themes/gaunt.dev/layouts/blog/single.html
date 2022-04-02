@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ partial "layouts/l-blog-open.html" .}}
 {{.Content}}
+{{ partial "components/c-support.html" (dict "adjective" "post") }}
 {{ partial "layouts/l-blog-close.html" .}}
 {{ end }}
