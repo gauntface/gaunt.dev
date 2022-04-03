@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: calc(var(--padding) * 2);
+    flex-wrap: wrap;
 
     list-style: none;
     margin: 0;
@@ -21,4 +21,10 @@
     display: inline-block;
     text-decoration: none;
     margin: var(--padding);
+}
+
+@media (min-width: 620px) {
+    .c-nav ul {
+        gap: calc(var(--padding) * 2);
+    }
 }
