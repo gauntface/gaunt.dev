@@ -4,5 +4,10 @@
             "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap",
             "https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
         ]
+    },
+    "js": {
+        "async": [
+            "https://www.googletagmanager.com/gtag/js?id=G-CW6WJS2HP1"
+        ]
     }
 }
