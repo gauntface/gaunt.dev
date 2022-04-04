@@ -6,8 +6,8 @@
 .c-support__bmc-button {
   display: inline-flex;
   flex-direction: row;
+  align-items: center;
 
-  height: calc(var(--button-height) + (2 * var(--padding)));
   line-height: var(--button-height);
   border-radius: calc(var(--button-height) + (2 * var(--padding)));
 
@@ -23,9 +23,16 @@
 }
 
 .c-support__bmc-button > svg {
+  display: none;
   height: var(--button-height);
 }
 
 .c-support__bmc-button .c-bmc__fill {
   fill: var(--off-white);
+}
+
+@media (min-width: 300px) {
+  .c-support__bmc-button > svg {
+    display: inline;
+  }
 }
