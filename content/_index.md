@@ -1,6 +1,7 @@
 # Hello.
 
-I'm Matt Gaunt, staff developer program engineer at [Google's Open Source Program Office](https://opensource.google).
+I'm Matt Gaunt, I'm a jack of all trades software engineer,
+[previously a senior software engineer at Google](/resume).
 
 ## Projects
 

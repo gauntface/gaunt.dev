@@ -16,12 +16,13 @@ pageClass: l-resume
 
 ### Google
 
-<div class="c-job-subtitle">June 2012 - Current [Senior Software Engineer]</div>
+<div class="c-job-subtitle">June 2012 - Apil 2022 [Senior Software Engineer]</div>
 
 I originally joined [Google](https://careers.google.com/) as a developer advocate, later became a developer
-programs engineer and my current day-to-day focus has shifted from
+programs engineer, we promoted several times to staff developer programs enginer and my
+day-to-day focus shifted from
 [advocacy](https://www.youtube.com/playlist?list=PLo4WeLIpjn15yye0FCQRy47YjrrCTh99s)
-to software engineering.
+to software engineering where I changed my role to senior software engineer.
 
 <div class="c-job-role">Engineering Manager</div>
 
