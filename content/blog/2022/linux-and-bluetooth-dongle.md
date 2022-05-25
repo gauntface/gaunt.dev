@@ -53,6 +53,10 @@ when I update my OS).
    ```
    SUBSYSTEM=="usb", ATTRS{idVendor}=="0b05", ATTRS{idProduct}=="185c", ATTR{authorized}="0"
    ```
+1.  Reboot your machine, plug-in your new USB dongle, and you should be good to go.
 
-Reboot your machine, plug-in your new USB dongle, and hopefully your Bluetooth devices will be
-working without an issue.
+### References
+
+This guide is a culmination of these to stack exchange questions:
+- [AskUbuntu](https://askubuntu.com/questions/898881/deactivate-internal-bluetooth-adapter-while-leaving-usb-dongle-online)
+- [Unix](https://unix.stackexchange.com/questions/314373/permanently-disable-built-in-bluetooth-and-use-usb)
