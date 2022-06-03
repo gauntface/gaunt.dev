@@ -3,3 +3,4 @@ public/
 tmp/
 resources/
 static/generated/
+go.work

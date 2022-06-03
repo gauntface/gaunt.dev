@@ -3,6 +3,14 @@
   text-align: center;
 }
 
+.c-support h2 {
+  text-decoration: unset;
+}
+
+.c-support__bmc-link {
+  text-decoration: none;
+}
+
 .c-support__bmc-button {
   display: inline-flex;
   flex-direction: row;
@@ -15,9 +23,8 @@
 
   gap: var(--padding);
 
-  background-color: var(--pink);
-  color: var(--off-white);
-  text-decoration: none;
+  background-color: var(--t-accent-1);
+  color: var(--t-opposite);
   font-weight: bold;
 }
 
@@ -32,7 +39,7 @@
 }
 
 .c-support__bmc-svg .c-bmc__fill {
-  fill: var(--off-white);
+  fill: currentColor;
 }
 
 @media (min-width: 300px) {

@@ -1,6 +1,6 @@
 @media print {
     .l-resume * {
-        color: var(--off-black);
+        color: var(--print-color);
     }
 
     .l-resume a {
@@ -21,7 +21,7 @@
     }
 
     .l-resume ul > li::marker {
-        color: var(--off-black);
+        color: var(--print-color);
         font-size: 1em;
     }
 }

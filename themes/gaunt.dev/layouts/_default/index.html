@@ -1,8 +1,18 @@
 {{ define "main" }}
-{{ partial "layouts/l-default-open.html" .}}
+{{ partial "layouts/l-default-open.html" . }}
 {{.Content}}
 
-<h2>Recent Posts...</h2>
+<h2>Projects</h2>
+
+{{- $projects := where $.Site.RegularPages "Section" "projects" -}}
+
+<div class="l-projects-list">
+{{ range first 6 $projects }}
+    {{ partial "components/c-project-item.html" . }}
+{{ end }}
+</div>
+
+<h2>Recent Posts</h2>
 
 {{- $blogPosts := where $.Site.RegularPages "Section" "blog" -}}
 
@@ -14,5 +24,5 @@
 
 <p style="text-align:center"><a href="/blog/">View Archive</a></p>
 
-{{ partial "layouts/l-default-close.html"}}
+{{ partial "layouts/l-default-close.html" . }}
 {{ end }}

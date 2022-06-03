@@ -3,5 +3,5 @@
 {{.Content}}
 {{ partial "components/c-project-github.html" . }}
 {{ partial "components/c-support.html" (dict "Adjective" "project") }}
-{{ partial "layouts/l-default-close.html"}}
+{{ partial "layouts/l-default-close.html" . }}
 {{ end }}

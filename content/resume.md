@@ -1,11 +1,12 @@
 ---
 title: "Matt Gaunts Résumé"
+excerpt: "Matt is a full stack software engineer who has worked on native mobile apps, the web and led engineering teams at Google."
 pageClass: l-resume
 ---
 
 <section class="c-resume-heading">
-    <h1 class="c-resume-heading_title">Matt Gaunt</h1>
-    <ul class="c-resume-heading_links">
+    <h1 class="c-resume-heading__title">Matt Gaunt</h1>
+    <ul class="c-resume-heading__links">
     <li><a href="mailto:hello@gaunt.dev">hello@gaunt.dev</a></li>
     <li><a href="https://www.linkedin.com/in/mattgaunt/">linkedin.com/in/mattgaunt/</a></li>
     <li><a href="https://github.com/gauntface">github.com/gauntface</a></li>

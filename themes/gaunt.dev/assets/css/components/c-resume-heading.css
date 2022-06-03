@@ -1,11 +1,8 @@
-.c-resume-heading {
-}
-
-.c-resume-heading_links {
+.c-resume-heading__links {
     list-style: none;
     padding: 0;
 }
 
-.c-resume-heading_links li {
+.c-resume-heading__links li {
     padding: 0;
 }

@@ -2,7 +2,7 @@
 title: "Linux and a Bluetooth Dongle"
 excerpt: "Bluetooth and Linux have never been great friends, but an Asus dongle has given me hope."
 mainImage: "/images/blog/2022/2022-05-25/john-smit-Mc5EwlPC3zA-unsplash.jpg"
-mainImageAlt: 
+mainImageAlt: Apple Airpod Pros on a bright blue surface
 date: "2022-05-25T13:00:00-07:00"
 updatedOn: "2022-05-25T13:00:00-07:00"
 ---
@@ -42,7 +42,7 @@ when I update my OS).
 1. Block the built-in device from being used by your machine using
    a `udev` rule.
 
-   Run `sudo -H nano /etc/udev/rules.d/81-bluetooth-hci.rules`
+   To do that, create a file at `/etc/udev/rules.d/81-bluetooth-hci.rules` and add the following:
 
    ```
    SUBSYSTEM=="usb", ATTRS{idVendor}=="<Vendor ID>", ATTRS{idProduct}=="<Product ID>", ATTR{authorized}="0"

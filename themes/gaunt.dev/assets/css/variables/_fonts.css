@@ -1,4 +1,9 @@
 :root {
-    --title-font: 'Montserrat', sans-serif;
-    --code-font: 'Fira Code', monospace;
+    /* From https://systemfontstack.com/ */
+    --system-font-sans-serif: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    --system-font-mono-space: Menlo, Consolas, Monaco, "Liberation Mono", Lucida Console, monospace;
+
+    --title-font: 'Montserrat', var(--system-font-sans-serif);
+    --body-font: var(--system-font-sans-serif);
+    --code-font: 'Fira Code', var(--system-font-mono-space);
 }

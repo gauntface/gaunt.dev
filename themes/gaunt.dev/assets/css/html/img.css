@@ -1,5 +1,5 @@
 img {
     /* This makes image take up the width/height in the HTML */
     display: inline-block;
-    background-color: var(--light-blue);
+    background-color: var(--t-accent-3);
 }

@@ -1,3 +1,4 @@
 thead {
-    background: var(--yellow);
+    background: var(--t-base-2);
+    color: var(--t-opposite-2);
 }

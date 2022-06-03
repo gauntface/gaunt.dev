@@ -17,7 +17,7 @@ blockquote::before {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    background-color: var(--yellow);
+    background-color: var(--t-accent-1);
     position: absolute;
     z-index: -1;
     left: -50px;

@@ -29,17 +29,20 @@
 .token.attr-name,
 .token.string,
 .token.char,
-.token.builtin,
 .token.inserted {
 	color: var(--syntax-string);
 }
 
-.token.operator,
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
 	color: var(--syntax-string);
+}
+
+.token.operator,
+.token.builtin {
+	color: var(--syntax-operator);
 }
 
 .token.atrule,
