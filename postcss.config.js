@@ -22,12 +22,12 @@ if (process.env.HUGO_ENVIRONMENT === 'production') {
         postcssPresetEnv({
             preserve: true,
             importFrom: varFiles,
-            exportTo: 'public/css/always.css',
+            exportTo: 'public/__postcss/always.css',
         }),
         cssnano(),
     ];
 
-    mkdirp.sync('public/css/');
+    mkdirp.sync('public/__postcss/');
 }
 
 module.exports = {
