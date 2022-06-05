@@ -1,5 +1,5 @@
 ol > li::marker {
     content: counter(list-item) '.';
-    color: var(--pink);
+    color: var(--t-accent-1);
     font-weight: bold;
 }

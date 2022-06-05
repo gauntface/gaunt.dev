@@ -1,11 +1,11 @@
 pre {
-    padding: var(--padding);
-    background: var(--off-black);
-    color: var(--off-white);
-    font-family: var(--code-font);
+  padding: var(--padding);
+  background: var(--t-base-2);
+  color: var(--t-opposite-2);
+  border-radius: 4px;
 }
 
 pre code {
-    background: inherit;
-    color: inherit;
+  background: inherit;
+  color: inherit;
 }

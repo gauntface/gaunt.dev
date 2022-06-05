@@ -1,0 +1,12 @@
+:root {
+  --light-theme-base: #F8F6F4;
+  --light-theme-opposite: #373150;
+
+  --light-theme-base-2: #373150;
+  --light-theme-opposite-2: #F8F6F4;
+
+  --light-theme-accent-1: #FF7867;
+  --light-theme-accent-2: #84D2EE;
+  --light-theme-accent-3: #FED9A1;
+  --light-theme-accent-4: #3C55A5;
+}

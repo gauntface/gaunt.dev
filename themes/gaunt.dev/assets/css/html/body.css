@@ -1,7 +1,7 @@
 body {
-    font-size: var(--font-size);
-    font-family: var(--title-font);
+  font-size: var(--font-size);
+  font-family: var(--body-font);
 
-    background: var(--off-white);
-    color: var(--off-black);
+  background: var(--t-base);
+  color: var(--t-opposite);
 }

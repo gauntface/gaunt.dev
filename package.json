@@ -22,6 +22,7 @@
     "html-minifier-terser": "6.1.0",
     "postcss": "8.4.12",
     "postcss-cli": "9.1.0",
+    "postcss-import": "^14.1.0",
     "postcss-preset-env": "7.4.3",
     "rollup": "2.70.1",
     "rollup-plugin-sourcemaps": "0.6.3",

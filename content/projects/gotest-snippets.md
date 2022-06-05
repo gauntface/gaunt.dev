@@ -44,7 +44,7 @@ will add, all starting with the prefix `gotest`.
     - Generate a diff statement with options. This is equivalent to
       `gotest-diff` except it'll set up the options array.
 - **gotest-main**
-    - Generate a`TestMain` function with a `reset` function you can use to reset
+    - Generate a `TestMain` function with a `reset` function you can use to reset
       all global variables between tests.
 - **gotest-errors**
     - Generate an error comparison.
