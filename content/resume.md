@@ -17,43 +17,29 @@ pageClass: l-resume
 
 ### Google
 
-<div class="c-job-subtitle">June 2012 - Apil 2022 [Senior Software Engineer]</div>
+<div class="c-job-subtitle">April 2018 - April 2022 <a href="https://opensource.google/">Open Source Programs Office</a> [Senior Software Engineer]</div>
 
-I originally joined [Google](https://careers.google.com/) as a developer advocate, later became a developer
-programs engineer, we promoted several times to staff developer programs enginer and my
-day-to-day focus shifted from
-[advocacy](https://www.youtube.com/playlist?list=PLo4WeLIpjn15yye0FCQRy47YjrrCTh99s)
-to software engineering where I changed my role to senior software engineer.
-
-<div class="c-job-role">Engineering Manager</div>
-
-- The [OSPO](https://opensource.google/) (Open Source Programs Office)
-engineering team doubled in size and split into two teams. I became the
-engineering manager for the compliance team and later took on the GitHub team
-as well.
+- Became familiar with the "Google tech stack" and shared responsibility in maintaining cron jobs, databases,
+websites, and CLI tools.
+- One of my primary focuses within the team was educating and fostering a strong testing culture. After education the team increased total coverage by 16% and with presubmit checks the team continued
+to improve quality and coverage going forward.
+- I supported Google's GitHub enterprise plan and incident response teams with planning, tooling, and processes.
+- Between December 2019 and January 2022 I became an Engineering Manager, initially for the compliance team and later took on the GitHub team as well.
 - Required setting priorities for the teams, ensuring our services run smoothly, and ensuring the teams were happy during the pandemic.
 
-<div class="c-job-role">Open Source Programs Office (OSPO)</div>
+<div class="c-job-subtitle">April 2013 - April 2018 Chrome Dev Rel [Staff Developer Programs Engineer]</div>
 
-- Before joining OSPO in 2019, I had little experience of Google
-technologies, having worked predominantly on GitHub. I learned many Google
-technologies and shared responsibility in maintaining cron jobs, databases,
-websites, and CLI tools.
-- One of my primary focuses within the team was educating and encouraging team members to write unit and
-integration tests as part of their daily work.
-- Working with this team required learning a range of new tools, understanding and
-refactoring a large codebase of tools (cron jobs, web servers, CLIs).
-- I supported Google's GitHub enterprise plan and incident response teams with planning, tooling, and processes.
+Below the some of the larger projects I was involved in as a developer programs engineer on the Chrome DevRel team, however, this does not include [YouTube videos & presentations](https://www.youtube.com/playlist?list=PLo4WeLIpjn15yye0FCQRy47YjrrCTh99s), [docs & blog posts](https://web.dev/authors/mattgaunt/) and other day-to-day tasks.
 
-<div class="c-job-role">Workbox</div>
+<div class="c-job-subtitle__section">Workbox</div>
 
 - I worked with the early implementations of service workers, writing
-[content](https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design)
+[a chapter for smashing book 5](https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design)
 on the topic and later became a team lead and core dev for the early
 versions of [Workbox](https://developers.google.com/web/tools/workbox), a set of
-libraries and tools that simplify using service workers.
+libraries and tools that simplify using service workers to build progressive web apps (PWAs).
 
-<div class="c-job-role">Firebase Cloud Messaging</div>
+<div class="c-job-subtitle__section">Firebase Cloud Messaging</div>
 
 - After working on native
 [web push](https://w3c.github.io/push-api/#acknowledgements), I was asked to
@@ -61,16 +47,13 @@ lead the design and implementation of the
 [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging)
 Web SDK, which required adding support for service workers to the SDK, supporting
 long-terms plans in the API design and working with early access partners.
-- After its release, I became web platform lead for the Firebase API team,
-reviewing new API proposals.
+- After its release, I became web platform lead for the Firebase API team, reviewing new API proposals and participating in design reviews.
 
-<div class="c-job-role">Support & Advocacy</div>
+<div class="c-job-subtitle__section">Chromium-based WebView in Android</div>
 
-- When I first joined Google, I helped several launches, including the
-European launch of Google TV and Chromecast as well as the switch to a
-Chromium-based WebView in Android.
-- These launches required working with Engineers, producing educational
-content, working with key partners, and advocating with external communities.
+- Working with the engineering team, producing educational content, working with key partners
+in early access programs, advocating the change with external communities online and presenting at
+conferences.
 
 ### Future Platforms
 
@@ -107,9 +90,23 @@ Technologies I'm regularly using at the moment:
 <li>Testing</li>
 <li>Golang</li>
 <li>TypeScript / JavaScript</li>
-<li>Web platform</li>
+<li>HTML / CSS / JS</li>
+<li>Progressive Web Apps</li>
 <li>Node</li>
 <li>GitHub</li>
+<li>Google CloudSQL</li>
+<li>Open Source</li>
+</ul>
+
+Tecnologies I'm less familiar (i.e. learning or have used in the past):
+
+<ul class="c-resume-col-list">
+<li>AWS SAM, S3, Lambda</li>
+<li>GraphQL</li>
+<li>React</li>
+<li>Svelte</li>
+<li>Java</li>
+<li>Android Development</li>
 </ul>
 
 ## Education
