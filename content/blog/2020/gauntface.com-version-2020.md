@@ -36,7 +36,7 @@ a widely used static site generator, which resulted in:
 
 - ✨ Hosting on [AWS](https://aws.amazon.com/)
 - ✨ [Hugo](https://gohugo.io/) for static site generation
-- ✨ Custom scripts from ["go-html-asset-manager"](https://github.com/gauntface/go-html-asset-manager) 
+- ✨ Custom scripts from ["go-html-asset-manager"](https://github.com/gauntface/go-html-asset-manager)
     for production builds
 - 👌 Markdown for content
 - 👌 [Gulp](https://gulpjs.com/) for asset compilation & minification
@@ -51,14 +51,14 @@ Now, why the changes?
 
 ### AWS for hosting
 
-A desire to learn AWS drove the move from Netlify. Netlify has a fantastic feature set and 
+A desire to learn AWS drove the move from Netlify. Netlify has a fantastic feature set and
 I'd still recommend it to folks if they haven't tried it. (I may go back once I get a feel for
 the average cost of AWS).
 
-AWS Hosting is simple, store the site in an S3 bucket with Cloudfront for the CDN, you 
+AWS Hosting is simple, store the site in an S3 bucket with Cloudfront for the CDN, you
 can [learn more in this post](/blog/2020/static-site-hosting-on-aws/).
 
-The deployment of the site is managed by 
+The deployment of the site is managed by
 [a GitHub Action](https://github.com/gauntface/gauntface.com/blob/master/.github/workflows/publish.yml)
 so I didn't lose the auto-deploy feature that Netlify provided.
 
@@ -66,11 +66,11 @@ so I didn't lose the auto-deploy feature that Netlify provided.
 
 After working in golang for the past few years, I wanted to try [Hugo](https://gohugo.io/); I'd heard nothing but good things about it, so why not.
 
-The performance of Hugo is fantastic. My site builds in < 3s containing ~150 posts and the dev 
+The performance of Hugo is fantastic. My site builds in < 3s containing ~150 posts and the dev
 server can update individual pages in < 200ms.
 
-[Theming in Hugo](https://gohugo.io/hugo-modules/theme-components/) has been fun to work with 
-because you can apply more than one theme, which I'm using to have a "base" theme and a site 
+[Theming in Hugo](https://gohugo.io/hugo-modules/theme-components/) has been fun to work with
+because you can apply more than one theme, which I'm using to have a "base" theme and a site
 specific theme. The base theme includes common partials, layouts, etc. used by multiple sites
 and the site-specific theme adds partials and layouts for this site, falling back to the base
 theme where appropriate.
@@ -86,14 +86,14 @@ Some of the operations it performs:
 - Replaces `img` tags to `picture` elements
 - Wraps iframes in `div`s to maintain aspect ratio
 - Replaces YouTube iframes with a still frame and load the iframe asynchronously
-    - H/T to [@addyosmani](https://twitter.com/addyosmani) for showing my 
+    - H/T to [@addyosmani](https://twitter.com/addyosmani) for showing my
         [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed)
 - Adds CSS & JS
 
 A lot of these operations are simple translations. The injection of the CSS & JS is probably the
 most quirky part of my site.
 
-During a dev build of my site the `go-html-asset-manager` script isn't used, instead 
+During a dev build of my site the `go-html-asset-manager` script isn't used, instead
 one of my themes adds **all* of the CS and JS files.
 
 The template looks a little like this:
@@ -109,13 +109,13 @@ The template looks a little like this:
   {{ range (slice "/themes" "/static") }}
     {{ if (fileExists .) }}
       {{ template "base-load-dev-assets-dir" (dict "dir" .) }}
-    {{ end }}    
+    {{ end }}
   {{ end }}
-{{ end }}  
+{{ end }}
 ```
 
 This will add `<script src="<file>">` and `<link rel="stylesheet" href="<file>">` to
-the `head` of the rendered page. The approach is great for local development, just adding a CSS 
+the `head` of the rendered page. The approach is great for local development, just adding a CSS
 or JS file ends up being loaded on every page. It is the worst thing to do for performance,
 illustrated in the video below, where I throttle the network connection.
 
@@ -127,7 +127,7 @@ In production build of my site no styles or scripts are added to the pages, it i
 left up to `go-html-asset-manager` to add the assets and it does in the following
 way.
 
-1. For each HTML file,  the script generates a set of "keys" consisting of HTML tags, class names 
+1. For each HTML file,  the script generates a set of "keys" consisting of HTML tags, class names
     , and attribute keys.
 1.  It searches for CSS and JS files and categorizes them based on the file names format:
     1. `<key>.<css | js>`: Files that match a key without a suffix are inlined in the page, wrapped in `<style>` or `<script>` tag.
@@ -136,7 +136,7 @@ way.
         attributes. CSS is loaded asynchronously by Javascript.
     1. `<key>-preload.<css | js>`: Will add a `link` tag with `rel="preload"`.
 
-This naming convention for files has worked out well. I stick to a 
+This naming convention for files has worked out well. I stick to a
 [BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
 naming convention for classes and just looking at my files I can tell what is going
 to happen to a page.

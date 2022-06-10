@@ -1,5 +1,13 @@
-.c-job-role {
+.c-job-role, .c-job-role__section {
     display: block;
     font-size: 0.83em;
     font-weight: bold;
+}
+
+.c-job-role__section {
+    margin-left: calc(var(--padding) * 1.5);
+}
+
+.c-job-role__section + ul {
+    margin-top: calc(var(--padding) / 2);
 }
