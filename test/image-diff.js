@@ -97,8 +97,8 @@ function compareScreenshots(image1, image2) {
 
 function createDiff(image1, image2, filename) {
   return new Promise((resolve, reject) => {
-    const tmpdir = fs.mkdtempSync(path.join(os.tmpdir(), 'gaunt-dev-diff'))
-    const tmppath = path.join(tmpdir, filename)
+    const diffdir = fs.mkdtempSync(path.join('screenshot-diffs'))
+    const tmppath = path.join(diffdir, filename)
     looksSame.createDiff({
       reference: image1,
       current: image2,

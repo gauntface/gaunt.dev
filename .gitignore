@@ -4,3 +4,4 @@ tmp/
 resources/
 static/generated/
 go.work
+test/screenshot-diffs/
