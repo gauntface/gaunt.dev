@@ -97,8 +97,11 @@ function compareScreenshots(image1, image2) {
 
 function createDiff(image1, image2, filename) {
   return new Promise((resolve, reject) => {
-    const diffdir = fs.mkdtempSync(path.join('screenshot-diffs'))
-    const tmppath = path.join(diffdir, filename)
+    const tmppath = path.join(__dirname, 'screenshot-diffs', filename)
+    if (!fs.existsSync(path.dirname(tmppath))) {
+      fs.mkdirSync(path.dirname(tmppath));
+    }
+
     looksSame.createDiff({
       reference: image1,
       current: image2,
