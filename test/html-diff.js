@@ -20,9 +20,15 @@ function startServer() {
   });
 };
 
+const goldenDir = path.join(__dirname, 'html');
 let addr;
 let browser;
 
+test.before(async (t) => {
+  if (!fs.existsSync(goldenDir)) {
+    fs.mkdirSync(goldenDir);
+  }
+});
 test.before(async (t) => {
   // Server for project
   addr = await startServer();
@@ -83,40 +89,6 @@ const pages = [
   },
 ];
 
-function compareScreenshots(image1, image2) {
-  return new Promise((resolve, reject) => {
-    looksSame(image1, image2, function(err, {equal}) {
-      if (err) {
-        reject(err);
-        return;
-      }
-      resolve(equal);
-    })
-  })
-}
-
-function createDiff(image1, image2, filename) {
-  return new Promise((resolve, reject) => {
-    const tmppath = path.join(__dirname, 'screenshot-diffs', filename)
-    if (!fs.existsSync(path.dirname(tmppath))) {
-      fs.mkdirSync(path.dirname(tmppath));
-    }
-
-    looksSame.createDiff({
-      reference: image1,
-      current: image2,
-      diff: tmppath,
-      highlightColor: '#ff00ff', // color to highlight the differences
-    }, function(error) {
-        if (error) {
-          reject(error);
-          return;
-        }
-        resolve(tmppath);
-    });
-  })
-}
-
 for (const p of pages) {
   test(p.title, async (t) => {
     const page = t.context.page;
@@ -126,26 +98,15 @@ for (const p of pages) {
       waitUntil: 'networkidle0',
     });
 
-    const filename = `${p.title}.png`;
-    const tmpdir = fs.mkdtempSync(path.join(os.tmpdir(), 'gaunt-dev-test'))
-    const tmppath = path.join(tmpdir, filename)
-    await page.screenshot({
-      path: tmppath,
-      fullPage: true,
-      captureBeyondViewport: false,
-    });
+    const gotHTML = await page.content();
 
-    const goldenpath = path.join(__dirname, 'screenshots', filename);
+    const filename = `${p.title}.html`;
+    const goldenpath = path.join(__dirname, 'html', filename);
     if (!fs.existsSync(goldenpath)) {
-      fs.cpSync(tmppath, goldenpath);
+      fs.writeFileSync(goldenpath, gotHTML)
     }
 
-    const equal = await compareScreenshots(goldenpath, tmppath);
-    if (!equal) {
-      console.warn(`The two screenshots differ; ${goldenpath} vs ${tmppath}`);
-      const diffpath = await createDiff(goldenpath, tmppath, filename);
-      console.log(`    Diff: ${diffpath}`);
-    }
-    t.true(equal);
+    const wantHTML = fs.readFileSync(goldenpath).toString();
+    t.deepEqual(gotHTML, wantHTML);
   })
 }

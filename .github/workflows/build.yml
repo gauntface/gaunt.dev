@@ -43,9 +43,3 @@ jobs:
 
     - name: Build and Test
       run: npm run test
-    - name: Upload screenshots
-      uses: actions/upload-artifact@v3
-      if: failure()
-      with:
-          name: screenshot-diffs
-          path: test/screenshot-diffs
