@@ -5,7 +5,8 @@
     "minify-html": "node minify-html.js",
     "server": "hugo server --disableFastRender",
     "lint": "echo \"Nothing to do\"",
-    "test": "npm run build && npx ava ./test/*.js"
+    "test": "npm run build && npm run ava",
+    "ava": "npx ava ./test/*.js"
   },
   "private": true,
   "devDependencies": {
