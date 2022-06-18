@@ -41,6 +41,5 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-west-1
 
-    # Build it
-    - name: Build
-      run: npm run build
+    - name: Build and Test
+      run: npm run test
