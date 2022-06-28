@@ -3,7 +3,7 @@
   "scripts": {
     "build": "rm -rf public && hugo && npm run lint && htmlassets && npm run minify-html",
     "minify-html": "node minify-html.js",
-    "server": "hugo server --disableFastRender",
+    "dev": "hugo server --disableFastRender",
     "lint": "echo \"Nothing to do\"",
     "test": "npm run build && npm run ava",
     "ava": "npx ava ./test/*.js"
