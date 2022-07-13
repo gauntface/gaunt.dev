@@ -29,8 +29,5 @@
     "postcss-preset-env": "7.7.2",
     "puppeteer": "15.3.2",
     "static-server": "2.2.1"
-  },
-  "dependencies": {
-    "@gauntface/logger": "^3.0.9"
   }
 }
