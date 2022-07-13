@@ -1,6 +1,6 @@
 ---
 title: "Cordova + Web Best Practices"
-excerpt: "In this post I'll cover how you can hook Yeoman and Cordova together so you get the benefits from Yeoman with the ease of deployment from Cordova."
+description: "In this post I'll cover how you can hook Yeoman and Cordova together so you get the benefits from Yeoman with the ease of deployment from Cordova."
 mainImage: "/images/blog/2014/05/24/yeoman-cordova-2.jpg"
 primaryColor: "#55aca0"
 date: "2013-07-18T08:32:00-07:00"

@@ -1,6 +1,6 @@
 ---
 title: "Translucent Theme in Android"
-excerpt: |
+description: |
   In Android KitKat you have the ability to have a translucent theme in your app so you can style notification bar and navigation bar.
 
   We'll look at a basic example for doing this.

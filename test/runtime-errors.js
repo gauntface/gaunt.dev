@@ -1,21 +1,6 @@
-import path from 'path';
 import test from 'ava';
-import StaticServer from 'static-server';
 import puppeteer from 'puppeteer';
-
-const server = new StaticServer({
-  rootPath: path.join(path.resolve(), 'public'),
-  port: 9999,
-});
-
-function startServer() {
-  return new Promise((resolve) => {
-    server.start(() => {
-      console.log(`Using http://localhost:${server.port}`);
-      resolve(`http://localhost:${server.port}`);
-    })
-  });
-};
+import {startServer, stopServer} from './utils/dev-server.js';
 
 let addr;
 let browser;
@@ -31,7 +16,7 @@ test.before(async (t) => {
 
 test.after('cleanup', async (t) => {
   // This runs before all tests
-  server.stop();
+  stopServer();
 
   await browser.close();
 });
@@ -112,7 +97,7 @@ for (const p of pages) {
       }
     }
 
-    t.is(failedRequests.length, 0, `There were ${failedRequests.length} failed network requests`)
-    t.is(consoleErrors.length, 0, `There were ${consoleErrors.length} console errors`)
+    t.deepEqual(failedRequests, [], `There were ${failedRequests.length} failed network requests`)
+    t.deepEqual(consoleErrors, [], `There were ${consoleErrors.length} console errors`)
   })
 }

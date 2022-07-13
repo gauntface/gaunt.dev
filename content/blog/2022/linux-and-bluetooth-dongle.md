@@ -1,6 +1,6 @@
 ---
 title: "Linux and a Bluetooth Dongle"
-excerpt: "Bluetooth and Linux have never been great friends, but an Asus dongle has given me hope."
+description: "Bluetooth and Linux have never been great friends, but an Asus dongle has given me hope."
 mainImage: "/images/blog/2022/2022-05-25/john-smit-Mc5EwlPC3zA-unsplash.jpg"
 mainImageAlt: Apple Airpod Pros on a bright blue surface
 date: "2022-05-25T13:00:00-07:00"

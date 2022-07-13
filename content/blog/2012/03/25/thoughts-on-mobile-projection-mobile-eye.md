@@ -1,8 +1,8 @@
 ---
 title: "Thoughts on Mobile Projection + Mobile Eye"
-excerpt: |
+description: |
   A look back on my thesis at University on the "Mobile Eye" project.
-  
+
   The idea of projecting on the world around you manipulating and annotating it with useful information.
 mainImage: "/images/blog/2014/06/15/386508456-9861e6653b-o.jpg"
 primaryColor: "#6cd7e2"
@@ -11,15 +11,15 @@ updatedOn: "2012-03-25T22:00:21-07:00"
 slug: "thoughts-on-mobile-projection-mobile-eye"
 ---
 
-# Thoughts on Mobile Projection + Mobile Eye 
+# Thoughts on Mobile Projection + Mobile Eye
 
-![Mobile Eye Projection Shot](/images/blog/2012/03/4543458986_41cc430491_z.jpg) 
+![Mobile Eye Projection Shot](/images/blog/2012/03/4543458986_41cc430491_z.jpg)
 
-It's been a few years since I finished my Masters in Computer Science at the University of Bristol. My final project was "Mobile Eye", a thesis project exploring mobile projection techniques and interactions. 
+It's been a few years since I finished my Masters in Computer Science at the University of Bristol. My final project was "Mobile Eye", a thesis project exploring mobile projection techniques and interactions.
 
-There were two things I discovered when beginning the project, mobile projection is fairly new, very niche and the majority of work undertaken was using old platforms / hardware because of output flexibility rather than platform capabilities. 
+There were two things I discovered when beginning the project, mobile projection is fairly new, very niche and the majority of work undertaken was using old platforms / hardware because of output flexibility rather than platform capabilities.
 
-My interest in this area was sparked by the Sixth Sense concept video: 
+My interest in this area was sparked by the Sixth Sense concept video:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/nZ-VjUKAsao" frameborder="0" allowfullscreen></iframe>
 
@@ -37,7 +37,7 @@ The challenges with this were:
   2. Identifying an object and then getting additional information
   3. Finding enough information about the surface to perform appropriate keystone transformation of the projected information
 
-I created a simple algorithm for selecting safe patches within a scene, something which I had hoped would lead to existing research, but turns out not many people are looking for methods to find nothing. To identify an object I used a binary for an algorithm called FabMap. This was recommended by the researcher who was the co-founder of Plink. The final step I struggled with. There has been a great deal more research in this area, however getting a working implementation finished in time wasn't possible, although the initial steps were complete to project a square with four corner dots which could be used indicate the angle and distance of the surface. Although the use of a Kinect like device would speed this up by pushing the processing onto hardware. 
+I created a simple algorithm for selecting safe patches within a scene, something which I had hoped would lead to existing research, but turns out not many people are looking for methods to find nothing. To identify an object I used a binary for an algorithm called FabMap. This was recommended by the researcher who was the co-founder of Plink. The final step I struggled with. There has been a great deal more research in this area, however getting a working implementation finished in time wasn't possible, although the initial steps were complete to project a square with four corner dots which could be used indicate the angle and distance of the surface. Although the use of a Kinect like device would speed this up by pushing the processing onto hardware.
 
 I hope that some of my research is of interest to some people in this space, although it may already be somewhat redundant (two years is a long old time in technology ;).)
 

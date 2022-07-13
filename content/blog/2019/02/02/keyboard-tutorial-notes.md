@@ -1,6 +1,6 @@
 ---
 title: "KBWiki Tutorial Notes"
-excerpt: "These are running notes as I go through the KBWiki tutorial
+description: "These are running notes as I go through the KBWiki tutorial
 on how to make a custom keyboard."
 mainImage: "/images/blog/2019/2019-02-02/bw-circuit.jpg"
 primaryColor: ""
@@ -9,7 +9,7 @@ updatedOn: "2019-02-02T10:00:00-07:00"
 slug: "kbwiki-tutorial-notes"
 ---
 
-These are my notes from running through the 
+These are my notes from running through the
 [kbwiki tutorial / guide](https://kbwiki.ai03.me/books/pcb-design) for
 making a custom keyboard.
 
@@ -23,8 +23,8 @@ I assume it makes no difference as this is just a schematic view.
 
 The HWB pin seems to be used to run the bootloader after a reset under
 certain conditions, otherwise it acts as a general purpose I/O. You
-can find more on the 
-[datasheet](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf) 
+can find more on the
+[datasheet](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf)
 and searching for HWB.
 
 ### What is a Pull-Up/Down Resistor
@@ -78,7 +78,7 @@ resistor value.
 
 The datasheet makes a reference of 10k Ohm or less:
 
-> The ADC is optimized for analog signals with an output 
+> The ADC is optimized for analog signals with an output
 > impedance of approximately 10k or less
 
 But I don't think this applies here.
@@ -108,12 +108,12 @@ Taken from [AVR Freaks Blog Post](https://www.avrfreaks.net/forum/which-decoupli
 
 > There are three rues of thumb:
 >
-> 1.  100nF (0.1uF) ceramic for decoupling integrated circuits.   
->     Especially digital switching. Short leads have lowest 
+> 1.  100nF (0.1uF) ceramic for decoupling integrated circuits.
+>     Especially digital switching. Short leads have lowest
 >     self-inductance
 >
-> 2.  10uF - 470uF electrolytic or Tantalum for "current reservoir" 
->     in power supplies. Leads are less critical. 
+> 2.  10uF - 470uF electrolytic or Tantalum for "current reservoir"
+>     in power supplies. Leads are less critical.
 >     High currents may need special quality.
 >
 > 3.  22pF for crystal oscillator circuits.

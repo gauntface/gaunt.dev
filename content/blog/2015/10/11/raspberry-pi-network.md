@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi Network"
-excerpt: "Been having some problems with my Raspberry Pi's Wifi and found two things that seem to have tremendously."
+description: "Been having some problems with my Raspberry Pi's Wifi and found two things that seem to have tremendously."
 mainImage: "/images/blog/2015/2015-10-11/berries-4.jpg"
 primaryColor: ""
 date: "2015-10-11T20:57:32-07:00"

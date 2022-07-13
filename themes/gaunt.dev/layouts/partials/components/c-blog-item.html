@@ -6,5 +6,5 @@
       <h2 class="c-blog-item__title">{{.Title}}</h2>
       <time class="c-blog-item__time">{{ dateFormat "2006-01-02" .Params.date}}</time>
     </div>
-    <p class="c-blog-item__excerpt">{{ if .Params.excerpt }}{{ .Params.excerpt }}{{ else }}{{ .Summary }}{{ end }}</p>
+    <p class="c-blog-item__excerpt">{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}</p>
   </a>

@@ -1,6 +1,6 @@
 ---
 title: "Google TV + In App Billing"
-excerpt: "Google TV needs a few tweaks to the standard In App Billing example for Android to get it working."
+description: "Google TV needs a few tweaks to the standard In App Billing example for Android to get it working."
 mainImage: "/images/blog/2014/06/15/3302646512-caf444ea65-o.jpg"
 primaryColor: "#65767a"
 date: "2012-08-15T14:54:38-07:00"

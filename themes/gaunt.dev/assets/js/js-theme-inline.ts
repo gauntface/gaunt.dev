@@ -19,7 +19,11 @@ window.addEventListener('load', function() {
   const elements = document.querySelectorAll('.js-theme');
   for (const e of elements) {
     e.addEventListener('click', function(evt){
-      const theme = evt.target.getAttribute('data-theme');
+      if (!evt || !evt.target) {
+        return;
+      }
+      const ele = evt.target as HTMLElement;
+      const theme = ele.getAttribute('data-theme');
 
       for (const t of Object.keys(themes)) {
         const c = themes[t]

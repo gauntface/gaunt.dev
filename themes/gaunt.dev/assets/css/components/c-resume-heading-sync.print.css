@@ -16,4 +16,8 @@
         margin: unset;
         padding: unset;
     }
+
+    .c-resume-heading__links li {
+        padding: 0;
+    }
 }

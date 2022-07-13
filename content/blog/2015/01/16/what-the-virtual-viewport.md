@@ -1,6 +1,6 @@
 ---
 title: "What the Virtual Viewport?"
-excerpt: "We've heard the term \"virtual viewport\" get kicked around the office over the past few days and no one knew what it was. Rick Byers to the rescue."
+description: "We've heard the term \"virtual viewport\" get kicked around the office over the past few days and no one knew what it was. Rick Byers to the rescue."
 mainImage: "/images/blog/2015/2015-09-17/whatthevirtual.jpg"
 primaryColor: "#454047"
 date: "2015-01-16T14:38:40-08:00"
@@ -8,7 +8,7 @@ updatedOn: "2015-01-16T14:38:40-08:00"
 slug: "what-the-virtual-viewport"
 ---
 
-# What the Virtual Viewport? 
+# What the Virtual Viewport?
 
 The virtual viewport is a new term that has been floating around the Chrome DevRel team lately and we kind of figured we should find out what it is.
 
@@ -31,7 +31,7 @@ Compare this to Chrome Beta (which has a "virtual viewport") and you'll see that
 # Internet Explorer were 1st
 
 IE has actually been doing this for some time and according to Rick, the Chrome team reached the same point of view as IE through separate research and testing, so it's looking like a good step forward.
- 
+
 # More Solid Info
 
 You want to learn more huh?

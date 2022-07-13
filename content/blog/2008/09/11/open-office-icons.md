@@ -1,6 +1,6 @@
 ---
 title: "Open Office Icons"
-excerpt: "I made a small set of Open Office icons for Ubuntu"
+description: "I made a small set of Open Office icons for Ubuntu"
 mainImage: "/images/blog/2014/06/30/4359637361-9c4351e047-o.jpg"
 primaryColor: "#f99724"
 date: "2008-09-11T13:21:32-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2008-09-11T13:21:32-07:00"
 slug: "open-office-icons"
 ---
 
-# Open Office Icons 
+# Open Office Icons
 
 These are a set of custom Open Office Icons.
 

@@ -1,8 +1,8 @@
 ---
 title: "The Power of Free Time"
-excerpt: |
+description: |
   Is free time an important part of your work life?
-  
+
   Thoughts on an interesting TED talk.
 mainImage: "/images/blog/2014/06/16/4961717384-e96fa7fb72-o.jpg"
 primaryColor: "#86a59a"
@@ -11,11 +11,11 @@ updatedOn: "2010-12-06T23:15:33-08:00"
 slug: "the-power-of-free-time"
 ---
 
-# The Power of Free Time 
+# The Power of Free Time
 
-This is something I've been pondering on the last couple of weeks, it's a little bit of a ramble but it would be great to get some experienced developers points of view. 
+This is something I've been pondering on the last couple of weeks, it's a little bit of a ramble but it would be great to get some experienced developers points of view.
 
-When I say "free" time, what I'm referring to, is paid time, in work hours, to look into / research / learn a  new skill, technology or api etc. All of which a company may benefit from. 
+When I say "free" time, what I'm referring to, is paid time, in work hours, to look into / research / learn a  new skill, technology or api etc. All of which a company may benefit from.
 
 From a Software Engineers point of view, free time is great, not only does it give you time away from a project, it also gives you a level of freedom to pursue a personal interest. This means you get extra experience in something new altogether or something you're experienced in but just learning a little more in a specific area.
 

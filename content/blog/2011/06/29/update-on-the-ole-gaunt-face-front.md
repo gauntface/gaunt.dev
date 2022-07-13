@@ -1,6 +1,6 @@
 ---
 title: "Update on the Ole' Gaunt Face Front"
-excerpt: "What have I been up to I hear you ask...."
+description: "What have I been up to I hear you ask...."
 mainImage: "/images/blog/2014/06/16/5872625524-b46916d50a-z.jpg"
 primaryColor: "#637b9f"
 date: "2011-06-29T21:05:29-07:00"

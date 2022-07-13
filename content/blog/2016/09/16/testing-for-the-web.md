@@ -1,6 +1,6 @@
 ---
 title: "Testing for the Web"
-excerpt: "Automated testing on the web has some real gnarly gotchas. Time to find out what they are."
+description: "Automated testing on the web has some real gnarly gotchas. Time to find out what they are."
 mainImage: "/images/blog/2016/2016-09-16/developer-desk.jpg"
 primaryColor: "#752e40"
 date: "2016-09-16T03:20:06-07:00"
@@ -12,7 +12,7 @@ slug: "testing-for-the-web"
 
 After sitting on this for a while, I've come to the conclusion that testing a web app is a **manual job**.
 
-I've been working on [selenium-assistant](https://googlechrome.github.io/selenium-assistant/) for some time now, trying to make testing on real browsers a little easier. 
+I've been working on [selenium-assistant](https://googlechrome.github.io/selenium-assistant/) for some time now, trying to make testing on real browsers a little easier.
 
 In the early versions of building the library, supporting Chrome and Firefox was proving it's worth highlighting service worker differences.
 

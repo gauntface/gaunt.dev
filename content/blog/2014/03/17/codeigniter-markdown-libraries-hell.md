@@ -1,6 +1,6 @@
 ---
 title: "CodeIgniter + Markdown + Libraries = Hell"
-excerpt: "Ever tried getting a third party library working in CodeIgniter? No? Oh, well maybe it's best to keep it that way aye."
+description: "Ever tried getting a third party library working in CodeIgniter? No? Oh, well maybe it's best to keep it that way aye."
 mainImage: "/images/blog/2014/05/24/hell.jpg"
 primaryColor: "#b95625"
 date: "2014-03-17T20:35:54-07:00"

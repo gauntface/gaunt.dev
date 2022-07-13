@@ -1,6 +1,6 @@
 ---
 title: "Arduino Fun Times"
-excerpt: "Brief notes of playing with Arduino"
+description: "Brief notes of playing with Arduino"
 mainImage: "/images/blog/2014/06/16/6052455554-61b54422d4-o.jpg"
 primaryColor: "#5b8bae"
 date: "2011-03-12T16:26:53-08:00"

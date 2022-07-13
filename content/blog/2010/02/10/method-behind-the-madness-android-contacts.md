@@ -1,6 +1,6 @@
 ---
 title: "Method behind the madness -  Android Contacts"
-excerpt: "The ContactsContract in Android is an unusual mash up of API's to access the contacts list on a device."
+description: "The ContactsContract in Android is an unusual mash up of API's to access the contacts list on a device."
 mainImage: "/images/blog/2014/06/29/7021093981-ba90d18061-o.jpg"
 primaryColor: "#3679ba"
 date: "2010-02-10T21:56:00-08:00"
@@ -12,7 +12,7 @@ slug: "method-behind-the-madness-android-contacts"
 
 In the 2.0 release of Android the Contacts api changed, and boy do I mean changed.
 
-The thing is if you read through the documentation it's near impossible to differentiate the difference between ContactsContract.Contacts and RawContacts and then Entity and Data. But there is a reasoning behind all of this and I'm going to attempt to illustrate it with a little image, while this isn't accurate I just thought it might help some of you get to grip a bit with the differences. 
+The thing is if you read through the documentation it's near impossible to differentiate the difference between ContactsContract.Contacts and RawContacts and then Entity and Data. But there is a reasoning behind all of this and I'm going to attempt to illustrate it with a little image, while this isn't accurate I just thought it might help some of you get to grip a bit with the differences.
 
 ![Graph of contact data](/images/blog/2010/02/AndroidContacts.png "300")
 

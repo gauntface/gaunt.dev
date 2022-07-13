@@ -1,6 +1,6 @@
 ---
 title: "gotest Snippets"
-excerpt: "gotest-snippets is a VSCode extension that will make it a little easier to write tests in golang."
+description: "gotest-snippets is a VSCode extension that will make it a little easier to write tests in golang."
 socialImg: "/images/projects/gotest-snippets/default-social.png"
 githubFullName: "gauntface/gotest-snippets"
 ---

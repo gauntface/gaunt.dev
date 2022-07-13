@@ -1,6 +1,6 @@
 ---
 title: "My Personal Avatar"
-excerpt: "I made a personal avatar of myself using Maya for the model and GIMP for the texture maps, here's the end result."
+description: "I made a personal avatar of myself using Maya for the model and GIMP for the texture maps, here's the end result."
 mainImage: "/images/blog/2014/06/30/3658366566-7ef6084c75-o.jpg"
 primaryColor: "#c0d16a"
 date: "2009-01-16T23:47:52-08:00"
@@ -8,9 +8,9 @@ updatedOn: "2009-01-16T23:47:52-08:00"
 slug: "my-personal-avatar"
 ---
 
-# My Personal Avatar 
+# My Personal Avatar
 
-I just finished an avatar that I made in Maya and texture mapped using GIMP. anyway just posting these up to show them off :-P 
+I just finished an avatar that I made in Maya and texture mapped using GIMP. anyway just posting these up to show them off :-P
 
 ![1](/images/blog/2009/08/1.png)
 

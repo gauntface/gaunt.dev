@@ -1,8 +1,8 @@
 ---
 title: "Web Performance Monitor"
-excerpt: |
+description: |
   One of my main gripes about PageSpeed Insights is that I have to go and manually run each of my pages through it. Instead I went and put together a little tool to do it for me.
-  
+
   Don't forget kiddlywinks #PerfMatters
 mainImage: "/images/blog/2014/07/10/3707813723-398457e8e1-o.jpg"
 primaryColor: "#c74214"
@@ -11,7 +11,7 @@ updatedOn: "2014-07-10T21:11:13-07:00"
 slug: "web-performance-monitor"
 ---
 
-# Web Performance Monitor 
+# Web Performance Monitor
 
 I've been wanting and needing a dashboard for continuously testing out the performance of my site and I've never really found anything that met my needs. In the end, I put together a Web Performance Monitor.
 

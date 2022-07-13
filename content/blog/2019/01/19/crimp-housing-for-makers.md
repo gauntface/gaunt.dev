@@ -1,6 +1,6 @@
 ---
 title: "Crimp Housing for Makers"
-excerpt: "I would have loved for someone to have told me about
+description: "I would have loved for someone to have told me about
 crimp housing when I first started playing around with electronics."
 mainImage: "/images/blog/2019/2019-01-19/electronics-mess.jpg"
 primaryColor: "#5DBCD2"
@@ -16,7 +16,7 @@ permanent project. Enter crimp pins and housing.
 
 ## What are they?
 
-Crimp pins come in male and female forms and can be attached to 
+Crimp pins come in male and female forms and can be attached to
 the end of thin electrical wire.
 
 The crimp housing simply covers the pin, protecting the exposed wire
@@ -24,7 +24,7 @@ and fitting.
 
 ![Example of the Crimp Pin and Housing](/images/blog/2019/2019-01-19/housing-removed.jpg)
 
-Most electronics kits come with a batch of single wires with the 
+Most electronics kits come with a batch of single wires with the
 crimp pins and housing done for you.
 
 The advantage of making your own is you can do any combo of wires

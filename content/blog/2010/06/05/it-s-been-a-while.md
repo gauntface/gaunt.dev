@@ -1,6 +1,6 @@
 ---
 title: "It's been a while..."
-excerpt: "This is a boring update about me doing my thesis......so much work to be done argh."
+description: "This is a boring update about me doing my thesis......so much work to be done argh."
 mainImage: "/images/blog/2014/06/22/3316800986-dde2cf1aeb-o.jpg"
 primaryColor: "#b28059"
 date: "2010-06-05T17:27:39-07:00"
@@ -8,9 +8,9 @@ updatedOn: "2010-06-05T17:27:39-07:00"
 slug: "it-s-been-a-while"
 ---
 
-# It's been a while... 
+# It's been a while...
 
-I haven't been on the internet over the past week or 2 and this is purely because of: 
+I haven't been on the internet over the past week or 2 and this is purely because of:
 
   1. Finishing Thesis
   2. Celebrating the finishing of the Thesis

@@ -1,6 +1,6 @@
 ---
 title: "Android - Handling Screen Rotation"
-excerpt: "If you really need to handle screen rotation then here is a short guide on how to do it."
+description: "If you really need to handle screen rotation then here is a short guide on how to do it."
 mainImage: "/images/blog/2014/06/30/14140812009-90a9e718fc-o.jpg"
 primaryColor: "#949494"
 date: "2009-12-30T18:31:47-08:00"

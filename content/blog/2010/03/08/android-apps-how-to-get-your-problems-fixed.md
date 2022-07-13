@@ -1,8 +1,8 @@
 ---
 title: "Android Apps - How to Get Your Problems Fixed"
-excerpt: |
+description: |
   You're a user of a free app, something doesn't work, you found a bug and you want the developer to know about it - awesome!
-  
+
   So how do you do that?
 mainImage: "/images/blog/2014/06/23/5774597743-c57c6e4f9e-o.jpg"
 primaryColor: "#424d47"
@@ -11,7 +11,7 @@ updatedOn: "2010-03-08T14:53:39-08:00"
 slug: "android-apps-how-to-get-your-problems-fixed"
 ---
 
-# Android Apps - How to Get Your Problems Fixed 
+# Android Apps - How to Get Your Problems Fixed
 
 I recently announced the release of Facebook Sync, after perfecting the UI, getting it to work for devices running Android 1.5 - 2.1, testing it on my G1, Nexus One & friends HTC Hero and T-Mobile Pulse, I put it on the Market and now I need your the help, yes you the user! I knew people would experience problems, everyone has unique contacts and Facebook friends, I've tried to think of all possible outcomes, but some have still slipped through.
 

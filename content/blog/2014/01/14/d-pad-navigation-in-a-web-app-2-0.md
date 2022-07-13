@@ -1,6 +1,6 @@
 ---
 title: "D-Pad Navigation in a Web App 2.0"
-excerpt: |
+description: |
   Adding support for D-Pad navigation is much harder than it should be for a web application.
 
   I've taken some of the best bits of a sample application written for Google TV and generalised it to hopefully help others add in D-Pad support by including some additional class names and tabindexes to your HTML.

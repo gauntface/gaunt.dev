@@ -1,6 +1,6 @@
 ---
 title: "OpenMIC #2"
-excerpt: "openMIC - An event held in Bristol and Bath for mobile techies to meet up and share ideas, problems and thoughts."
+description: "openMIC - An event held in Bristol and Bath for mobile techies to meet up and share ideas, problems and thoughts."
 mainImage: "/images/blog/2014/06/30/3721771714-ce70ee1362-o.jpg"
 primaryColor: "#4c6594"
 date: "2009-07-05T14:46:29-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2009-07-05T14:46:29-07:00"
 slug: "openmic-2"
 ---
 
-# OpenMIC #2 
+# OpenMIC #2
 
 ![openmicLogo](/images/blog/2009/08/openmicLogo.png)
 

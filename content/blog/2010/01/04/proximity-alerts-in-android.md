@@ -1,6 +1,6 @@
 ---
 title: "Proximity Alerts in Android"
-excerpt: "Getting proximity alerts to work in Android involves a little bit of black magic, as noted here."
+description: "Getting proximity alerts to work in Android involves a little bit of black magic, as noted here."
 mainImage: "/images/blog/2014/06/29/11194772464-80fe47026b-o.jpg"
 primaryColor: "#77afcd"
 date: "2010-01-04T23:24:07-08:00"

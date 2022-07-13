@@ -1,6 +1,6 @@
 ---
 title: "Getting Going With Google Code"
-excerpt: |
+description: |
   This is more of a personal note on how create a new git repo and get it pushed to Google Code.
 
   (It's kind of the reverse of how I start a Github repo)

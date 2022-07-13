@@ -1,6 +1,6 @@
 ---
 title: "Continuous Deployment with AWS and GitHub Actions"
-excerpt: "Continuous deployment with AWS and GitHub Actions is
+description: "Continuous deployment with AWS and GitHub Actions is
 fairly easy to set up and use."
 mainImage: "/images/blog/2020/2020-04-05/clouds.jpg"
 mainImageAlt: "Clouds over a flourescent blue sea"
@@ -10,8 +10,8 @@ updatedOn: "2020-04-25T12:00:00-07:00"
 
 # Continuous Deployment with AWS and GitHub Actions
 
-After using [Netlify](https://www.netlify.com/) and 
-[Firebase](https://firebase.google.com/) to host different sites I reached a 
+After using [Netlify](https://www.netlify.com/) and
+[Firebase](https://firebase.google.com/) to host different sites I reached a
 point where I was hitting limits on the free tiers they offer.
 
 To reduce costs I ended up switching to [AWS](https://aws.amazon.com/) with
@@ -21,8 +21,8 @@ Overall the process was easier than I expected.
 
 ## Hosting on AWS
 
-I'm pretty new to AWS and found [this video](https://www.youtube.com/watch?v=DiIaoIcoKNY) 
-to be the most helpful to get me started and more familiar with 
+I'm pretty new to AWS and found [this video](https://www.youtube.com/watch?v=DiIaoIcoKNY)
+to be the most helpful to get me started and more familiar with
 [S3](https://aws.amazon.com/s3/) and [Cloudfront](https://aws.amazon.com/cloudfront/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DiIaoIcoKNY?controls=0" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
@@ -31,13 +31,13 @@ The approach is to upload your site to an S3 Bucket to store and host your files
 and configure a Cloudfront distribution to be a CDN to serve and cache files
 from your bucket.
 
-After uploading my files and getting Cloudfront to serve from S3 I realized 
+After uploading my files and getting Cloudfront to serve from S3 I realized
 that Cloudfront was unable to serve `index.html` files from from a directory,
 it can only serve `index.html` for the home page.
 
 This was a problem for me since [Hugo](https://gohugo.io/) will create index
 pages in directories to create  [clean URLs](https://en.wikipedia.org/wiki/Clean_URL).
-For example, it would create `/blog/2019/09/post-slug/index.html` and use the 
+For example, it would create `/blog/2019/09/post-slug/index.html` and use the
 URL `/blog/2019/08/post-slug/` as a link to this page. There are two options to fix this.
 
 Change the default behavior of Hugo by adding `uglyURLs: true` to the config, causing Hugo to create `/blog/2019/08/post-slug.html` instead of a nested `index.html` file.
@@ -49,14 +49,14 @@ The second option is to turn on the S3 bucket static site property and configure
 Adding a custom domain is easy enough and it **doesn't** require [Route 53](https://aws.amazon.com/route53/), despite how it seems in all of the AWS docs.
 
 You need to create a certificate for you domain using
-[AWS's Certificate Manager](https://console.aws.amazon.com/acm/home?region=us-east-1#/), 
+[AWS's Certificate Manager](https://console.aws.amazon.com/acm/home?region=us-east-1#/),
 just ensure you are creating certificates in the `us-east-1 (N Virginia)` region as this
 is the [only region Cloudfront can read certificates from](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cnames-and-https-requirements.html#https-requirements-aws-region).
 
 I ended up created a certificate for both `gauntface.com` and `*gauntface.com` so it
 could be used for the naked domain and any subdomains.
 
-I went through the DNS flow to verify a couple of domains and it took around 5 - 15 
+I went through the DNS flow to verify a couple of domains and it took around 5 - 15
 minutes. Once the certificates were issued I could add my domain to the *Alternate Domain Names* in my Cloudfront distribution and select the appropriate certificate under
 *Custom SSL Certificate*.
 
@@ -67,15 +67,15 @@ to set up redirects for the naked domain (i.e. gauntface.com -> www.gauntface.co
 
 The naked domain required a seperate S3 Bucket and Cloudfront distribution.
 
-Both `gauntface.com` and `www.gauntface.com` used an S3 bucket with the *Static website 
-hosting* property turned on. This gave the bucket a URL that you can 
-use to access the site. When creating the Cloudfront distribution the *Origin Domain Name* needs to be set to the 
-URL of the buckets *Static website hosting* property. This causes Cloudfront to make 
-network requests to the S3 Bucket's static site, which will respond with the files and serves index.html files for directories. 
+Both `gauntface.com` and `www.gauntface.com` used an S3 bucket with the *Static website
+hosting* property turned on. This gave the bucket a URL that you can
+use to access the site. When creating the Cloudfront distribution the *Origin Domain Name* needs to be set to the
+URL of the buckets *Static website hosting* property. This causes Cloudfront to make
+network requests to the S3 Bucket's static site, which will respond with the files and serves index.html files for directories.
 
 For the naked domain I created an empty S3 Bucket and the static site property was configured with *Redirect requests* meaning Cloudfront will respond to requests with the redirect.
 
-With all of the above set up, I had a working site that was easy to update from the 
+With all of the above set up, I had a working site that was easy to update from the
 command line. The next step was to set up continuous deployment so the site would
 deploy updates as changes were made.
 
@@ -103,12 +103,12 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.68.3'
-    
+
     - uses: actions/checkout@v2
-    
+
     - name: Install
       run: npm install
-    
+
     - name: Build
       run: npm run build
 ```
@@ -117,9 +117,9 @@ These steps do the following:
 
 -   `name: Setup Hugo ↵ uses: peaceiris/actions-hugo@v2`
     - My site is using Hugo for a static site generator and this action will retrieve
-      and configure a specific version of hugo. 
+      and configure a specific version of hugo.
 -   `uses: actions/checkout@v2`
-    - This is a GitHub action that checks out the repo the action is running against. 
+    - This is a GitHub action that checks out the repo the action is running against.
 -   `name: Install ↵ run: npm install`
     - I'm using gulp to manage my build process for the site, including calling out
       to Hugo, so I need to install it's dependencies from NPM.
@@ -134,7 +134,7 @@ site can install dependencies and build.
 
 ![GitHub Build Action in a Pull Request](/images/blog/2020/2020-04-05/github-build-action.png)
 
-You can find the 
+You can find the
 [workflows for my site here](https://github.com/gauntface/gauntface.com/tree/master/.github/workflows).
 
 ### Deploy the Master Branch
@@ -164,17 +164,17 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.68.3'
-      
+
       - uses: actions/checkout@v2
         with:
           ref: master
 
       - name: Install
         run: npm install
-      
+
       - name: Build
         run: npm run build
-      
+
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -199,7 +199,7 @@ on:
 
 This controls when the deploy workflow will run. I run this script every Sunday morning.
 
-Then I have the same steps as before, checkout the repo, install dependencies, build the 
+Then I have the same steps as before, checkout the repo, install dependencies, build the
 site followed by two new steps:
 
 ```yaml
@@ -214,20 +214,20 @@ site followed by two new steps:
   run: aws s3 sync ./public/ s3://www.gauntface.com/ --delete --acl public-read
 ```
 
-The first step sets up the AWS CLI using the `aws-actions/configure-aws-credentials@v1` 
-action and two secrets `secrets.AWS_ACCESS_KEY_ID` and `secrets.AWS_SECRET_ACCESS_KEY`. 
+The first step sets up the AWS CLI using the `aws-actions/configure-aws-credentials@v1`
+action and two secrets `secrets.AWS_ACCESS_KEY_ID` and `secrets.AWS_SECRET_ACCESS_KEY`.
 
 The secrets are the key ID and secret for the credentials for an AWS user which you
-can create on the 
-[AWS Identity and Access Management (IAM)](https://console.aws.amazon.com/iam/home?region=us-east-1#/home) 
-console. You'll need the user to have write access to your S3 bucket. 
+can create on the
+[AWS Identity and Access Management (IAM)](https://console.aws.amazon.com/iam/home?region=us-east-1#/home)
+console. You'll need the user to have write access to your S3 bucket.
 Once create, you just need to add the key ID and secrity key your
 [GitHub repos secrets](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 which can be done in your repo's Settings page.
 
 ![GitHub Secrets Page](/images/blog/2020/2020-04-05/github-settings-secrets.png)
 
-The second step runs the the same `aws s3` command that you would run from your computer 
+The second step runs the the same `aws s3` command that you would run from your computer
 to upload files to S3.
 
 ## GitHub Branch Protection
@@ -236,7 +236,7 @@ One **risk** with continuous deployment is that if you push a commit to master
 that breaks the build of your site, you will not be able to deploy changes to your
 site until it's fixed.
 
-Avoid this situation with 
+Avoid this situation with
 [Branch Protections](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
 to restrict pushes to the master branch.
 

@@ -1,7 +1,7 @@
 ---
 title: "Raspberry Pi Over Serial USB on Ubuntu"
-excerpt: "One of the biggest barriers to working with
-a Raspberry Pi is working on it from a seperate computer. 
+description: "One of the biggest barriers to working with
+a Raspberry Pi is working on it from a seperate computer.
 USB to Serial cables make it easy."
 mainImage: "/images/blog/2019/2019-01-17/raspberry-pi-snes.jpg"
 primaryColor: "#5DBCD2"
@@ -10,12 +10,12 @@ updatedOn: "2019-01-17T19:14:00-07:00"
 slug: "raspberry-pi-over-serial-usb"
 ---
 
-Running commands on the Raspberry Pi over serial USB makes 
-development a lot easier when starting out with a 
+Running commands on the Raspberry Pi over serial USB makes
+development a lot easier when starting out with a
 fresh install of Raspbian.
 
 Worth noting, most of this guide is from the
-[Adafruit Guide](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview), 
+[Adafruit Guide](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview),
 but I had a permission issue and since I'm hoping to use
 this cable a lot in the future, I decided to write a
 cut down version for myself.
@@ -58,7 +58,7 @@ sudo apt-get install screen
 ## Permissions
 
 On Ubuntu I needed to add myself to the `dialout` group
-to gain permission to access the serial port. 
+to gain permission to access the serial port.
 
 ```bash
 sudo gpasswd --add ${USER} dialout
@@ -77,14 +77,14 @@ Attach the cables to the Pi like so:
 ## Run Screen
 
 The next step is to plug in the USB cable to your computer
-and start `screen`.  This will set up a connection 
+and start `screen`.  This will set up a connection
 between your terminal and the serial port.
 
 ```bash
 screen /dev/ttyUSB0 115200
 ```
 
-With this you should see the stream of logs from the 
+With this you should see the stream of logs from the
 Pi (main be a rapid stream of text to start with).
 
 The one thing to note, I've seen some unusual behavior

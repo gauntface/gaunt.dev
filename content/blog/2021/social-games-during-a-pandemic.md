@@ -1,6 +1,6 @@
 ---
 title: "Social games during a pandemic"
-excerpt: "How can folks feel like a team during a pandemic? Online games have worked for us."
+description: "How can folks feel like a team during a pandemic? Online games have worked for us."
 mainImage: "/images/blog/2021/2021-02-15/friends-game.jpg"
 mainImageAlt: A desk covered in toys with the word 'friends' spelt in scrabble pieces.
 date: "2021-02-15T21:31:00-07:00"

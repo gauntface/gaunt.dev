@@ -1,6 +1,6 @@
 ---
 title: "Android Losing It's Edge?"
-excerpt: "As Android starts to take on new versions and news devices, is it starting to lose the very thing that made it a joy to develop for?"
+description: "As Android starts to take on new versions and news devices, is it starting to lose the very thing that made it a joy to develop for?"
 mainImage: "/images/blog/2014/06/30/8538679708-906ab6a815-o.jpg"
 primaryColor: "#a2b222"
 date: "2009-12-09T22:28:05-08:00"
@@ -8,13 +8,13 @@ updatedOn: "2009-12-09T22:28:05-08:00"
 slug: "android-losing-it-s-edge"
 ---
 
-# Android Losing It's Edge? 
+# Android Losing It's Edge?
 
 After attending one of the Google Developer days in London, I couldn't help but think that Android is going down a bit of a bad road, taking away some of the simplistic things that made it such a perfect platform to develop for.
 
 So in the good old days of Android, you downloaded a single SDK and everything worked, now you have to download it, and then run an application inside the SDK to install the required versions of code (which actually wasn't all that obvious to me when I needed a new install of the SDK). But as the day progressed and I got to play with a load of devices, you quickly see that the OS versions on each device become a big problem.
 
-Say I want to develop for HTC Tattoo, but want to also let my app run on the HTC Hero (HTC Hero = V 1.5, Tattoo = V 1.6), I should develop for 1.5 right? Wrong. I should be developing for 1.6, then setting the min SDK to 3 (or the equivalent for 1.5) and then set target version as 4 (or the equivalent for 1.6). Is it just me or is that a little bit backward? I appreciate the reasoning behind this, since you need to let the phone know the app is suitable for devices with smaller screens. But is this really the best way to do it? Maybe it's just me but this seems really counter intuitive. 
+Say I want to develop for HTC Tattoo, but want to also let my app run on the HTC Hero (HTC Hero = V 1.5, Tattoo = V 1.6), I should develop for 1.5 right? Wrong. I should be developing for 1.6, then setting the min SDK to 3 (or the equivalent for 1.5) and then set target version as 4 (or the equivalent for 1.6). Is it just me or is that a little bit backward? I appreciate the reasoning behind this, since you need to let the phone know the app is suitable for devices with smaller screens. But is this really the best way to do it? Maybe it's just me but this seems really counter intuitive.
 
 But this problem falls back to the simple fact that we are developing for a number of different Android versions and hence a number of different SDK's. So my one app should be developed in 1.6, but set the min sdk version to 1.5 to cover those devices, then test on 3 different screens, then test on 2.0 and perhaps 2.0 with 3 different screens? 2.1 anyone? get the picture?
 

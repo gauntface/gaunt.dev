@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi Adventure - Day 2"
-excerpt: "Second evening of mucking around with my Raspberry Pi, VNC and FTP FTW."
+description: "Second evening of mucking around with my Raspberry Pi, VNC and FTP FTW."
 mainImage: "/images/blog/2014/05/24/img-20140113-232715.jpg"
 primaryColor: "#dfbb5b"
 date: "2014-01-16T21:09:19-08:00"

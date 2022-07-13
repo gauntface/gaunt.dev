@@ -1,6 +1,6 @@
 ---
 title: "Pagespeed Score Hunt"
-excerpt: |
+description: |
   Ever wondered what you could do to improve your sites page load time?
 
   PageSpeed Insights is a tool which highlights any problem areas on your site and this is how I got my score up to 100/100.

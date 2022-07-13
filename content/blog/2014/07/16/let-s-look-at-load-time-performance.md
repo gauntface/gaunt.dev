@@ -1,6 +1,6 @@
 ---
 title: "Let's Look at Load Time Performance"
-excerpt: "After getting my site to a score of 100/100 on PageSpeed Insights, I couldn't help but look into the one little niggle (read issue) I had with the way I achieved the score."
+description: "After getting my site to a score of 100/100 on PageSpeed Insights, I couldn't help but look into the one little niggle (read issue) I had with the way I achieved the score."
 mainImage: "/images/blog/2014/07/16/2122071509-4aa065df3c-o.jpg"
 primaryColor: "#7f777c"
 date: "2014-07-16T18:54:23-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2014-07-16T18:54:23-07:00"
 slug: "let-s-look-at-load-time-performance"
 ---
 
-# Let's Look at Load Time Performance 
+# Let's Look at Load Time Performance
 
 I've been doing work on my site for far too long now.
 
@@ -73,7 +73,7 @@ More in a weeks time.
 
 # A Week Later
 
-Well after a week, it seemed that the average load time shot up. 
+Well after a week, it seemed that the average load time shot up.
 
 I think this was simply due to not giving Analytics enough time to collect a valid amount of data, it seems that not every request collects page load time.
 

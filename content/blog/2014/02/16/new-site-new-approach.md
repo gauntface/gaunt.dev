@@ -1,6 +1,6 @@
 ---
 title: "New Site, New Approach"
-excerpt: |
+description: |
   In the latest redesign of my site, one of the key area's I wanted to focus on was page performance, both loading and animations.
 
   I ended up with a style guide and a half way decent build process for image optimisation.

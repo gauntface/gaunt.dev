@@ -1,6 +1,6 @@
 ---
 title: "Go HTML Asset Manager"
-excerpt: "HTML asset manager provides a simple way to optimize CSS & JavaScripts assets in your statically generated site."
+description: "HTML asset manager provides a simple way to optimize CSS & JavaScripts assets in your statically generated site."
 socialImg: "/images/projects/go-html-asset-manager/default-social.png"
 githubFullName: "gauntface/go-html-asset-manager"
 ---
@@ -15,8 +15,8 @@ provides a simple way to optimize CSS & JavaScripts assets in your statically ge
 Improving your sites performance can be a difficult task, balancing
 best practice, feature support, playform changes and legacy content.
 
-This tool is designed to be run on generated static sites 
-and improve the performance by adding assets that are 
+This tool is designed to be run on generated static sites
+and improve the performance by adding assets that are
 necessary, in an efficient mannger and without risk.
 
 This tool does the following:

@@ -1,6 +1,6 @@
 ---
 title: "To Zoom or to Scale"
-excerpt: |
+description: |
   A common practice for web developers targeting TVs seems to be taking the 720p UI and simply zooming in on it to fill a 1080p screen.
 
   But this isn't the best way.

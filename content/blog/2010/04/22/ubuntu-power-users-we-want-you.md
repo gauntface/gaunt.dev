@@ -1,6 +1,6 @@
 ---
 title: "Ubuntu Power Users - We Want You!"
-excerpt: "Ubuntu is looking for a community of power users to help people get more out of Ubuntu."
+description: "Ubuntu is looking for a community of power users to help people get more out of Ubuntu."
 mainImage: "/images/blog/2014/06/22/4033888284-434fa6f5ef-o.jpg"
 primaryColor: "#bfab8d"
 date: "2010-04-22T15:03:27-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2010-04-22T15:03:27-07:00"
 slug: "ubuntu-power-users-we-want-you"
 ---
 
-# Ubuntu Power Users - We Want You! 
+# Ubuntu Power Users - We Want You!
 
 ![Ubuntu Loading Screen](/images/blog/2010/04/boot.png)
 

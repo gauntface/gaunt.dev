@@ -1,6 +1,6 @@
 ---
 title: "Fetch is the new XHR"
-excerpt: "Fetch is a simpler way of getting resources in Javascript compared to XHR. This post is just a brain dump of how to use fetch to make requests."
+description: "Fetch is a simpler way of getting resources in Javascript compared to XHR. This post is just a brain dump of how to use fetch to make requests."
 mainImage: "/images/blog/2015/2015-09-17/fetch.jpg"
 primaryColor: "#787986"
 date: "2015-02-11T11:11:07-08:00"

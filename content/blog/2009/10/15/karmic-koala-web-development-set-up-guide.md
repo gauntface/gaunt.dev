@@ -1,6 +1,6 @@
 ---
 title: "Karmic Koala Web Development Set-Up Guide"
-excerpt: "I guide on setting up Ubuntu Karmic Koala for Web Development"
+description: "I guide on setting up Ubuntu Karmic Koala for Web Development"
 mainImage: "/images/blog/2014/06/30/3836656228-08d7f9b837-o.jpg"
 primaryColor: "#0c0704"
 date: "2009-10-15T20:18:30-07:00"
