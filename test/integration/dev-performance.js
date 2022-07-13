@@ -1,6 +1,6 @@
 import test from 'ava';
-import {runLeaderboard} from './utils/leaderboard.js';
-import {startServer} from './utils/dev-server.js';
+import {runLeaderboard} from '../utils/leaderboard.js';
+import {startServer} from '../utils/dev-server.js';
 
 let addr;
 

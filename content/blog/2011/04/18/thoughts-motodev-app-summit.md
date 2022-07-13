@@ -1,6 +1,6 @@
 ---
 title: "Thoughts MotoDev App Summit"
-description: ""
+description: "The MotoDev App Summit app fell far behind what you would hope for given the summit was about how to build best in class applications for Android tablets."
 mainImage: "/images/blog/2014/06/16/11259367736-e5063372f6-o.jpg"
 primaryColor: "#8c8c9c"
 date: "2011-04-18T21:37:09-07:00"

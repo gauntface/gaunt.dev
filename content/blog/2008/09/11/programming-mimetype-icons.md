@@ -1,6 +1,6 @@
 ---
 title: "Programming Mimetype Icons"
-description: ""
+description: "A simple set of programming mimetype icons."
 mainImage: "/images/blog/2014/06/30/5079201550-0e57a6c7a2-o.jpg"
 primaryColor: "#9c9c9c"
 date: "2008-09-11T13:25:53-07:00"
