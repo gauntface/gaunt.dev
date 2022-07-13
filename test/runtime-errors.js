@@ -1,15 +1,15 @@
-const path = require('path');
-const test = require('ava');
-const StaticServer = require('static-server');
-const puppeteer = require('puppeteer');
+import path from 'path';
+import test from 'ava';
+import StaticServer from 'static-server';
+import puppeteer from 'puppeteer';
 
 const server = new StaticServer({
-  rootPath: path.join(__dirname, '..', 'public'),
+  rootPath: path.join(path.resolve(), 'public'),
   port: 9999,
 });
 
 function startServer() {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     server.start(() => {
       console.log(`Using http://localhost:${server.port}`);
       resolve(`http://localhost:${server.port}`);
