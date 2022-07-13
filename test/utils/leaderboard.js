@@ -1,5 +1,4 @@
 import PerfLeaderboard from 'performance-leaderboard';
-import test from 'ava';
 
 const pages = [
   {
@@ -28,11 +27,9 @@ const pages = [
   },
 ];
 
-test('Performance Dashboard', async (t) => {
-  t.timeout(10 * 60 * 1000, 'Perf leaderboard is limited to 10mins');
-
-  const urls = pages.map((p) => `https://www.gaunt.dev${p.url}`);
-  const results = await PerfLeaderboard(urls, 5);
+export async function runLeaderboard(addr, runs) {
+  const urls = pages.map((p) => `${addr}${p.url}`);
+  const results = await PerfLeaderboard(urls, runs);
 
   const headings = [
     '',
@@ -55,9 +52,7 @@ test('Performance Dashboard', async (t) => {
   }
 
   console.log(`\n${rowsToTable(headings, rows)}\n`);
-
-  t.pass();
-})
+}
 
 function rowsToTable(headings, rows) {
   const colLengths = new Array(headings.length).fill(0);

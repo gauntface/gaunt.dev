@@ -11,7 +11,7 @@
     "minify-html": "minify -r --match=\\.html -o ./public ./public",
     "dev": "hugo server --disableFastRender",
     "test": "npm run build && npm run ava",
-    "test-integration": "npx ava ./test-integration/*.js",
+    "test-integration": "npx ava ./test/integration/*.js",
     "ava": "npx ava ./test/*.js"
   },
   "private": true,
