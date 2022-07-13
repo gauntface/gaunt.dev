@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "build-hugo": "rm -rf public && hugo && cp -r public tmp",
-    "build": "rnpm run build-hugo && npm run html-assets && npm run minify-html",
+    "build": "npm run build-hugo && npm run html-assets && npm run minify-html",
     "html-assets": "htmlassets --vimeo=$VIMEO_TOKEN",
     "minify-html": "minify -r --match=\\.html -o ./public ./public",
     "dev": "hugo server --disableFastRender",
