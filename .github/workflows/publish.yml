@@ -47,9 +47,9 @@ jobs:
     - name: Gen Images
       run: genimgs
     - name: Build
+      env:
+        VIMEO_TOKEN: ${{ secrets.VIMEO_TOKEN }}
       run: npm run build
-      with:
-        vimeo: ${{ secrets.VIMEO_TOKEN }}
 
     # Deploy to AWS
     - name: Publish to AWS
