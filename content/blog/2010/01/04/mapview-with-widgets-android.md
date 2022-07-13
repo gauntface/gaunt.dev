@@ -1,6 +1,6 @@
 ---
 title: "MapView with Widgets Android"
-excerpt: "I recently had a scenario where I needed to have an interactive map pin on Android and this is how I did it."
+description: "I recently had a scenario where I needed to have an interactive map pin on Android and this is how I did it."
 mainImage: "/images/blog/2014/06/29/3047558085-7bc57aa707-o.jpg"
 primaryColor: "#9dae96"
 date: "2010-01-04T23:38:55-08:00"

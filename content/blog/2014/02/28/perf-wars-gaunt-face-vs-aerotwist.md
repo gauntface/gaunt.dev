@@ -1,6 +1,6 @@
 ---
 title: "Perf Wars: Gaunt Face vs Aerotwist"
-excerpt: "Performant Web Apps...... The harsh world of getting 60fps for a newbie web developer."
+description: "Performant Web Apps...... The harsh world of getting 60fps for a newbie web developer."
 mainImage: "/images/blog/2014/05/24/lego-war.jpg"
 primaryColor: "#6c9c9c"
 date: "2014-02-28T17:32:22-08:00"

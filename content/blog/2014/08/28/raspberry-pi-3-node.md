@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi <3 Node"
-excerpt: "I love Node for it's hackability. While I'm not entirely sure it will work with the electronics on a Pi, it's a safe bet for a quick and dirty web server."
+description: "I love Node for it's hackability. While I'm not entirely sure it will work with the electronics on a Pi, it's a safe bet for a quick and dirty web server."
 mainImage: "/images/blog/2014/08/28/7223008454-955fbf0274-k.jpg"
 primaryColor: "#4e85d9"
 date: "2014-08-28T23:15:05-07:00"

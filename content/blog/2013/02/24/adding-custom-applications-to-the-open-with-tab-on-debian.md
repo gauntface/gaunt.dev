@@ -1,6 +1,6 @@
 ---
 title: "Adding Custom Applications to the \"Open With” Tab on Debian"
-excerpt: |
+description: |
   I wanted to get Sublime to show up in my menu of applications in Debian.
 
   Find out how I did it and use it for any of your own apps.

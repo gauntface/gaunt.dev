@@ -1,6 +1,6 @@
 ---
 title: "Karmic Koala on MacBook 4.1"
-excerpt: "A step by step guide on how to get Ubuntu's Karmic Koala running on a MacBook 4.1"
+description: "A step by step guide on how to get Ubuntu's Karmic Koala running on a MacBook 4.1"
 mainImage: "/images/blog/2014/06/30/ubuntu-karmic-koala.jpg"
 primaryColor: "#fbb019"
 date: "2009-10-13T22:49:16-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2009-10-13T22:49:16-07:00"
 slug: "karmic-koala-on-macbook-4-1"
 ---
 
-# Karmic Koala on MacBook 4.1 
+# Karmic Koala on MacBook 4.1
 
 ![MacBook Ubuntu](/images/blog/2009/08/macBookUbuntu.png)
 
@@ -60,7 +60,7 @@ Type in the following into your terminal:
 
 `sudo apt-get install applesmc-dkms hid-dkms`
 
-Now at the time of writing, this command gave an error message: 
+Now at the time of writing, this command gave an error message:
 
 `gpg: requesting key 2B97B7B8 from hkp server keyserver.ubuntu.com gpg: keyserver timed out gpg: keyserver receive failed: keyserver error`
 
@@ -70,7 +70,7 @@ Once fixed we should just need to type the following commands - Taken from ([htt
 
 ### Dual Screens
 
-I have tried dual screens with a DVI Monitor and it didn't like being plugged in while the computer is turned on but unplugging and then re-plugging seemed to fix it and I could set it all up in System->Preferences->Display. I'm fairly confident that it'll be the same for VGA outputs. 
+I have tried dual screens with a DVI Monitor and it didn't like being plugged in while the computer is turned on but unplugging and then re-plugging seemed to fix it and I could set it all up in System->Preferences->Display. I'm fairly confident that it'll be the same for VGA outputs.
 
 Then this should be all you need to be up and running with the best Ubuntu yet!
 

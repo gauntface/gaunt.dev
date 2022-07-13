@@ -1,6 +1,6 @@
 ---
 title: "Global Git Ignore"
-excerpt: |
+description: |
   Having unwanted files in a git repo is just a pain and can often bloat your repo, often resulting in problems when working with others.
 
   Here's a brain dump of using the global git ignore and the files I ignore by default.

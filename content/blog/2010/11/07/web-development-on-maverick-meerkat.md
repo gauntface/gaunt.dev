@@ -1,6 +1,6 @@
 ---
 title: "Web Development on Maverick Meerkat"
-excerpt: "Getting Ubuntu Maverick Meerkat set up for Web Development with an Apache Server."
+description: "Getting Ubuntu Maverick Meerkat set up for Web Development with an Apache Server."
 mainImage: "/images/blog/2014/06/16/4595771286-33fe96a4db-o.jpg"
 primaryColor: "#848474"
 date: "2010-11-07T19:13:42-08:00"

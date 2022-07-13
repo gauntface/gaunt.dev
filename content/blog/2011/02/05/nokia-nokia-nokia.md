@@ -1,6 +1,6 @@
 ---
 title: "Nokia Nokia Nokia"
-excerpt: "I attended a Nokia event in London, here we have some notes as well as comments on the way Nokia positioned themselves at the event."
+description: "I attended a Nokia event in London, here we have some notes as well as comments on the way Nokia positioned themselves at the event."
 mainImage: "/images/blog/2014/06/16/6082117463-f01f7b1273-o.jpg"
 primaryColor: "#613e24"
 date: "2011-02-05T14:53:28-08:00"
@@ -8,11 +8,11 @@ updatedOn: "2011-02-05T14:53:28-08:00"
 slug: "nokia-nokia-nokia"
 ---
 
-# Nokia Nokia Nokia 
+# Nokia Nokia Nokia
 
 Yesterday I went to a Nokia event hosted in London.
 
-First off I have to say a huge thank you for Nokia for doing it, at least now should I ever need to develop for Nokia, I'd know where to start, which for certain platforms is a bit of an issue *Nokia Cough* *Blackberry Cough* *Windows Cough* 
+First off I have to say a huge thank you for Nokia for doing it, at least now should I ever need to develop for Nokia, I'd know where to start, which for certain platforms is a bit of an issue *Nokia Cough* *Blackberry Cough* *Windows Cough*
 
 To be blunt, RIM, Nokia and Microsoft (Although less so) all are starting to realise that developer communities become the reason a platform can be so successful.
 
@@ -26,7 +26,7 @@ So that leaves Palm / HP and Nokia. Samsung have Android and Bada, but Bada is a
 
 Palm / HP I don't think have set up their full strategy yet for mobile.
 
-Nokia . . . . boy oh boy Nokia. Before yesterday, someone says Nokia I think, Symbian, Maemo, Meego and Ovi. What each of those are - I didn't know, which one should I target, I didn't know, so I haven't even started and I'm already left with a big problem before I've even started. 
+Nokia . . . . boy oh boy Nokia. Before yesterday, someone says Nokia I think, Symbian, Maemo, Meego and Ovi. What each of those are - I didn't know, which one should I target, I didn't know, so I haven't even started and I'm already left with a big problem before I've even started.
 
 Yesterday cleared this up:
 
@@ -44,7 +44,7 @@ Meaning Nokia's 30% doesn't really count for all that much to developers, becaus
 
 Bad news thus far, incomplete tools for a handful of devices that probably don't stand up to much.
 
-Let's start off with the tools, generally they look pretty good, using Qt you can target Symbian and Meego, Windows, Mac and Linux. But they don't have default components like Buttons :-/ but the community has some and Nokia are working on a set to release, so can't complain too much. 
+Let's start off with the tools, generally they look pretty good, using Qt you can target Symbian and Meego, Windows, Mac and Linux. But they don't have default components like Buttons :-/ but the community has some and Nokia are working on a set to release, so can't complain too much.
 
 Generally Nokia seems to of done a pretty good job with the toolset and the Ovi store seems solid.
 
@@ -58,11 +58,11 @@ Well the actual device is awesome. HDMI output, you can plug in USB hard drives 
 
 And I admit I'm an Android user, but iPhone I can play with and enjoy, Blackberry I can play with and know where to go and find stuff, Nokia - Nu uh, took me long enough to find how to get the menu up. This is what concerns me most, Symbian targets cheaper devices, but everyone wants an iPhone. iPhone's aren't cheap, when they start looking for cheaper, Android will start flagging up, these are the smartphone markets that most developers target, so why aren't Nokia telling developers to target Meego?
 
-If Meego is any better than Symbian (which shouldn't be hard to beat) then Nokia may be able to make a come back. 
+If Meego is any better than Symbian (which shouldn't be hard to beat) then Nokia may be able to make a come back.
 
 All in all Nokia need to do more events like this to build up a community, they need to be a little more confident in their approach and need to be a little more open with their numbers and their plans.
 
-In terms of actual device, hardware - Winner, design could do with some work, but it's not bad, but the camera, hdmi, usb stuff is just unique. Software - a lot of work needs to be done just to make it feel more natural / intuitive. Toolset, definately heading in the right direction with Qt from what I've seen *although not played with it yet*. 
+In terms of actual device, hardware - Winner, design could do with some work, but it's not bad, but the camera, hdmi, usb stuff is just unique. Software - a lot of work needs to be done just to make it feel more natural / intuitive. Toolset, definately heading in the right direction with Qt from what I've seen *although not played with it yet*.
 
 NOTES FROM THE EVENT [Largely for my own reference, but you may find it useful too]:
 
@@ -90,7 +90,7 @@ Can create JS hooks <\- Qt supports symbian & Meego [WRT doesn't]
 
 OpenGLES 2.0 on all iOS / Android / Symbian
 
-Qt SDK 1.1 <\- Preview [buggy] but best 
+Qt SDK 1.1 <\- Preview [buggy] but best
 
 www.forumnokia.com <\- Full dev offering
 
@@ -120,18 +120,18 @@ Qt-Symbian
 
 Qt-Quick
 
-Use Qt Quick project 
+Use Qt Quick project
 
-setMaxHeap 
+setMaxHeap
 
 Symbian 3 - Error msg
 
-Indexing - terrible 
+Indexing - terrible
 
-English - Worldwide 
-American English - None 
+English - Worldwide
+American English - None
 
-Languages - Need to match 
+Languages - Need to match
 
 [Select all devices supported to get through the store easier]
 

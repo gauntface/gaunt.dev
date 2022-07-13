@@ -1,6 +1,6 @@
 ---
 title: "DevTools Ideas"
-excerpt: "Having worked with service worker in Chrome, there are a few areas where I'm at odds with DevTools as to how to get a sane workflow."
+description: "Having worked with service worker in Chrome, there are a few areas where I'm at odds with DevTools as to how to get a sane workflow."
 mainImage: "/images/blog/2014/12/10/bulb-idea.png"
 primaryColor: "#0984dc"
 date: "2014-12-10T11:51:11-08:00"
@@ -8,7 +8,7 @@ updatedOn: "2014-12-10T11:51:11-08:00"
 slug: "devtools-ideas"
 ---
 
-# DevTools Ideas 
+# DevTools Ideas
 
 One of the biggest failings of service worker at the moment is the debugging story.
 

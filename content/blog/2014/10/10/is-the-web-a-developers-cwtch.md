@@ -1,6 +1,6 @@
 ---
 title: "Is the Web a Developers Cwtch?"
-excerpt: "The web is awesome, no doubt about it. But are the very features that make it so powerful, also act as the very thing that holds it back."
+description: "The web is awesome, no doubt about it. But are the very features that make it so powerful, also act as the very thing that holds it back."
 mainImage: "/images/blog/2014/10/10/4295780443-1822974617-o.jpg"
 primaryColor: "#7a9a8b"
 date: "2014-10-10T10:19:27-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2014-10-10T10:19:27-07:00"
 slug: "is-the-web-a-developers-cwtch"
 ---
 
-# Is the Web a Developers Cwtch? 
+# Is the Web a Developers Cwtch?
 
 I've been looking for a way to frame this post, this title is probably the closest I can get to expressing my point of view; plus I can reward myself bonus points for using my favorite welsh word.
 
@@ -18,13 +18,13 @@ I've been looking for a way to frame this post, this title is probably the close
 >
 > There's no literal English translation, but its nearest equivalent is "safe place".
 >
-> So if you give someone a cwtch, you're giving them a "safe place". 
+> So if you give someone a cwtch, you're giving them a "safe place".
 >
 > [Source: Urban Dictionary](http://www.urbandictionary.com/define.php?term=cwtch)
 
 # My Background
 
-I'm not a web guy, this will shine through and through in this article. 
+I'm not a web guy, this will shine through and through in this article.
 
 That's not me saying I hate the web - far from it, it's awesome. But coming from a native app background, I look at the web from a different view.
 
@@ -48,11 +48,11 @@ Opening up an API that has the ability to be used incorrectly or even abused, sh
 
 A good example is the '[net-info](http://w3c.github.io/netinfo/)' API. Is it a good spec? Yes, it gives a vague indication on what you can inspect in terms of connection. The issue many have with such an API is that developers might start to abuse it and think - "oohh I'm on Wifi, I can download all the things in super high res and it'll be super fast.". When matter of fact the user is coffee shop, the connection is slow and frankly they'd be better off with a 3G connection.
 
-Because of this, the API shouldn't exist, right? 
+Because of this, the API shouldn't exist, right?
 
 I mean, not having the API means that they wouldn't do the bad thing of downloading all the high-res images.
 
-No, not right, the API should exist. 
+No, not right, the API should exist.
 
 The API isn't dangerous. The API solves the use case where the user is on 2G and you may want to offer a toggle for low / high res assets, ultimately the reverse of the above. It may be that as the platform grows, the net API is fundamental to background syncing, where you only want to sync when on wifi.
 
@@ -92,7 +92,7 @@ I suppose my view is that the direction of the web needs to find it's clean path
 
 Should it continue being this safe place where developers only have access to API's where they "can't shoot themselves in the foot", or do we give them access to powerful API's and let everyone learn from their mistakes and move browser vendor focus on protecting users.
 
-The other concern I have, how far **should** a browser go to keep an old site from running? 
+The other concern I have, how far **should** a browser go to keep an old site from running?
 
 At the moment it feels like the only thing that keeps Native ahead, isn't the API's or features - which the web is getting a lot of - but rather the sanity and well thought out primitives in their API's. Native platforms manage compatibility modes and the opt-out to the latest, greatest and cleanest API is as simple updating your app to say "Hey, I'm awesome and keeping up to date".
 

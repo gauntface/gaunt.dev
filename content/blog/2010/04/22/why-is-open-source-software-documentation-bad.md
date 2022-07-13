@@ -1,6 +1,6 @@
 ---
 title: "Why is Open Source Software Documentation Bad?"
-excerpt: "Is documentation one of the key things holding back open source software?"
+description: "Is documentation one of the key things holding back open source software?"
 mainImage: "/images/blog/2014/06/22/8574509123-3846af95a8-o.jpg"
 primaryColor: "#e9c430"
 date: "2010-04-22T22:12:06-07:00"
@@ -8,16 +8,16 @@ updatedOn: "2010-04-22T22:12:06-07:00"
 slug: "why-is-open-source-software-documentation-bad"
 ---
 
-# Why is Open Source Software Documentation Bad? 
+# Why is Open Source Software Documentation Bad?
 
 I've just gotten off the IRC of the #ubuntu-tweakers room on irc.freenode.net and we were having a full-blown discussion on why there is this huge barrier to entry with open source software.
 
-The main area's that we all agreed on were the following: 
+The main area's that we all agreed on were the following:
 
   1. The programmer doesn't know the tools which are used
   2. The programmer is lost the minute they get into the code
 
-and one thing I'd tag onto that is: 
+and one thing I'd tag onto that is:
 
   1. Where the hell is everything? (Bug tracker, info on commiting patches, stuff I should know but you haven't told me about so I can't even know I should know it, let alone then finding information on it)
 
@@ -31,13 +31,13 @@ Now I've never used launchpad in my life, it's a daunting tool, to say the least
 
 Don't get me wrong, I know it has everything you could want in a development platform. But all I wanted to do was download the source, install the relevant packages and tools to get developing and then start building a plugin or change to gnome-do.
 
-What's actually happened: 
+What's actually happened:
 
   1. I've been sent on a wild goose chase to learn about Mono, what is relevant to Gnome-Do specifically? I don't know, so your guess is as good as mine.
   2. I've been sent to a wikipedia page for C# which I imagine is the last place I'd want to look for on programming info.
   3. Been told they use launchpad and then that is it in terms of repo etc.
   4. Remember the things I should know but don't know I should know them? Well what happens if I add something, what do I do? Should launchpad have this info? should their project site have it?
-  
+
 Jono Bacon mentions alot of the time about - opportunistic programming and how Quickly enables that, and he's totally right, it's easy to knock up a program in many cases, that just scratches a little itch. But what happens if you don't want opportunistic programming starting from scratch, but in some other projects code? Is this even possible?
 
 This is in no way a dig at gnome-do (honestly I love your guys work and I can bet if I went in the irc these questions would be answered). It's just I've looked at your development site before when I started programming and I got lost very quickly.
@@ -45,7 +45,7 @@ This is in no way a dig at gnome-do (honestly I love your guys work and I can be
 The main point I'm trying to get at, is does open source, think enough about the people who want to get involved but can't, because of this seemingly high barrier?
 
 I think the following would of changed things for the Gnome-Do example:
- 
+
   1. Instead of a link to the Mono Documentation, perhaps just a small documentation, explaining how to install, set-up, create new projects and import projects, rather than the mono page itself (Which at the end of the day may have this information, but it's mixed in with the advertising stuff and how do I know what's relevant to just getting a move on).
   2. instead of a C# link to a page just about C# why not another documentation on just getting started with C# including (again) how to install, set-up and use C# (including the relevant links to documentation and useful/key links)
   3. A video on how to use Launchpad, what everything is, and where to find everything

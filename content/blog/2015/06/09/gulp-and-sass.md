@@ -1,6 +1,6 @@
 ---
 title: "Gulp & Sass"
-excerpt: "Just been toying with performance of compiling sass - some weird things I've spotted."
+description: "Just been toying with performance of compiling sass - some weird things I've spotted."
 mainImage: "/images/blog/2015/2015-09-17/gulpandsass.jpg"
 primaryColor: ""
 date: "2015-06-09T16:10:49-07:00"

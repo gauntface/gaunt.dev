@@ -1,6 +1,6 @@
 ---
 title: "What You Need to Know About the WebView in L"
-excerpt: "The WebView in Lollipop has been updated to M37 and comes with some new API's and alterations to some behaviours. I've noted them down just in case."
+description: "The WebView in Lollipop has been updated to M37 and comes with some new API's and alterations to some behaviours. I've noted them down just in case."
 mainImage: "/images/blog/2014/10/17/lollipop-2200.png"
 primaryColor: "#f11431"
 date: "2014-10-17T19:25:26-07:00"

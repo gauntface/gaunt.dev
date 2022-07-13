@@ -1,6 +1,6 @@
 ---
 title: "Leaving Google"
-excerpt: "After nearly 10 years working for Google, Matt Gaunt has decided to leave Google."
+description: "After nearly 10 years working for Google, Matt Gaunt has decided to leave Google."
 mainImage: "/images/blog/2022/2022-03-28/matt-gaunt-at-google-developer-day-london-uk.jpg"
 mainImageAlt: A rather old photo of Matt Gaunt presenting at a Google Developer day in London, UK.
 date: "2022-03-28T09:57:00-07:00"

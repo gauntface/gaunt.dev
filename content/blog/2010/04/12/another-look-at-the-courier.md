@@ -1,6 +1,6 @@
 ---
 title: "Another Look At The Courier"
-excerpt: "A look at the Microsoft Courier and the research behind it."
+description: "A look at the Microsoft Courier and the research behind it."
 mainImage: "/images/blog/2014/06/23/17wj5q452y89yjpg.jpg"
 primaryColor: "#56524f"
 date: "2010-04-12T22:18:33-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2010-04-12T22:18:33-07:00"
 slug: "another-look-at-the-courier"
 ---
 
-# Another Look At The Courier 
+# Another Look At The Courier
 
 ![Early Prototype of the Microsoft Courier](/images/blog/2010/04/codex-book-posture.png)
 
@@ -18,7 +18,7 @@ I don't know enough about Microsoft's advertising strategy to comment on it, bec
 
 But the Courier is grabbing my attention, so rather than trawl the web everyday for new information I set off a Google Alerts Feed to let me know of new Courier info, and to be honest, I wish I hadn't, because it get's filled with utter rubbish.
 
-So here's my take on everything Microsoft is currently doing, what I think the Courier is (vaporware or not?) and finally what happens next. 
+So here's my take on everything Microsoft is currently doing, what I think the Courier is (vaporware or not?) and finally what happens next.
 
 ### Microsoft Where Have You Been All My Life
 
@@ -26,7 +26,7 @@ I make it no secret when writing these posts that I am not a fan of Microsoft, i
 
 But recently I'm seeing them in a different light, sure I think Windows 7 is still pretty bad and I hate it when my other half calls me up with the first sentence "My laptops broken", but Microsoft seems to fixed up their attitude to mobile devices "to a degree".
 
-They've looked at mobile devices (Phones, Tablets, Other), considered them and said to themselves, "They aren't computers". 
+They've looked at mobile devices (Phones, Tablets, Other), considered them and said to themselves, "They aren't computers".
 
 One team point to Microsoft right there! Yeah I admit, they are computers, but the UI needs to be different, you can't just put a UI that works on a nice big screen straight onto a tiny screen and hope it will work just as well. I am in 2 minds about this point though, Microsoft have sat back and come up with this great Courier concept and their Windows 7 Phones (even the new Kin phones), but what the hell happened with the HP Slate?
 
@@ -38,21 +38,21 @@ Apple iPad - New UI (Sure the front screen is the same, but the apps have opened
 
 Windows Phone (Old) - Well Windows have scroll bars on them, Start button goes in the corner, nice and small, and no one cares about silly UI pictures to make things pretty, grey is pretty right? *Designer cries in the corner
 
-So this new UI spree that Microsoft have gone on is a great thing for their products, but how real is it? That's gotta be your call, I think other parts of Microsoft have locked into this new approach, but the core of the company . . . maybe not so much. 
+So this new UI spree that Microsoft have gone on is a great thing for their products, but how real is it? That's gotta be your call, I think other parts of Microsoft have locked into this new approach, but the core of the company . . . maybe not so much.
 
 ### When, Where, How Much . . . The Courier Ain't Real Mate
 
 Straight off . . . . Is the Courier Vaporware? . . . . answer: Maybe
 
-Microsoft have old videos of "Courier like" devices, the UI looks old, ugly and not too user friendly, but it has some big similarities to the original videos. 
+Microsoft have old videos of "Courier like" devices, the UI looks old, ugly and not too user friendly, but it has some big similarities to the original videos.
 
 <iframe width="853" height="480" src="//www.youtube.com/embed/049_U-0C9qU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-You can see the UI is very different, but it's a thought provoker, has this been in the works for a long time, or did they forget it a long time ago and now figured this is the time to launch it? 
+You can see the UI is very different, but it's a thought provoker, has this been in the works for a long time, or did they forget it a long time ago and now figured this is the time to launch it?
 
 ![Early Microsoft Courier Prototype Closed](/images/blog/2010/04/codex-case-80-pct.png)
 
-I get the impression they asked a design team to take the Codex concept (above) and turn it into a viable, attractive product. This team produced the first video below. 
+I get the impression they asked a design team to take the Codex concept (above) and turn it into a viable, attractive product. This team produced the first video below.
 
 <iframe width="853" height="480" src="//www.youtube.com/embed/UmIgNfp-MdI?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -60,11 +60,11 @@ Then the Codex team who probably created the prototype, took a look at this and 
 
 That's is where we are up to, plenty of blog's are going nuts over a video Microsoft released with regards to using a stylus and fingers on a touch screen the size of a table (Microsoft Surface). Yes the Courier uses a stylus, I see the link, but come on, a table size screen compared to a small notebook, they aren't directly related, take away that they are trying to prove that stylus's mustn't be banned (Especially after the Steve Jobs quote declaring war on stylus), but they shouldn't be doing this to prove the product is good, just let the product do that itself.
 
-Vaporware - maybe, maybe not, anyone declaring yes or no, ssssshhhhh . . . . you don't actually know anything [Neither do I]. 
+Vaporware - maybe, maybe not, anyone declaring yes or no, ssssshhhhh . . . . you don't actually know anything [Neither do I].
 
 ### What Happens Next - Well Microsoft Launch It Surely?
 
-So this section is more of a discussion about whether or not it's feasible to make a Courier type device, regardless of who does it. 
+So this section is more of a discussion about whether or not it's feasible to make a Courier type device, regardless of who does it.
 
 The answer is obcourse, Computer's are powerful beasts, so I reckon it's easily done.
 

@@ -1,6 +1,6 @@
 ---
 title: "Where-To-Do : Android (Part 1)"
-excerpt: "First part to the building of Where-To-Do."
+description: "First part to the building of Where-To-Do."
 mainImage: "/images/blog/2014/06/30/1043379069-45dc19005c-o.jpg"
 primaryColor: "#c44c79"
 date: "2009-08-16T16:43:20-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2009-08-16T16:43:20-07:00"
 slug: "where-to-do-android-part-1"
 ---
 
-# Where-To-Do : Android (Part 1) 
+# Where-To-Do : Android (Part 1)
 
 I've been meaning to do an Android project for quite some time, but because of Uni work and exams I haven't had the time, but since break I figured I could make a start on a project. I also remember how hard I found it to make my own app when I first started using Android, so here it is for anyone interested, I start to finish app covering the EVERY part of app development. The app I'm going to make is nothing too exciting, it's just a simple to-do list that will let you sort the to-do's in different orders and select a view, all the to-do's or view to-do's in groups of weeks or days.
 
@@ -18,13 +18,13 @@ DISCLAIMER: Most of the techniques I use are from what I've gathered from the in
 
 In my mind their are 2 sides to any program, the GUI and the back-end. The more these 2 things can be kept apart the better, that way what we change on either side, hopefully, won't affect the other side. So considering this is the first part of this set of tutorials I figured I start of with some friendly GUI stuff to get you all thinking just about what you may want your app to look like and realise you aren't stuck to the Android default UI.
 
-For this part of the series I'm going to show you all how to make a custom button, and this will show you: 
+For this part of the series I'm going to show you all how to make a custom button, and this will show you:
 
   * What to consider when creating simple interfaces
   * Illustrate how 9-Patch PNG's work
   * How to create custom buttons
 
-So I played around in GIMP (An open source version of Photoshop) to mock up roughly what I want my app to look like and this is what I came up with. 
+So I played around in GIMP (An open source version of Photoshop) to mock up roughly what I want my app to look like and this is what I came up with.
 
 ![Where-To-Do Android Mock-Up](/images/blog/2009/08/Where-To-Do-Android-MockUp.png)
 
@@ -32,7 +32,7 @@ Nothing to exciting but looks OK and is a bit of a change to the Android default
 
 One thing I learnt from speaking to people heavily involved in Android development, is that you should always do your best to include the default UI (User-Interface) features. So a simple example of this is, by default when you add a number of buttons to a layout, and press buttons on the D-Pad of the emulator, the buttons will highlight orange for which one your on.
 
-So we need to consider how to display this information. So attempt 2 of the buttons on the screen: 
+So we need to consider how to display this information. So attempt 2 of the buttons on the screen:
 
 ![Where-To-Do Android Mock-Up Focus + Button Selected](/images/blog/2009/08/Where-To-Do-Android-Mock-Up-2.png)
 
@@ -40,7 +40,7 @@ Now the new version has a number of things changed on the buttons, firstly the w
 
 So we have all of this stuff, now I need to make my buttons so I can add them into my Android Project. I could use this image to cut out the buttons with the text on them, but what if I later decide to change the text? So thats no good. Ok cut up the images but leave the text out, this means though I'm now tied down to that particular size button, if the text is too long it'll go outside the app. Nope no good, this is where the simplicity of 9-patch PNG's comes to save the day.
 
-Now to explain why I'm cutting up the images the way I do, I need to explain how 9-patch PNG's work, but to explain that, it would be easiest to just give you an example. So here's the images cut up to be changed to 9-patch PNG's and then you'll work out why the images are cut up as they are. 
+Now to explain why I'm cutting up the images the way I do, I need to explain how 9-patch PNG's work, but to explain that, it would be easiest to just give you an example. So here's the images cut up to be changed to 9-patch PNG's and then you'll work out why the images are cut up as they are.
 
 ![Buttons - Sliced Up](/images/blog/2009/08/Buttons-Sliced-Up.png)
 
@@ -48,15 +48,15 @@ Right now they're cut up into 4 different chunk's and each chunk has 4 states (S
 
 So when you download the Android SDK it comes with a set of tools <Android SDK Directory>/tools/ and we need the draw9patch tool, so launch this from a terminal (something along the lines of /home/matt/Programs/android-sdk-linux_x86-1.5_r3/tools/draw9patch).
 
-You have a new window open up: 
+You have a new window open up:
 
 ![Screenshot-Draw 9-patch](/images/blog/2009/08/Screenshot-Draw-9-patch.png)
 
-Now go to File > Open 9-Patch and open one of your button images. This will load up your image into the draw9patch tool. Now the essence to this tool is simple, on the top side and left side, you draw which pixels can be stretched (or repeated). So draw on the pixels you want to be stretched, this can only be done on the one pixel border that is added to the edge of the image. Once you've done this it will show you how it looks when stretched in the right hand side of the tool. 
+Now go to File > Open 9-Patch and open one of your button images. This will load up your image into the draw9patch tool. Now the essence to this tool is simple, on the top side and left side, you draw which pixels can be stretched (or repeated). So draw on the pixels you want to be stretched, this can only be done on the one pixel border that is added to the edge of the image. Once you've done this it will show you how it looks when stretched in the right hand side of the tool.
 
 ![Screenshot-Draw 9-patch-1](/images/blog/2009/08/Screenshot-Draw-9-patch-1.png)
 
-There you go a fully scaling button, but is anyone wondering what the right hand and bottom border pixels are for yet? Well these are for defining where the content of the button can go - so in this case where our text is allowed to go, this prevents it from extending outside the button. 
+There you go a fully scaling button, but is anyone wondering what the right hand and bottom border pixels are for yet? Well these are for defining where the content of the button can go - so in this case where our text is allowed to go, this prevents it from extending outside the button.
 
 So click on "Show content" check box and add in your content borders and you'll see where the content will sit in the button
 

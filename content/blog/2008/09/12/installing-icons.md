@@ -1,6 +1,6 @@
 ---
 title: "Installing Icons"
-excerpt: "After making a few icon sets, this is a really rough guide on how to install them into existing icon packs for Ubuntu."
+description: "After making a few icon sets, this is a really rough guide on how to install them into existing icon packs for Ubuntu."
 mainImage: "/images/blog/2014/06/30/justicons600.jpg"
 primaryColor: "#9c77aa"
 date: "2008-09-12T18:36:27-07:00"

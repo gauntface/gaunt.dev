@@ -1,6 +1,6 @@
 ---
 title: "Ubuntu Jaunty on MacBook 4.1"
-excerpt: "A short guide to getting Jaunty Jackalope running on an MacBook 4.1"
+description: "A short guide to getting Jaunty Jackalope running on an MacBook 4.1"
 mainImage: "/images/blog/2014/06/30/3366621990-669b12c37d-o.jpg"
 primaryColor: "#623022"
 date: "2009-08-11T20:16:06-07:00"

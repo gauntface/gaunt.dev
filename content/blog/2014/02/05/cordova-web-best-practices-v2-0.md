@@ -1,6 +1,6 @@
 ---
 title: "Cordova + Web Best Practices v2.0"
-excerpt: |
+description: |
   If you're using Cordova, there is no reason to not take advantage of build tools like grunt and fewer bytes to load will still cut down load times inside your apps.
 
   In this article we'll look at how you can hook up grunt into the Cordova build process, meaning you have one command to build your web project, copy that over into Cordova and build the project onto your device.

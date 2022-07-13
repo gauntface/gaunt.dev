@@ -1,8 +1,8 @@
 ---
 title: "Touch Feedback for Mobile Sites"
-excerpt: |
+description: |
   Most sites don't respond to a users touch.
-  
+
   This raises the question of how should you respond?
 mainImage: "/images/blog/2014/05/24/touch.jpg"
 primaryColor: "#746c71"
@@ -11,25 +11,25 @@ updatedOn: "2013-06-25T14:20:17-07:00"
 slug: "touch-feedback-for-mobile-sites"
 ---
 
-# Touch Feedback for Mobile Sites 
+# Touch Feedback for Mobile Sites
 
-![Mobile Touch Feedback Hero Image](/images/blog/2013/06/Touch-Hero-Image1.png "400") 
+![Mobile Touch Feedback Hero Image](/images/blog/2013/06/Touch-Hero-Image1.png "400")
 
-During a conversation about a mobile site, one of the comments made was "Why do they hate touch feedback?" and my general response was "It's the web, it doesn't really have touch feedback". 
+During a conversation about a mobile site, one of the comments made was "Why do they hate touch feedback?" and my general response was "It's the web, it doesn't really have touch feedback".
 
-Basically, this kicked off a little hissy fit in my mind. The rant was along the lines of "Well why the hell don't we have touch feedback? I want it, how do I get it? . . . Rawr Rawr Rawr". 
+Basically, this kicked off a little hissy fit in my mind. The rant was along the lines of "Well why the hell don't we have touch feedback? I want it, how do I get it? . . . Rawr Rawr Rawr".
 
 # Why?
 
-Before going into the how, first consider why. 
+Before going into the how, first consider why.
 
-Generally, every action a user makes should have some kind of feedback as soon as possible. This means that any action they make, they get a quick confirmation that your app has received and dealt with it. 
+Generally, every action a user makes should have some kind of feedback as soon as possible. This means that any action they make, they get a quick confirmation that your app has received and dealt with it.
 
-The reason this is so vital for native mobile apps, is that if the UI thread is blocked by some process, the user actually gets no feedback since the device is busy with something else. If you then have an app which is running perfectly but just offers no visual feedback, you end up with the same experience as an unresponsive, UI blocked app. 
+The reason this is so vital for native mobile apps, is that if the UI thread is blocked by some process, the user actually gets no feedback since the device is busy with something else. If you then have an app which is running perfectly but just offers no visual feedback, you end up with the same experience as an unresponsive, UI blocked app.
 
 # Out of the Box
 
-What do you get out of the box if the user clicks a link on your site? 
+What do you get out of the box if the user clicks a link on your site?
 
 [Demo](http://jsbin.com/ofotal/2/quiet/) | [Code](http://jsbin.com/ofotal/2/edit/)
 
@@ -41,19 +41,19 @@ What do you get out of the box if the user clicks a link on your site?
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/A6afcJRKwp0" frameborder="0" allowfullscreen></iframe>
 
-With Chrome for Android you get a flash of blue. Safari on iOS will give you a nice flash of grey. 
+With Chrome for Android you get a flash of blue. Safari on iOS will give you a nice flash of grey.
 
-These colors are default values from the browsers and can be overridden using: 
+These colors are default values from the browsers and can be overridden using:
 
-`-webkit-tap-highlight-color: rgba(255,0,0, 1.0);` 
+`-webkit-tap-highlight-color: rgba(255,0,0, 1.0);`
 
-Generally these aren't great at giving the user feedback. It tends to happen after the user has touched the link and only seen for a fraction of a second before the next page is loaded. 
+Generally these aren't great at giving the user feedback. It tends to happen after the user has touched the link and only seen for a fraction of a second before the next page is loaded.
 
 # :active
 
-This feels like the best place to achieve feedback of this kind. If we were using a mouse, the active pseudo class is set when the user presses down on the mouse button and removed when the user releases the button. 
+This feels like the best place to achieve feedback of this kind. If we were using a mouse, the active pseudo class is set when the user presses down on the mouse button and removed when the user releases the button.
 
-The issue with this class for touch devices, is that it actually throws up the color to late for the user to really see it before the browser loads the next page (similar to the tap highlight color). As a result, we end up with this flashing effect on Android & iOS doesn't actually set the active class - Sad times. 
+The issue with this class for touch devices, is that it actually throws up the color to late for the user to really see it before the browser loads the next page (similar to the tap highlight color). As a result, we end up with this flashing effect on Android & iOS doesn't actually set the active class - Sad times.
 
 [Demo](http://jsbin.com/ucedej/1/quiet/) | [Code](http://jsbin.com/ucedej/1/edit/)
 
@@ -67,9 +67,9 @@ The issue with this class for touch devices, is that it actually throws up the c
 
 ## Safari & :active
 
-You may have noticed that Safari does nothing with the :active pseudo class, which sucks. 
+You may have noticed that Safari does nothing with the :active pseudo class, which sucks.
 
-[+Paul Kinlan](https://plus.google.com/+PaulKinlan) noticed that if you set an empty ontouchstart attribute on the body, it starts to play nicely - nasty hack, but the end result works just as well as some of the techniques discussed further in this post. 
+[+Paul Kinlan](https://plus.google.com/+PaulKinlan) noticed that if you set an empty ontouchstart attribute on the body, it starts to play nicely - nasty hack, but the end result works just as well as some of the techniques discussed further in this post.
 
 [Demo](http://jsbin.com/ucedej/2/quiet/) | [Code](http://jsbin.com/ucedej/2/edit)
 
@@ -83,7 +83,7 @@ You may have noticed that Safari does nothing with the :active pseudo class, whi
 
 # Touch Events
 
-The next best thing to try, touch events, which we can use to change the style of the element and this actually gets us a bit closer to the end result. 
+The next best thing to try, touch events, which we can use to change the style of the element and this actually gets us a bit closer to the end result.
 
 [Demo](http://jsbin.com/omulid/2/quiet/) | [Code](http://jsbin.com/omulid/2/edit/)
 
@@ -97,13 +97,13 @@ The next best thing to try, touch events, which we can use to change the style o
 
 ## Flicker
 
-Did you notice the second flicker on the Android device? 
+Did you notice the second flicker on the Android device?
 
-This is caused by the browser actually going into the active state which was still set from the previous test. 
+This is caused by the browser actually going into the active state which was still set from the previous test.
 
-We have a choice, leave it with the horrible flicker, remove it and ignore devices with mouses or remove it and include a 'mousedown' and 'mouseup' event listener. 
+We have a choice, leave it with the horrible flicker, remove it and ignore devices with mouses or remove it and include a 'mousedown' and 'mouseup' event listener.
 
-Here's an example of the third option where the flicker is no more and it works with a mouse - Good times. 
+Here's an example of the third option where the flicker is no more and it works with a mouse - Good times.
 
 [Demo](http://jsbin.com/ujibix/1/quiet/) | [Code](http://jsbin.com/ujibix/1/edit/)
 
@@ -117,11 +117,11 @@ Here's an example of the third option where the flicker is no more and it works 
 
 # Scrolling
 
-We have touch feedback, good times, but what is we touch and then scroll the page? 
+We have touch feedback, good times, but what is we touch and then scroll the page?
 
-Scrolling in Chrome for Android, will cause the initial element to receive the 'touchstart' event and this applies the class to the element, but as I start to scroll, the browser cancels the touch event, at which point, the style is reset. 
+Scrolling in Chrome for Android, will cause the initial element to receive the 'touchstart' event and this applies the class to the element, but as I start to scroll, the browser cancels the touch event, at which point, the style is reset.
 
-In an ideal world this wouldn't show the style is the gesture is a scroll, but at least we cancel it when we know the user isn't clicking, but iOS has other ideas as you can see below . . . . 
+In an ideal world this wouldn't show the style is the gesture is a scroll, but at least we cancel it when we know the user isn't clicking, but iOS has other ideas as you can see below . . . .
 
 [Demo](http://jsbin.com/ujibix/1/quiet/) | [Code](http://jsbin.com/ujibix/1/edit/)
 

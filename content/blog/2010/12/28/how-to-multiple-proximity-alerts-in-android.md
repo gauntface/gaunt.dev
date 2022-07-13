@@ -1,6 +1,6 @@
 ---
 title: "How-To: Multiple Proximity Alerts in Android"
-excerpt: "There is a weird little trick to getting the location proximity alerts working in Android and here it is plus some demo code on github.com."
+description: "There is a weird little trick to getting the location proximity alerts working in Android and here it is plus some demo code on github.com."
 mainImage: "/images/blog/2014/06/16/10012162166-6e611105c5-o.jpg"
 primaryColor: "#b34c77"
 date: "2010-12-28T16:52:19-08:00"
@@ -8,9 +8,9 @@ updatedOn: "2010-12-28T16:52:19-08:00"
 slug: "how-to-multiple-proximity-alerts-in-android"
 ---
 
-# How-To: Multiple Proximity Alerts in Android 
+# How-To: Multiple Proximity Alerts in Android
 
-A number of people have asked me about a little snippet of code I put up at: 
+A number of people have asked me about a little snippet of code I put up at:
 
 [http://blog.gauntface.co.uk/2010/01/04/proximity-alerts-in-android/](http://blog.gauntface.co.uk/2010/01/04/proximity-alerts-in-android/)
 

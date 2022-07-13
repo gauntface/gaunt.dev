@@ -1,6 +1,6 @@
 ---
 title: "New Blog, New Theme . . ."
-excerpt: "A new blog for 2008. Here's to hoping someone reads it."
+description: "A new blog for 2008. Here's to hoping someone reads it."
 mainImage: "/images/blog/2014/06/30/5064186248-c1a2a34f9f-o.jpg"
 primaryColor: "#ec7014"
 date: "2008-09-05T21:08:45-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2008-09-05T21:08:45-07:00"
 slug: "new-blog-new-theme"
 ---
 
-# New Blog, New Theme . . . 
+# New Blog, New Theme . . .
 
 Hi everyone,
 

@@ -1,6 +1,6 @@
 ---
 title: "Lucid Lynx Web Development"
-excerpt: "In Lucid Lynx the Apache / PHP version has changed so need to enable display_errors to display PHP errors in the browser."
+description: "In Lucid Lynx the Apache / PHP version has changed so need to enable display_errors to display PHP errors in the browser."
 mainImage: "/images/blog/2014/06/22/4628277592-ddd81f9a4b-o.jpg"
 primaryColor: "#d264a9"
 date: "2010-07-07T18:58:04-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2010-07-07T18:58:04-07:00"
 slug: "lucid-lynx-web-development"
 ---
 
-# Lucid Lynx Web Development 
+# Lucid Lynx Web Development
 
 I've been upgrading ALOT of my computers and virtualised machines to Ubuntu Lucid Lynx and the web development for them is pretty much the same.
 
@@ -22,7 +22,7 @@ Open a terminal and type in the command:
 
 In this file have a little hunt around for 'display_errors':
 
-Then change: 
+Then change:
 
 *display_errors = Off*
 

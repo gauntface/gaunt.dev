@@ -1,6 +1,6 @@
 ---
 title: "Arch Linux - Apache Sites"
-excerpt: |
+description: |
   Each distro seems to have slight variations on setting up a web development environment.
 
   Here's the notes from setting up Apache for Arch Linux.

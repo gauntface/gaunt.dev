@@ -1,6 +1,6 @@
 ---
 title: "IBM University Team Challenge 2008"
-excerpt: "A fantastic day was had at the IBM University Team Challenge event and here's a run down of everything we got up to."
+description: "A fantastic day was had at the IBM University Team Challenge event and here's a run down of everything we got up to."
 mainImage: "/images/blog/2014/06/30/5494014657-375af27308-o.jpg"
 primaryColor: "#2aadac"
 date: "2008-09-26T21:28:16-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2008-09-26T21:28:16-07:00"
 slug: "ibm-university-team-challenge-2008"
 ---
 
-# IBM University Team Challenge 2008 
+# IBM University Team Challenge 2008
 
 ![ibmLogo](/images/blog/2009/08/ibmLogo.jpg)
 

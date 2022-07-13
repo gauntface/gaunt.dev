@@ -1,6 +1,6 @@
 ---
 title: "Handling Facebook Date/Times"
-excerpt: "Facebook has some weird defaults for date, so here is a short and sweet guide on how to handle them"
+description: "Facebook has some weird defaults for date, so here is a short and sweet guide on how to handle them"
 mainImage: "/images/blog/2014/06/30/1717899661-5e8fb0f10a-o.jpg"
 primaryColor: "#9e9e97"
 date: "2009-12-28T16:19:32-08:00"

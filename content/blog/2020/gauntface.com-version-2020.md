@@ -1,6 +1,6 @@
 ---
 title: "New version of gauntface.com"
-excerpt: "An overview of the stack used for the latest version of gauntface.com, which includes Hugo, AWS, GitHub actions, and a Go program."
+description: "An overview of the stack used for the latest version of gauntface.com, which includes Hugo, AWS, GitHub actions, and a Go program."
 mainImage: "/images/blog/2020/2020-05-01/begin-cup.jpg"
 mainImageAlt: Coffee cup with "begin" written on it.
 date: "2020-05-01T12:00:00-07:00"

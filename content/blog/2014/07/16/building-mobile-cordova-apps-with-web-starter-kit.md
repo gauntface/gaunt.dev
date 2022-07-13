@@ -1,6 +1,6 @@
 ---
 title: "Building Mobile Cordova Apps with Web Starter Kit"
-excerpt: "Web Starter Kit is an opinionated set of tools to help developers get started with development as quickly as possible. This post will cover how you can integrate Web Starter Kit with Cordova apps."
+description: "Web Starter Kit is an opinionated set of tools to help developers get started with development as quickly as possible. This post will cover how you can integrate Web Starter Kit with Cordova apps."
 mainImage: "/images/blog/2014/07/16/web-starter-kit-keyart.jpg"
 primaryColor: "#659bf3"
 date: "2014-07-16T15:38:06-07:00"

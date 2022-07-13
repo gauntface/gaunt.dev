@@ -1,6 +1,6 @@
 ---
 title: "D-Pad Navigation in a Web App"
-excerpt: |
+description: |
   The main method of input for a TV based device is the D-Pad.
 
   Up, Down, Left and Right.

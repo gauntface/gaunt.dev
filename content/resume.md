@@ -1,6 +1,6 @@
 ---
 title: "Matt Gaunts Résumé"
-excerpt: "Matt is a full stack software engineer who has worked on native mobile apps, the web and led engineering teams at Google."
+description: "Matt is a full stack software engineer who has worked on native mobile apps, the web and led engineering teams at Google."
 pageClass: l-resume
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Where-To-Do : Android (Part 2)"
-excerpt: "Second part to the building of Where-To-Do."
+description: "Second part to the building of Where-To-Do."
 mainImage: "/images/blog/2014/06/30/183842413-271f9a1a86-o.jpg"
 primaryColor: "#a98e5c"
 date: "2009-08-20T19:16:43-07:00"

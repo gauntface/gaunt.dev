@@ -1,6 +1,6 @@
 ---
 title: "Google Nexus One - Oh Me Oh My"
-excerpt: "After attending the Android Developer Lab in London UK I was lucky enough to receive a Nexus One."
+description: "After attending the Android Developer Lab in London UK I was lucky enough to receive a Nexus One."
 mainImage: "/images/blog/2014/06/29/4365558047-596b080189-o.jpg"
 primaryColor: "#bcac9b"
 date: "2010-02-10T22:13:50-08:00"

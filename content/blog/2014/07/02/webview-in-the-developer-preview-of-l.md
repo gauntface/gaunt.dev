@@ -1,6 +1,6 @@
 ---
 title: "WebView in the Developer Preview of L"
-excerpt: "The WebView has been updated in the preview release of L and brings with it some new web platform features."
+description: "The WebView has been updated in the preview release of L and brings with it some new web platform features."
 mainImage: "/images/blog/2014/07/02/pupreandroid-outline.jpg"
 primaryColor: "#ac7cd4"
 date: "2014-07-02T21:04:32-07:00"

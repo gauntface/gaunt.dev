@@ -1,6 +1,6 @@
 ---
 title: "Wordpress Woop Woop"
-excerpt: "Moved from Drupal to Wordpress, any why...."
+description: "Moved from Drupal to Wordpress, any why...."
 mainImage: "/images/blog/2014/06/30/2186228674-34104ccbbf-o.jpg"
 primaryColor: "#747074"
 date: "2009-08-04T21:47:32-07:00"
@@ -8,7 +8,7 @@ updatedOn: "2009-08-04T21:47:32-07:00"
 slug: "wordpress-woop-woop"
 ---
 
-# Wordpress Woop Woop 
+# Wordpress Woop Woop
 
 ![wordpress-logo-hoz-rgb](/images/blog/2009/08/wordpress-logo-hoz-rgb.png)
 
