@@ -1,6 +1,6 @@
 import test from 'ava';
 import puppeteer from 'puppeteer';
-import {startServer} from './utils/dev-server.js';
+import {startServer, stopServer} from './utils/dev-server.js';
 
 let addr;
 let browser;
@@ -16,7 +16,7 @@ test.before(async (t) => {
 
 test.after('cleanup', async (t) => {
   // This runs before all tests
-  server.stop();
+  stopServer();
 
   await browser.close();
 });
@@ -97,7 +97,7 @@ for (const p of pages) {
       }
     }
 
-    t.is(failedRequests.length, 0, `There were ${failedRequests.length} failed network requests`)
-    t.is(consoleErrors.length, 0, `There were ${consoleErrors.length} console errors`)
+    t.deepEqual(failedRequests, [], `There were ${failedRequests.length} failed network requests`)
+    t.deepEqual(consoleErrors, [], `There were ${consoleErrors.length} console errors`)
   })
 }

@@ -14,3 +14,7 @@ export function startServer() {
     })
   });
 };
+
+export function stopServer() {
+  server.stop();
+};

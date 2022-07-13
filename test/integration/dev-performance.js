@@ -1,12 +1,17 @@
 import test from 'ava';
 import {runLeaderboard} from '../utils/leaderboard.js';
-import {startServer} from '../utils/dev-server.js';
+import {startServer, stopServer} from '../utils/dev-server.js';
 
 let addr;
 
 test.before(async (t) => {
   // Server for project
   addr = await startServer();
+});
+
+test.after('cleanup', async (t) => {
+  // This runs before all tests
+  stopServer();
 });
 
 test('Performance Dashboard', async (t) => {
