@@ -13,7 +13,7 @@
 
   "baseURL": "https://www.gaunt.dev/",
   "languageCode": "en-us",
-  "title": "The homepage of Matt Gaunt - gaunt.dev",
+  "title": "The homepage of Matt Gaunt-Seo - gaunt.dev",
   "theme": ["gaunt.dev", "styleguide", "base-theme"],
   "summaryLength": 45,
   "menu": {
@@ -53,7 +53,7 @@
   },
 
   "params": {
-      "description": "The personal site for Matt Gaunt, a software engineer from the UK living in California.",
+      "description": "The personal site for Matt Gaunt-Seo, a software engineer from the UK living in California.",
       "themecolor": "#F8F6F4",
       "socialimage": "/images/default-social.png",
       "twittercreator": "@gauntface"
