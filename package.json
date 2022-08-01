@@ -10,7 +10,8 @@
     "html-assets": "htmlassets --vimeo=$VIMEO_TOKEN",
     "minify-html": "minify -r --match=\\.html -o ./public ./public",
     "dev": "hugo server --disableFastRender",
-    "test": "npm run build && npm run ava",
+    "lint": "eslint '.' --fix",
+    "test": "npm run lint && npm run build && npm run ava",
     "test-integration": "npx ava ./test/integration/*.js",
     "ava": "npx ava ./test/*.js"
   },
@@ -20,6 +21,7 @@
     "@types/node": "16.11.26",
     "ava": "4.3.1",
     "cssnano": "5.1.12",
+    "eslint": "^8.20.0",
     "glob": "8.0.3",
     "mkdirp": "1.0.4",
     "performance-leaderboard": "^9.6.3",
