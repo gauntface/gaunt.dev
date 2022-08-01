@@ -1,23 +1,23 @@
 @media print {
-    .c-resume-heading {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+	.c-resume-heading {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
 
-    .c-resume-heading__title {
-        font-size: 2.8em;
-        margin: var(--padding) 0;
-    }
+	.c-resume-heading__title {
+		font-size: 2.8em;
+		margin: var(--padding) 0;
+	}
 
-    .c-resume-heading__links {
-        display: unset;
-        margin: unset;
-        padding: unset;
-    }
+	.c-resume-heading__links {
+		display: unset;
+		margin: unset;
+		padding: unset;
+	}
 
-    .c-resume-heading__links li {
-        padding: 0;
-    }
+	.c-resume-heading__links li {
+		padding: 0;
+	}
 }

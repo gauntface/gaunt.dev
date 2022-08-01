@@ -1,22 +1,18 @@
 .l-projects {
-  display: flex;
-  flex-direction: column;
-
-  min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 }
 
 .l-projects__main {
-  width: 100%;
-  max-width: var(--page-max-width);
-  margin: 0 auto;
-  padding: var(--page-padding);
-  box-sizing: border-box;
-}
-
-.l-projects__main {
-  flex: 1;
+	width: 100%;
+	max-width: var(--page-max-width);
+	margin: 0 auto;
+	padding: var(--page-padding);
+	box-sizing: border-box;
+	flex: 1;
 }
 
 .l-projects__main .n-hopin-u-ratio-container {
-  margin: 2rem;
+	margin: 2rem;
 }

@@ -1,5 +1,5 @@
 @media print {
-    .c-footer {
-        display: none !important;
-    }
+	.c-footer {
+		display: none !important;
+	}
 }

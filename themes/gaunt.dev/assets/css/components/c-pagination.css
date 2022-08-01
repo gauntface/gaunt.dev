@@ -1,23 +1,20 @@
 .c-pagination {
-    display: flex;
+	display: flex;
+	max-width: 360px;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	margin: var(--padding) auto 0 auto;
+}
 
-    max-width: 360px;
+.c-pagination__item {
+	flex: 1;
+}
 
-    flex-direction: row;
-    text-align: center;
-    align-items: center;;
-    vertical-align: middle;
-
-    margin: var(--padding) auto 0 auto;
-  }
-
-  .c-pagination__item {
-    flex: 1;
-  }
-
-  .c-pagination__btn {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-    padding: 12px;
-    text-decoration: none;
-  }
+.c-pagination__btn {
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	padding: 12px;
+	text-decoration: none;
+}

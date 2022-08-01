@@ -1,20 +1,15 @@
 .c-project-item {
-    text-decoration: none;
-  }
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-gap: 12px;
+	margin: 0;
+	text-decoration: none;
+}
 
 .c-project-item__excerpt {
-  margin: 0;
+	margin: 0;
 }
 
 .c-project-item__img img {
-  width: 100%;
-}
-
-.c-project-item {
-  display: grid;
-
-  grid-template-rows: auto 1fr;
-  grid-gap: 12px;
-
-  margin: 0;
+	width: 100%;
 }

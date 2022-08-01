@@ -1,12 +1,10 @@
 :root {
-    --dark-theme-base: #072448;
-    --dark-theme-opposite: #F8F6F4;
-
-    --dark-theme-base-2: #121212;
-    --dark-theme-opposite-2: #F8F6F4;
-
-    --dark-theme-accent-1: #54d2d2;
-    --dark-theme-accent-2: #ffcb00;
-    --dark-theme-accent-3: #f8aa4b;
-    --dark-theme-accent-4: #ff6150;
+	--dark-theme-base: #072448;
+	--dark-theme-opposite: #f8f6f4;
+	--dark-theme-base-2: #121212;
+	--dark-theme-opposite-2: #f8f6f4;
+	--dark-theme-accent-1: #54d2d2;
+	--dark-theme-accent-2: #ffcb00;
+	--dark-theme-accent-3: #f8aa4b;
+	--dark-theme-accent-4: #ff6150;
 }
