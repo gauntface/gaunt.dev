@@ -32,6 +32,7 @@
     "postcss-preset-env": "7.7.2",
     "puppeteer": "15.3.2",
     "static-server": "2.2.1",
-    "stylelint": "^14.9.1"
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard": "^26.0.0"
   }
 }
