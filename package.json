@@ -10,9 +10,9 @@
     "html-assets": "htmlassets --vimeo=$VIMEO_TOKEN",
     "minify-html": "minify -r --match=\\.html -o ./public ./public",
     "dev": "hugo server --disableFastRender",
-    "lint-plain": "eslint '.' && stylelint '**/*.css'",
     "lint": "eslint '.' --fix && stylelint '**/*.css' --fix",
-    "test": "npm run lint-plain && npm run build && npm run ava",
+    "lint-plain": "eslint '.' && stylelint '**/*.css'",
+    "test": "npm run build && npm run ava",
     "test-integration": "npx ava ./test/integration/*.js",
     "ava": "npx ava ./test/*.js"
   },
