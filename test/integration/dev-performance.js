@@ -5,19 +5,19 @@ import {startServer, stopServer} from '../utils/dev-server.js';
 let addr;
 
 test.before(async (t) => {
-  // Server for project
-  addr = await startServer();
+	// Server for project
+	addr = await startServer();
 });
 
 test.after('cleanup', async (t) => {
-  // This runs before all tests
-  stopServer();
+	// This runs before all tests
+	stopServer();
 });
 
 test('Performance Dashboard', async (t) => {
-  t.timeout(10 * 60 * 1000, 'Perf leaderboard is limited to 10mins');
+	t.timeout(10 * 60 * 1000, 'Perf leaderboard is limited to 10mins');
 
-  await runLeaderboard(addr, 2);
+	await runLeaderboard(addr, 2);
 
-  t.pass();
+	t.pass();
 })
