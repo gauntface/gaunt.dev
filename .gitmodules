@@ -9,4 +9,3 @@
 [submodule "themes/base-theme"]
 	path = themes/base-theme
 	url = https://github.com/gauntface/hugo-base-theme.git
-	branch = release
