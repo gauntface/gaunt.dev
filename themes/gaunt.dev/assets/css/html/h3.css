@@ -1,7 +1,7 @@
 h3 {
-    text-decoration: underline;
-    text-decoration-color: var(--t-accent-3);
-    text-decoration-thickness: 6px;
-    text-decoration-skip-ink: none;
-    font-family: var(--title-font);
+	text-decoration: underline;
+	text-decoration-color: var(--t-accent-3);
+	text-decoration-thickness: 6px;
+	text-decoration-skip-ink: none;
+	font-family: var(--title-font);
 }

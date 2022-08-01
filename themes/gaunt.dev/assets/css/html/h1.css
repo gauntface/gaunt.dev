@@ -1,7 +1,7 @@
 h1 {
-    text-decoration: underline;
-    text-decoration-color: var(--t-accent-1);
-    text-decoration-thickness: 12px;
-    text-decoration-skip-ink: none;
-    font-family: var(--title-font);
+	text-decoration: underline;
+	text-decoration-color: var(--t-accent-1);
+	text-decoration-thickness: 12px;
+	text-decoration-skip-ink: none;
+	font-family: var(--title-font);
 }

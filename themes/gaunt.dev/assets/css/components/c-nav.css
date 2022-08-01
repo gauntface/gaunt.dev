@@ -1,30 +1,28 @@
 .c-nav {
-    margin: var(--padding) 0;
+	margin: var(--padding) 0;
 }
 
 .c-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    list-style: none;
-    margin: 0;
-    padding: 0;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .c-nav li {
-    padding: 0;
+	padding: 0;
 }
 
 .c-nav a {
-    display: inline-block;
-    text-decoration: none;
-    margin: var(--padding);
+	display: inline-block;
+	text-decoration: none;
+	margin: var(--padding);
 }
 
 @media (min-width: 620px) {
-    .c-nav ul {
-        gap: calc(var(--padding) * 2);
-    }
+	.c-nav ul {
+		gap: calc(var(--padding) * 2);
+	}
 }

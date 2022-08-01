@@ -1,11 +1,12 @@
 table {
-    border-spacing: 0;
-    border-collapse: collapse;
+	border-spacing: 0;
+	border-collapse: collapse;
 }
 
-td, th {
-    padding: var(--padding);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--t-opposite);
+td,
+th {
+	padding: var(--padding);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--t-opposite);
 }

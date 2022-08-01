@@ -1,17 +1,17 @@
 .c-header__anchor {
-    color: unset;
+	color: unset;
 }
 
 .c-header svg {
-    width: 100%;
-    max-width: calc(var(--padding) * 24);
-    margin: 0 auto;
+	width: 100%;
+	max-width: calc(var(--padding) * 24);
+	margin: 0 auto;
 }
 
 .c-header--blob {
-    fill: var(--t-accent-1);
+	fill: var(--t-accent-1);
 }
 
 .c-header--text {
-    fill: currentColor;
+	fill: currentcolor;
 }

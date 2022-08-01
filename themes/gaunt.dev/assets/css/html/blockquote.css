@@ -1,25 +1,25 @@
 blockquote {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    min-height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	min-height: 100px;
 }
 
 blockquote > * {
-    font-size: 1.4em;
-    font-style: italic;
+	font-size: 1.4em;
+	font-style: italic;
 }
 
 blockquote::before {
-    content: '';
-    display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: var(--t-accent-1);
-    position: absolute;
-    z-index: -1;
-    left: -50px;
-    top: -10px;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: var(--t-accent-1);
+	position: absolute;
+	z-index: -1;
+	left: -50px;
+	top: -10px;
 }

@@ -1,8 +1,8 @@
 code {
-    background: var(--t-base-2);
-    color: var(--t-opposite-2);
-    padding-left: 0.2em;
-    padding-right: 0.2em;
-    font-family: var(--code-font);
-    border-radius: 4px;
+	background: var(--t-base-2);
+	color: var(--t-opposite-2);
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	font-family: var(--code-font);
+	border-radius: 4px;
 }

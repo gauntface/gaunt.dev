@@ -1,7 +1,6 @@
 body {
-  font-size: var(--font-size);
-  font-family: var(--body-font);
-
-  background: var(--t-base);
-  color: var(--t-opposite);
+	font-size: var(--font-size);
+	font-family: var(--body-font);
+	background: var(--t-base);
+	color: var(--t-opposite);
 }
