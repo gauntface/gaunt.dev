@@ -4,7 +4,7 @@
     "assets": {
       "static-dir": "public/",
       "generated-dir": "public/generated/",
-      "json-dir": "data/hopin/"
+      "json-dir": "data/base-theme/"
     },
     "gen-assets": {
       "static-dir": "static/",
