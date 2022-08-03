@@ -18,6 +18,8 @@
   },
   "private": true,
   "devDependencies": {
+    "@sentry/browser": "^7.8.1",
+    "@sentry/tracing": "^7.8.1",
     "@types/glob": "7.2.0",
     "@types/node": "16.11.26",
     "ava": "4.3.1",
