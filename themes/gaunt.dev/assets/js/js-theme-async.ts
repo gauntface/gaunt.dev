@@ -1,21 +1,21 @@
-const themes = {
-  'dark': 'u-theme--dark',
-  'light': 'u-theme--light',
-};
+function run() {
+  const themes = {
+    'dark': 'u-theme--dark',
+    'light': 'u-theme--light',
+  };
 
-const theme = localStorage.getItem('theme');
-if (theme) {
-  for (const t of Object.keys(themes)) {
-    const c = themes[t]
-    if (t == theme) {
-      document.body.classList.add(c);
-    } else {
-      document.body.classList.remove(c);
+  const theme = localStorage.getItem('theme');
+  if (theme) {
+    for (const t of Object.keys(themes)) {
+      const c = themes[t]
+      if (t == theme) {
+        document.body.classList.add(c);
+      } else {
+        document.body.classList.remove(c);
+      }
     }
   }
-}
 
-window.addEventListener('load', function() {
   const elements = document.querySelectorAll('.js-theme');
   for (const e of elements) {
     e.addEventListener('click', function(evt){
@@ -41,4 +41,12 @@ window.addEventListener('load', function() {
       }
     })
   }
-})
+
+  const container = document.querySelector('.js-theme-container');
+  container.classList.remove('c-footer__themes--disabled');
+}
+
+window.addEventListener('load', run);
+if (document.readyState == 'complete') {
+  run();
+}
