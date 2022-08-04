@@ -1,0 +1,5 @@
+{
+  "defines": {
+    "__SENTRY_DEBUG__": "false"
+  }
+}

@@ -6,6 +6,14 @@
 	text-align: center;
 }
 
+:not(.c-footer__themes--disabled) > .c-footer__theme {
+	cursor: pointer;
+}
+
+.c-footer__themes--disabled {
+	opacity: 0.25;
+}
+
 .c-footer a {
 	text-decoration: none;
 }
