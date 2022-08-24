@@ -9,3 +9,6 @@
 [submodule "themes/base-theme"]
 	path = themes/base-theme
 	url = https://github.com/gauntface/hugo-base-theme.git
+[submodule "themes/themes/base-theme"]
+	path = themes/themes/base-theme
+	url = https://github.com/gauntface/hugo-base-theme.git

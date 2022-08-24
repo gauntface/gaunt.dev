@@ -43,7 +43,9 @@ function run() {
   }
 
   const container = document.querySelector('.js-theme-container');
-  container.classList.remove('c-footer__themes--disabled');
+  if (container) {
+    container.classList.remove('c-footer__themes--disabled');
+  }
 }
 
 window.addEventListener('load', run);
