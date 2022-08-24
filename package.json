@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "build": "npm run build-hugo && npm run process-html",
-    "build-hugo": "npm run clean && hugo && cp -r public tmp",
+    "build-hugo": "npm run clean && hugo && rm -rf tmp && cp -r public tmp",
     "build-quick": "npm run clean && cp -r tmp public && npm run process-html",
     "clean": "rm -rf public",
     "process-html": "npm run html-assets && npm run minify-html",

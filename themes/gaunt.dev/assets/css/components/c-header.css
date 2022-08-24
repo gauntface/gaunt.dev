@@ -1,4 +1,9 @@
+.c-header {
+	text-align: center;
+}
+
 .c-header__anchor {
+	display: inline-block;
 	color: unset;
 }
 

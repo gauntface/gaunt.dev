@@ -9,13 +9,13 @@ updatedOn: "2022-08-14T13:00:00-07:00"
 
 # Web serial issues on Google Chrome
 
-*DISCLAIMER:* I'm currently using Fedora, other distro's may not 
+*DISCLAIMER:* I'm currently using Fedora, other distro's may not
 have the same issue or may need a different approach to fix an
 issue with web serial, so
 **please read the steps rather than blindly copy commamds** as
 you may have a different issue.
 
-I spent some time trying to get 
+I spent some time trying to get
 [Web Serial](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API) working and for whatever reason I was running into issues and the errors thrown in Javascript weren't helping
 to diagnose the problem.
 
@@ -35,7 +35,7 @@ For example, if we wanted to use `/dev/ttyUSB0` with web serial,
 we could run:
 
 ```shell
-$ ls -l /dev/ttyUSB0 
+$ ls -l /dev/ttyUSB0
 crw-rw----. 1 root dialout 188, 0 Aug 14 13:18 /dev/ttyUSB0
 ```
 

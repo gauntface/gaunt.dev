@@ -1,4 +1,8 @@
 function run() {
+  if (!localStorage) {
+    return;
+  }
+
   const themes = {
     'dark': 'u-theme--dark',
     'light': 'u-theme--light',
@@ -43,7 +47,9 @@ function run() {
   }
 
   const container = document.querySelector('.js-theme-container');
-  container.classList.remove('c-footer__themes--disabled');
+  if (container) {
+    container.classList.remove('c-footer__themes--disabled');
+  }
 }
 
 window.addEventListener('load', run);

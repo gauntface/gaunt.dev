@@ -7,6 +7,12 @@
 		text-decoration: none;
 	}
 
+	.l-resume h1,
+	.l-resume h2,
+	.l-resume h3 {
+		text-decoration: none;
+	}
+
 	.l-resume h3 {
 		margin-bottom: 0.5em;
 	}
@@ -23,5 +29,17 @@
 	.l-resume ul > li::marker {
 		color: var(--print-color);
 		font-size: 1em;
+	}
+
+	.l-resume .c-footer {
+		display: none !important;
+	}
+
+	.l-resume .c-header {
+		display: none;
+	}
+
+	.l-resume .c-nav {
+		display: none;
 	}
 }
