@@ -1,4 +1,8 @@
 function run() {
+  if (!localStorage) {
+    return;
+  }
+
   const themes = {
     'dark': 'u-theme--dark',
     'light': 'u-theme--light',
