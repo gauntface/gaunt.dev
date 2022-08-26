@@ -5,16 +5,16 @@ import {startServer, stopServer} from './utils/dev-server.js';
 let addr;
 let browser;
 
-test.before(async (t) => {
+test.before(async () => {
 	// Server for project
 	addr = await startServer();
 });
-test.before(async (t) => {
+test.before(async () => {
 	// Start browser
 	browser = await puppeteer.launch();
 })
 
-test.after('cleanup', async (t) => {
+test.after('cleanup', async () => {
 	// This runs before all tests
 	stopServer();
 

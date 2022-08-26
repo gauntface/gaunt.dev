@@ -4,12 +4,12 @@ import {startServer, stopServer} from '../utils/dev-server.js';
 
 let addr;
 
-test.before(async (t) => {
+test.before(async () => {
 	// Server for project
 	addr = await startServer();
 });
 
-test.after('cleanup', async (t) => {
+test.after('cleanup', async () => {
 	// This runs before all tests
 	stopServer();
 });
