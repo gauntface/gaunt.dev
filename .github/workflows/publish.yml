@@ -27,8 +27,8 @@ jobs:
         hugo-version: '0.101.0'
     - name: Install go-html-asset-manager
       run: |
-        go install github.com/gauntface/go-html-asset-manager/v3/cmds/htmlassets@latest
-        go install github.com/gauntface/go-html-asset-manager/v3/cmds/genimgs@latest
+        go install github.com/gauntface/go-html-asset-manager/v4/cmds/htmlassets@latest
+        go install github.com/gauntface/go-html-asset-manager/v4/cmds/genimgs@latest
         go install github.com/tdewolff/minify/cmd/minify@latest
     - name: Install NPM Deps
       run: npm install
