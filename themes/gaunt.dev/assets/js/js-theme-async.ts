@@ -1,5 +1,6 @@
 function run() {
-	if (!localStorage) {
+	const container = document.querySelector('.js-theme-container');
+	if (!container) {
 		return;
 	}
 
@@ -9,6 +10,10 @@ function run() {
 	};
 
 	try {
+		if (!localStorage) {
+			return;
+		}
+
 		const theme = localStorage.getItem('theme');
 		if (theme) {
 			for (const t of Object.keys(themes)) {
@@ -46,14 +51,9 @@ function run() {
 				}
 			})
 		}
-
-		const container = document.querySelector('.js-theme-container');
-		if (container) {
-			container.classList.remove('c-footer__themes--disabled');
-		}
+		container.classList.remove('c-footer__themes--disabled');
 	} catch(err) {
-		console.error(`Failed to setup theme: `, err);
-		throw new Error(`Failed to setup theme: ${err}`);
+		console.error(`Failed to setup theme (most likely due to privacy settings): `, err);
 	}
 }
 
