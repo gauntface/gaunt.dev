@@ -84,6 +84,8 @@ for (const p of pages) {
 			waitUntil: 'networkidle0',
 		});
 
+		await wait(800)
+
 		if (failedRequests.length > 0) {
 			console.log(`Failed network requests:`);
 			for (const fr of failedRequests) {
@@ -100,4 +102,8 @@ for (const p of pages) {
 		t.deepEqual(failedRequests, [], `There were ${failedRequests.length} failed network requests`)
 		t.deepEqual(consoleErrors, [], `There were ${consoleErrors.length} console errors`)
 	})
+}
+
+function wait(ms) {
+	return new Promise((resolve) => setTimeout(resolve, ms))
 }
