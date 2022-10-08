@@ -84,7 +84,7 @@ for (const p of pages) {
 			waitUntil: 'networkidle0',
 		});
 
-		await wait(800)
+		await wait(1000)
 
 		if (failedRequests.length > 0) {
 			console.log(`Failed network requests:`);
