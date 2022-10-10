@@ -15,6 +15,13 @@ pageClass: l-resume
 
 ## Work Experience
 
+### Sentry
+
+<div class="c-job-subtitle">Augest 2022 - Current <a href="https://sentry.io//">Developer Infrastructure</a> [Senior Software Engineer]</div>
+
+- Learning Python
+- Updating continuous deployment pipeline
+
 ### Google
 
 <div class="c-job-subtitle">April 2018 - April 2022 <a href="https://opensource.google/">Open Source Programs Office</a> [Senior Software Engineer]</div>
