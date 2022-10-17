@@ -22,7 +22,7 @@
     "@sentry/tracing": "7.15.0",
     "@types/glob": "8.0.0",
     "@types/node": "18.7.13",
-    "@typescript-eslint/eslint-plugin": "5.40.0",
+    "@typescript-eslint/eslint-plugin": "5.40.1",
     "ava": "4.3.3",
     "avif": "0.4.0",
     "cssnano": "5.1.13",
