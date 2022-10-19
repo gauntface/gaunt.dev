@@ -36,6 +36,11 @@ so focusing on my health will help a great deal.
   - An AWS Lambda/SAM project stopped building locally and after some digging
     [I got it back up and running](https://www.gaunt.dev/blog/2022/glibc-error-with-aws-sam-and-go/) by telling SAM to use
     a Makefile.
+  - I got to play with my [Inky Frame](https://shop.pimoroni.com/products/inky-frame-5-7?variant=40057850331219) to
+    make a simple photo display.
+
+      ![Inky frame photo gallery featuring Ruffles Gooby Gaunt-Seo](/images/blog/2022/2022-10-18/inky-frame.jpg)
+
   - Lastly, I ended up adding a mouse jiggler into my [macropad](https://twitter.com/gauntface/status/1398416239098089476)
     to prevent machines from sleeping while working on machines that prevent configuring screen timeouts.
 
@@ -63,4 +68,5 @@ so focusing on my health will help a great deal.
 
 - Pottery classes have come to an end, just waiting on the last piece to be fired. Sadly my first ever mug stuck to
   the cookie while being fired. I'll share photos of the successful pieces next time.
-  - ![Matt Gaunt-Seo's first ever mug, which sadly stuck to a cookie plate](/images/blog/2022/2022-10-18/matt-gaunt-seo-first-mug.jpg)
+
+    ![Matt Gaunt-Seo's first ever mug, which sadly stuck to a cookie plate](/images/blog/2022/2022-10-18/matt-gaunt-seo-first-mug.jpg)
