@@ -21,7 +21,7 @@
     "@sentry/browser": "7.17.3",
     "@sentry/tracing": "7.17.3",
     "@types/glob": "8.0.0",
-    "@types/node": "18.11.8",
+    "@types/node": "18.11.9",
     "@typescript-eslint/eslint-plugin": "5.42.0",
     "@typescript-eslint/parser": "5.42.0",
     "ava": "5.0.1",
