@@ -30,7 +30,7 @@ This tool does the following:
 - Add `lazyload` to images
 - Updates image for Open Graph to a suitable size
 - Wraps images and iframes with divs to apply appropriate ratios to the elements
-- Provides a lazy load approach for YouTube and Vimdeo videos.
+- Provides a lazy load approach for YouTube and Vimeo videos.
 - Revision assets for safe caching
 
 ## How?
