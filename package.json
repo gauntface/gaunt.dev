@@ -18,8 +18,8 @@
   },
   "private": true,
   "devDependencies": {
-    "@sentry/browser": "7.17.4",
-    "@sentry/tracing": "7.17.4",
+    "@sentry/browser": "7.18.0",
+    "@sentry/tracing": "7.18.0",
     "@types/glob": "8.0.0",
     "@types/node": "18.11.9",
     "@typescript-eslint/eslint-plugin": "5.42.1",
