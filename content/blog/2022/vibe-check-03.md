@@ -94,7 +94,10 @@ Not much to report this month, barely feels like a month has passed.
 
 - Ah the surviving pottery. There are some personal wins here. The bowl is the largest thing I've thrown so
   far. The small pots are different shaping techniques I've never achieved before.
-  - ![Surviving Pottery](/images/blog/2022/2022-11-20/pottery.jpg)
-  - ![Pottery Stamp](/images/blog/2022/2022-11-20/pottery-stamp.jpg)
-- Halloween fun
-  - ![Chomper](/images/blog/2022/2022-11-20/chomper.jpg)
+  
+  ![Surviving Pottery](/images/blog/2022/2022-11-20/pottery.jpg)
+  ![Pottery Stamp](/images/blog/2022/2022-11-20/pottery-stamp.jpg)
+
+- For halloween me and Ashley took a stab at making some Nintendo themed heads, I present Chomper.
+
+  ![Chomper](/images/blog/2022/2022-11-20/chomper.jpg)
