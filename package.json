@@ -8,7 +8,7 @@
     "clean": "rm -rf public",
     "process-html": "npm run html-assets && npm run minify-html",
     "html-assets": "htmlassets --vimeo=$VIMEO_TOKEN",
-    "minify-html": "minify -r --match=\\.html -o ./public ./public",
+    "minify-html": "minify -r --match=\\.html -o ./public ./public/*",
     "dev": "hugo server --disableFastRender",
     "lint": "eslint '.' --fix && stylelint '**/*.css' --fix",
     "lint-plain": "eslint '.' && stylelint '**/*.css'",
