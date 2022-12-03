@@ -5,5 +5,6 @@
 ```
 go install github.com/gauntface/go-html-asset-manager/v4/cmds/htmlassets@latest
 go install github.com/gauntface/go-html-asset-manager/v4/cmds/genimgs@latest
+go install github.com/tdewolff/minify/cmd/minify@latest
 npm install -g avif
 ```
