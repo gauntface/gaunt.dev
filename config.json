@@ -14,7 +14,7 @@
   "baseURL": "https://www.gaunt.dev/",
   "languageCode": "en-us",
   "title": "The homepage of Matt Gaunt-Seo - gaunt.dev",
-  "theme": ["gaunt.dev", "styleguide", "base-theme"],
+  "theme": ["gaunt.dev", "base-theme"],
   "summaryLength": 45,
   "menu": {
     "main": [
