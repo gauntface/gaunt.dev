@@ -6,50 +6,12 @@ on:
   schedule:
     - cron:  '0 3 * * 0'
 
+# Test
 jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-    # Get the code
-    - uses: actions/checkout@v3
-      with:
-        ref: main
-        submodules: true
-
-    # Install dependencies
-    - name: Install Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: '^1.16.4'
-    - name: Install Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.101.0'
-    - name: Install go-html-asset-manager
-      run: |
-        go install github.com/gauntface/go-html-asset-manager/v4/cmds/htmlassets@latest
-        go install github.com/gauntface/go-html-asset-manager/v4/cmds/genimgs@latest
-        go install github.com/tdewolff/minify/v2/cmd/minify@latest
-    - name: Install NPM Deps
-      run: npm install
-
-    # Configure AWS for genimgs and publish
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-west-1
-
-    # Build it
-    - name: Gen Images
-      run: genimgs
-    - name: Build
-      env:
-        VIMEO_TOKEN: ${{ secrets.VIMEO_TOKEN }}
-      run: npm run build
-
-    # Deploy to AWS
-    - name: Publish to AWS
-      run: npx --package @gauntface/cli gauntface aws s3 deploy-static-site --directory="./public/" --bucket_name="www.gaunt.dev" --delete_exclude="generated/*"
-      shell: bash
+  workflows:
+    uses: gauntface/workflows-static-site/.github/workflows/hugo-deploy.yaml@main
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    with:
+      S3_BUCKET_NAME: www.gaunt.dev

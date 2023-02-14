@@ -10,8 +10,6 @@
     "html-assets": "htmlassets --vimeo=$VIMEO_TOKEN",
     "minify-html": "minify -r --match=\\.html -o ./public ./public/*",
     "dev": "hugo server --disableFastRender",
-    "lint": "eslint '.' --fix && stylelint '**/*.css' --fix",
-    "lint-plain": "eslint '.' && stylelint '**/*.css'",
     "test": "npm run build && npm run ava",
     "test-integration": "npx ava ./test/integration/*.js",
     "ava": "npx ava ./test/*.js"
@@ -20,25 +18,14 @@
   "devDependencies": {
     "@sentry/browser": "7.37.1",
     "@sentry/tracing": "7.37.1",
-    "@types/glob": "8.0.1",
     "@types/node": "18.13.0",
     "@typescript-eslint/eslint-plugin": "5.51.0",
     "@typescript-eslint/parser": "5.51.0",
     "ava": "5.2.0",
-    "avif": "0.4.0",
-    "cssnano": "5.1.14",
-    "eslint": "8.34.0",
-    "glob": "8.1.0",
     "mkdirp": "2.1.3",
     "performance-leaderboard": "10.0.0",
-    "postcss": "8.4.21",
-    "postcss-cli": "10.1.0",
-    "postcss-import": "15.1.0",
-    "postcss-preset-env": "8.0.1",
     "puppeteer": "19.6.3",
     "static-server": "2.2.1",
-    "stylelint": "15.1.0",
-    "stylelint-config-standard": "30.0.1",
     "typescript": "4.9.5"
   }
 }

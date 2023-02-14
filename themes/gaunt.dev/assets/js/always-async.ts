@@ -1,4 +1,4 @@
-import {init} from "@sentry/browser";
+/*import {init} from "@sentry/browser";
 import { BrowserTracing } from "@sentry/tracing";
 
 init({
@@ -6,3 +6,4 @@ init({
 	integrations: [new BrowserTracing()],
 	tracesSampleRate: 0.4,
 });
+*/
