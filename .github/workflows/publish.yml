@@ -1,14 +1,14 @@
 name: Publish
 
-# Run every Sunday @ 03:00 UTC => 20:00 PST
+# Run every Sunday @ 03:00 UTC
 on:
   workflow_dispatch:
   schedule:
     - cron:  '0 3 * * 0'
 
 jobs:
-  workflows:
-    uses: gauntface/workflows-static-site/.github/workflows/hugo-deploy.yaml@main
+  hugo:
+    uses: gauntface/workflows-static-site/.github/workflows/hugo.yaml@main
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
