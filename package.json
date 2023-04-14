@@ -11,8 +11,8 @@
   },
   "private": true,
   "devDependencies": {
-    "@sentry/browser": "7.47.0",
-    "@sentry/tracing": "7.47.0",
+    "@sentry/browser": "7.48.0",
+    "@sentry/tracing": "7.48.0",
     "@types/node": "18.15.11",
     "ava": "5.2.0",
     "performance-leaderboard": "10.0.0",
