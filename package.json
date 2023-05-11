@@ -13,10 +13,10 @@
   "devDependencies": {
     "@sentry/browser": "7.51.2",
     "@sentry/tracing": "7.51.2",
-    "@types/node": "18.16.7",
+    "@types/node": "18.16.8",
     "ava": "5.2.0",
     "performance-leaderboard": "10.0.0",
-    "puppeteer": "20.1.2",
+    "puppeteer": "20.2.0",
     "static-server": "2.2.1",
     "typescript": "5.0.4"
   }
