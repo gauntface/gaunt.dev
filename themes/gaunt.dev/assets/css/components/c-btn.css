@@ -1,16 +1,16 @@
 .c-btn {
-  display: inline-block;
-  height: 2rem;
-  line-height: 2rem;
-  font-size: 1.4rem;
-  padding: var(--padding);
-  background-color: var(--t-accent-1);
-  border-radius: 2rem;
-  text-decoration: none;
-  color: var(--t-opposite);
-  cursor: pointer;
+	display: inline-block;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 1.4rem;
+	padding: var(--padding);
+	background-color: var(--t-accent-1);
+	border-radius: 2rem;
+	text-decoration: none;
+	color: var(--t-opposite);
+	cursor: pointer;
 }
 
 .c-btn:hover {
-  background-color: var(--t-accent-2);
+	background-color: var(--t-accent-2);
 }
