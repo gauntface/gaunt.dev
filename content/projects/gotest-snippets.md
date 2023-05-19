@@ -10,6 +10,8 @@ githubFullName: "gauntface/gotest-snippets"
 [gotest-snippets](https://marketplace.visualstudio.com/items?itemName=Gauntface.gotest-snippets)
 is a VSCode extension that will make it a little easier to write tests in golang by generating the majority of the boiler plate needed for common tests.
 
+<p class="u-center"><a class="c-btn" href="https://marketplace.visualstudio.com/items?itemName=Gauntface.gotest-snippets">Install gotest-snippets Here</a></p>
+
 ## Why?
 
 After working in golang for several years I found myself

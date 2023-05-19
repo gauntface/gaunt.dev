@@ -10,6 +10,8 @@ githubFullName: "gauntface/pin-it-extension"
 [Pin-It](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme)
 is a simple Chrome extension that makes it easy to keep a set of tabs pinned.
 
+<p class="u-center"><a class="c-btn" href="https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme">Install Pin-It Here</a></p>
+
 ## Why?
 
 Do you like having e-mail, slack, calendar, and other sites open while you work?
