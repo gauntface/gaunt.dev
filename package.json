@@ -16,7 +16,7 @@
     "@types/node": "18.16.14",
     "ava": "5.2.0",
     "performance-leaderboard": "10.0.0",
-    "puppeteer": "20.2.1",
+    "puppeteer": "20.3.0",
     "static-server": "2.2.1",
     "typescript": "5.0.4"
   }
