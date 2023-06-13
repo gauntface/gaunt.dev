@@ -11,12 +11,12 @@
   },
   "private": true,
   "devDependencies": {
-    "@sentry/browser": "7.54.0",
-    "@sentry/tracing": "7.54.0",
+    "@sentry/browser": "7.55.0",
+    "@sentry/tracing": "7.55.0",
     "@types/node": "18.16.18",
     "ava": "5.3.0",
     "performance-leaderboard": "10.0.0",
-    "puppeteer": "20.6.0",
+    "puppeteer": "20.7.1",
     "static-server": "2.2.1",
     "typescript": "5.1.3"
   }
