@@ -1,5 +1,5 @@
 pre {
-	padding: var(--padding);
+	padding: var(--space-xs);
 	background: var(--t-base-2);
 	color: var(--t-opposite-2);
 	border-radius: 4px;

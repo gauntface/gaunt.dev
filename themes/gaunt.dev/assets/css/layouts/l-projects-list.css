@@ -1,6 +1,6 @@
 .l-projects-list {
 	display: grid;
-	gap: calc(var(--padding) * 2);
+	gap: var(--space-m);
 }
 
 @media (min-width: 700px) {

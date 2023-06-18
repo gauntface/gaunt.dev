@@ -5,7 +5,7 @@
 	text-align: center;
 	align-items: center;
 	vertical-align: middle;
-	margin: var(--padding) auto 0 auto;
+	margin: var(--space-xs) auto 0 auto;
 }
 
 .c-pagination__item {
@@ -13,8 +13,8 @@
 }
 
 .c-pagination__btn {
-	font-size: 1.8rem;
-	line-height: 1.8rem;
+	font-size: var(--step-3);
+	line-height: var(--step-3);
 	padding: 12px;
 	text-decoration: none;
 }

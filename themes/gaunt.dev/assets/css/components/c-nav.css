@@ -1,5 +1,5 @@
 .c-nav {
-	margin: var(--padding) 0;
+	margin: var(--space-xs) 0;
 }
 
 .c-nav ul {
@@ -18,11 +18,11 @@
 .c-nav a {
 	display: inline-block;
 	text-decoration: none;
-	margin: var(--padding);
+	margin: var(--space-xs);
 }
 
 @media (min-width: 620px) {
 	.c-nav ul {
-		gap: calc(var(--padding) * 2);
+		gap: var(--space-m);
 	}
 }

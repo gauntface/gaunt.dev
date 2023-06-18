@@ -4,5 +4,5 @@
 }
 
 .c-resume-heading__links li {
-	padding: var(--padding) 0;
+	padding: var(--space-3xs) 0;
 }

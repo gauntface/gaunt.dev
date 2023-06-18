@@ -8,6 +8,7 @@
 }
 
 .c-blog-item__title {
+	font-size: var(--step-1);
 	margin: 0;
 	text-decoration: unset;
 }
@@ -17,6 +18,7 @@
 }
 
 .c-blog-item__time {
+	font-size: var(--step--1);
 	display: inline-block;
 	font-style: italic;
 }
@@ -25,7 +27,7 @@
 	width: 100%;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 580px) {
 	.c-blog-item {
 		grid-template-columns: 1fr 3fr;
 	}

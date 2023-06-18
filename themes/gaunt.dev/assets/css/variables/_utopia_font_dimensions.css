@@ -1,0 +1,22 @@
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.25,1240,20,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --step--2: clamp(0.64rem, calc(0.62rem + 0.11vw), 0.70rem);
+  --step--1: clamp(0.80rem, calc(0.75rem + 0.24vw), 0.94rem);
+  --step-0: clamp(1.00rem, calc(0.91rem + 0.43vw), 1.25rem);
+  --step-1: clamp(1.25rem, calc(1.11rem + 0.72vw), 1.67rem);
+  --step-2: clamp(1.56rem, calc(1.33rem + 1.15vw), 2.22rem);
+  --step-3: clamp(1.95rem, calc(1.60rem + 1.75vw), 2.96rem);
+  --step-4: clamp(2.44rem, calc(1.92rem + 2.62vw), 3.95rem);
+  --step-5: clamp(3.05rem, calc(2.28rem + 3.84vw), 5.26rem);
+}
+
+/**
+
+TODO
+
+- Fix font sizes for resume printing
+- Check font sizes overall
+- Switch media queries to component queries
+
+**/

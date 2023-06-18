@@ -1,10 +1,12 @@
 .c-support {
-	margin: calc(var(--padding) * 8) 0;
+	margin: var(--space-l);
 	text-align: center;
+	font-size: var(--step--1);
 }
 
-.c-support h2 {
-	text-decoration: unset;
+.c-support__title {
+	font-size: var(--step-1);
+	font-weight: bold;
 }
 
 .c-support__bmc-link {
@@ -15,10 +17,10 @@
 	display: inline-flex;
 	flex-direction: row;
 	align-items: center;
-	border-radius: calc(var(--button-height) + (2 * var(--padding)));
-	padding: var(--padding) calc(var(--padding) * 2);
+	border-radius: calc(var(--button-height) + var(--space-m));
+	padding: var(--space-xs) var(--space-m);
 	box-sizing: border-box;
-	gap: var(--padding);
+	gap: var(--space-xs);
 	background-color: var(--t-accent-1);
 	color: var(--t-opposite);
 	font-weight: bold;

@@ -7,7 +7,7 @@ blockquote {
 }
 
 blockquote > * {
-	font-size: 1.4em;
+	font-size: var(--step-2);
 	font-style: italic;
 }
 

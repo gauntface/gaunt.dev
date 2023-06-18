@@ -2,8 +2,8 @@
 	display: inline-block;
 	height: 2rem;
 	line-height: 2rem;
-	font-size: 1.4rem;
-	padding: var(--padding);
+	font-size: var(--step-1);
+	padding: var(--space-xs);
 	background-color: var(--t-accent-1);
 	border-radius: 2rem;
 	text-decoration: none;

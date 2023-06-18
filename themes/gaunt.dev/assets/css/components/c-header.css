@@ -9,7 +9,7 @@
 
 .c-header svg {
 	width: 100%;
-	max-width: calc(var(--padding) * 24);
+	max-width: 300px;
 	margin: 0 auto;
 }
 
