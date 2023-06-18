@@ -1,7 +1,9 @@
 {
   "css": {
-      "preload": [
-          "https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
-      ]
+    "preload": [
+      {
+        "src": "https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      }
+    ]
   }
 }
