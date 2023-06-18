@@ -3,5 +3,7 @@ h1 {
 	text-decoration-color: var(--t-accent-1);
 	text-decoration-thickness: 12px;
 	text-decoration-skip-ink: none;
+
+	font-size: var(--step-4);
 	font-family: var(--title-font);
 }

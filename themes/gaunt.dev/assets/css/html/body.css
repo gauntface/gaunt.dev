@@ -1,5 +1,5 @@
 body {
-	font-size: var(--font-size);
+	font-size: var(--step-0);
 	font-family: var(--body-font);
 	background: var(--t-base);
 	color: var(--t-opposite);

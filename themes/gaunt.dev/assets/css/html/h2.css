@@ -3,5 +3,7 @@ h2 {
 	text-decoration-color: var(--t-accent-2);
 	text-decoration-thickness: 12px;
 	text-decoration-skip-ink: none;
+
+	font-size: var(--step-3);
 	font-family: var(--title-font);
 }

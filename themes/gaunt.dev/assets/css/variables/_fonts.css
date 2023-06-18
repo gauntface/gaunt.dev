@@ -5,6 +5,8 @@
 		noto, arial, sans-serif;
 	--system-font-mono-space: menlo, consolas, monaco, "Liberation Mono",
 		lucida console, monospace;
+
+	/* Fonts used */
 	--title-font: "Montserrat", var(--system-font-sans-serif);
 	--body-font: var(--system-font-sans-serif);
 	--code-font: "Fira Code", var(--system-font-mono-space);
