@@ -17,7 +17,7 @@ pageClass: l-resume
 
 ### Sentry
 
-<div class="c-job-subtitle">Augest 2022 - Current <a href="https://sentry.io//">Developer Infrastructure</a> [Senior Software Engineer]</div>
+<div class="c-job-subtitle">Augest 2022 - Present [Senior Software Engineer - Developer Infrastructure]</div>
 
 - Supporting junior engineer and guiding team goals
 - Lead effort to move services to a multi-region deployment process
@@ -30,7 +30,7 @@ pageClass: l-resume
 
 ### Google
 
-<div class="c-job-subtitle">April 2018 - April 2022 <a href="https://opensource.google/">Open Source Programs Office</a> [Senior Software Engineer]</div>
+<div class="c-job-subtitle">April 2018 - April 2022 [Senior Software Engineer - <a href="https://opensource.google/">Open Source Programs Office</a>]</div>
 
 - Became familiar with the "Google tech stack" and shared responsibility in maintaining cron jobs, databases,
 websites, and CLI tools.
@@ -40,7 +40,7 @@ to improve quality and coverage.
 - Between December 2019 and January 2022, I became an Engineering Manager, initially for the compliance team and later took on the GitHub team.
 - Required setting priorities for the teams, ensuring our services run smoothly, and ensuring the teams were happy during the pandemic.
 
-<div class="c-job-subtitle">April 2013 - April 2018 Chrome Dev Rel [Staff Developer Programs Engineer]</div>
+<div class="c-job-subtitle">April 2013 - April 2018 [Staff Developer Programs Engineer - Chrome Dev Rel]</div>
 
 Below are some of the larger projects I was involved in as a developer programs engineer on the Chrome DevRel team; however, this does not include [YouTube videos & presentations](https://www.youtube.com/playlist?list=PLo4WeLIpjn15yye0FCQRy47YjrrCTh99s), [docs & blog posts](https://web.dev/authors/mattgaunt/) and other day-to-day tasks.
 
