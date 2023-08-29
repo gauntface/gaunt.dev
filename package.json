@@ -4,7 +4,7 @@
   "scripts": {
     "build": "npm run clean && hugo",
     "clean": "rm -rf public",
-    "server": "hugo server --disableFastRender",
+    "dev": "hugo server --disableFastRender",
     "test": "npm run ava",
     "test-integration": "npx ava ./test/integration/*.js",
     "ava": "npx ava ./test/*.js"

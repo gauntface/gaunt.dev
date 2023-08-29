@@ -19,8 +19,14 @@ pageClass: l-resume
 
 <div class="c-job-subtitle">Augest 2022 - Current <a href="https://sentry.io//">Developer Infrastructure</a> [Senior Software Engineer]</div>
 
+- Supporting junior engineer and guiding team goals
+- Lead effort to move services to a multi-region deployment process
+- Learning service management with Docker and Kubernetes
+- Worked on several projects surrounding the integration of GoCD with developer workflows
+- Introducing canary deployments and libraries to block bad deploys
+- Establishing team alerts and rotation for core services
 - Learning Python
-- Updating continuous deployment pipeline
+- Changing continuous deployment service
 
 ### Google
 
@@ -106,9 +112,9 @@ Tecnologies I'm less familiar (i.e. learning or have used in the past):
 
 <ul class="c-resume-col-list">
 <li>AWS SAM, S3, Lambda</li>
+<li>GCP, GKE, Cloud Build, Cloud Run</li>
 <li>GraphQL</li>
 <li>React</li>
-<li>Svelte</li>
 <li>Java</li>
 <li>Android Development</li>
 </ul>
