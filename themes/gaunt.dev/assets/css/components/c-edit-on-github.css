@@ -1,0 +1,7 @@
+.c-edit-on-github {
+  text-align: right;
+  width: 60%;
+  min-width: 300px;
+  margin: calc(var(--padding)*6) 0;
+  margin-left: auto;
+}
