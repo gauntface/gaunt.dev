@@ -9,6 +9,6 @@
 	max-width: var(--page-max-width);
 	margin: 0 auto;
 	flex: 1;
-	padding: var(--page-padding);
+	padding: var(--padding);
 	box-sizing: border-box;
 }

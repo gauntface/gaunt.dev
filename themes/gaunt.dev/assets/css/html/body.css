@@ -1,5 +1,5 @@
 body {
-	font-size: var(--font-size);
+	font-size: calc(var(--padding) * 1.5);
 	font-family: var(--body-font);
 	background: var(--t-base);
 	color: var(--t-opposite);
