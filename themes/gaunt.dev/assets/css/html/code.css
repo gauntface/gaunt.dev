@@ -1,8 +1,12 @@
 code {
+	/* System fonts */
+	--system-font-mono-space: menlo, consolas, monaco, "Liberation Mono",
+		lucida console, monospace;
+
 	background: var(--t-base-2);
 	color: var(--t-opposite-2);
 	padding-left: 0.2em;
 	padding-right: 0.2em;
-	font-family: var(--code-font);
+	font-family: "Fira Code", var(--system-font-mono-space);
 	border-radius: 4px;
 }

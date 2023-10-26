@@ -3,7 +3,7 @@
 	gap: calc(var(--padding) * 2);
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
 	.l-projects-list {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
