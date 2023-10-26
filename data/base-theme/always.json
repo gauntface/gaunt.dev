@@ -4,6 +4,11 @@
       {
         "src": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
       }
+    ],
+    "async": [
+      {
+        "src": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+      }
     ]
   },
   "js": {
