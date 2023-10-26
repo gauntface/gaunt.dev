@@ -1,35 +1,32 @@
 :root {
-  --t-base: #f8f6f4;
-  --t-opposite: #373150;
-  --t-base-2: #373150;
-  --t-opposite-2: #f8f6f4;
-  --t-accent-1: #ff7867;
-  --t-accent-2: #84d2ee;
-  --t-accent-3: #fed9a1;
-  --t-accent-4: #3c55a5;
-  --print-color: #121212;
+	--t-base: #f8f6f4;
+	--t-opposite: #373150;
+	--t-base-2: #373150;
+	--t-opposite-2: #f8f6f4;
+	--t-accent-1: #ff7867;
+	--t-accent-2: #84d2ee;
+	--t-accent-3: #fed9a1;
+	--t-accent-4: #3c55a5;
+	--print-color: #121212;
+	--padding: 12px;
+	--page-max-width: 800px;
 
-  --padding: 12px;
-  --page-max-width: 800px;
-
-  /* From https://systemfontstack.com/ */
-  --body-font: -apple-system, blinkmacsystemfont, "avenir next",
-    avenir, "segoe ui", "helvetica neue", helvetica, cantarell, ubuntu, roboto,
-    noto,
-    arial,
-    sans-serif;
-  --title-font: "Montserrat", var(--body-font);
+	/* From https://systemfontstack.com/ */
+	--body-font: -apple-system, blinkmacsystemfont, "avenir next", avenir,
+		"segoe ui", "helvetica neue", helvetica, cantarell, ubuntu, roboto, noto,
+		arial, sans-serif;
+	--title-font: "Montserrat", var(--body-font);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --t-base: #072448;
-    --t-opposite: #f8f6f4;
-    --t-base-2: #121212;
-    --t-opposite-2: #f8f6f4;
-    --t-accent-1: #54d2d2;
-    --t-accent-2: #ffcb00;
-    --t-accent-3: #f8aa4b;
-    --t-accent-4: #ff6150;
-  }
+	:root {
+		--t-base: #072448;
+		--t-opposite: #f8f6f4;
+		--t-base-2: #121212;
+		--t-opposite-2: #f8f6f4;
+		--t-accent-1: #54d2d2;
+		--t-accent-2: #ffcb00;
+		--t-accent-3: #f8aa4b;
+		--t-accent-4: #ff6150;
+	}
 }

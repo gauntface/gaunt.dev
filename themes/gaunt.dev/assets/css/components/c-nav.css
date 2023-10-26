@@ -21,7 +21,7 @@
 	margin: var(--padding);
 }
 
-@media (min-width: 620px) {
+@media (width >= 620px) {
 	.c-nav ul {
 		gap: calc(var(--padding) * 2);
 	}
