@@ -13,12 +13,12 @@
   --page-max-width: 800px;
 
   /* From https://systemfontstack.com/ */
-  --system-font-sans-serif: -apple-system, blinkmacsystemfont, "avenir next",
+  --body-font: -apple-system, blinkmacsystemfont, "avenir next",
     avenir, "segoe ui", "helvetica neue", helvetica, cantarell, ubuntu, roboto,
     noto,
     arial,
     sans-serif;
-  --title-font: "Montserrat", var(--system-font-sans-serif);
+  --title-font: "Montserrat", var(--body-font);
 }
 
 @media (prefers-color-scheme: dark) {

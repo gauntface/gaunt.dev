@@ -15,9 +15,15 @@ pageClass: l-resume
 
 ## Work Experience
 
+### Stealth Startup
+
+<div class="c-job-subtitle">October 2023 - Present [Technical Team Member]</div>
+
+- Frontend
+
 ### Sentry
 
-<div class="c-job-subtitle">Augest 2022 - Present [Senior Software Engineer - Developer Infrastructure]</div>
+<div class="c-job-subtitle">Augest 2022 - October 2023 [Senior Software Engineer - Developer Infrastructure]</div>
 
 - Supporting junior engineer and guiding team goals
 - Lead effort to move services to a multi-region deployment process
