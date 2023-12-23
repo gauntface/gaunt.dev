@@ -32,7 +32,9 @@ test.beforeEach(async (t) => {
 		}
 
 		if (response.status() !== 200) {
-			if (response.url().endsWith("/favicon.ico") || !response.url().startsWith(addr)) {
+			if (response.url().endsWith("/favicon.ico") ||
+				response.url().startsWith(`${addr}/generated/`) ||
+				!response.url().startsWith(addr)) {
 				// We use other icons and shouldn't error on third party sites
 				return;
 			}
