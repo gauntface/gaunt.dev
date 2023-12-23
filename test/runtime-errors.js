@@ -11,7 +11,7 @@ test.before(async () => {
 });
 test.before(async () => {
 	// Start browser
-	browser = await puppeteer.launch();
+	browser = await puppeteer.launch({ headless: 'new' });
 })
 
 test.after('cleanup', async () => {
@@ -27,9 +27,20 @@ test.beforeEach(async (t) => {
 
 	// Ensure we get 200 responses from the server
 	t.context.page.on('response', (response) => {
-		if (response) {
-			t.deepEqual(response.status(), 200);
+		if (!response) {
+			return;
 		}
+
+		if (response.status() !== 200) {
+			if (response.url().endsWith("/favicon.ico") || !response.url().startsWith(addr)) {
+				// We use other icons and shouldn't error on third party sites
+				return;
+			}
+
+			console.error(`Non-200 reponse: (${response.status()}) ${response.url()}`);
+		}
+
+		t.deepEqual(response.status(), 200);
 	})
 });
 
