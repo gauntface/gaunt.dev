@@ -14,11 +14,11 @@
   },
   "private": true,
   "devDependencies": {
-    "@sentry/browser": "7.91.0",
+    "@sentry/browser": "7.92.0",
     "@types/node": "20.10.6",
     "ava": "6.0.1",
     "performance-leaderboard": "11.0.0",
-    "puppeteer": "21.6.1",
+    "puppeteer": "21.7.0",
     "static-server": "2.2.1",
     "typescript": "5.3.3"
   },
