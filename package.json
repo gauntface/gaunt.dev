@@ -14,8 +14,8 @@
   },
   "private": true,
   "devDependencies": {
-    "@sentry/browser": "7.98.0",
-    "@types/node": "20.11.10",
+    "@sentry/browser": "7.99.0",
+    "@types/node": "20.11.13",
     "ava": "6.1.1",
     "performance-leaderboard": "11.0.0",
     "puppeteer": "21.10.0",
