@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ partial "layouts/l-recipes-open.html" .}}
+
+<h1>Recipes</h1>
+
+<p>We all know that online recipes are a mess of stories, mixed up instructions
+  and generally just noisy.</p>
+
+<p>These are recipes I've tried, like and want to keep for myself.</p>
+
+{{ $paginator := .Paginator 25 }}
+<ul>
+{{ range $paginator.Pages }}
+  <li>
+    <a class="c-project-item" href="{{.RelPermalink}}">{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}</a>
+  </li>
+{{ end }}
+</ul>
+
+{{ partial "components/c-pagination.html" $paginator}}
+
+{{ partial "layouts/l-recipes-close.html"}}
+{{ end }}
