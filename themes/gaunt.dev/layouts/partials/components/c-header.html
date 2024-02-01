@@ -1,5 +1,5 @@
 <header class="c-header">
-<a href="{{"/" | relURL}}" class="c-header__anchor" title="Home">
+<a href="{{ or .override_link ("/" | relURL)}}" class="c-header__anchor" title="Home">
 {{ partial "svgs/logo-1024x1024.svg" }}
 </a>
 </header>
