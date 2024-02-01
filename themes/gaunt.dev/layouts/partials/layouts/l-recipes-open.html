@@ -1,4 +1,4 @@
-<div class="l-recipes">
-  {{ partial "components/c-header"}}
+<div class="l-default {{ if .Params.pageClass }} {{ .Params.pageClass }}{{ end }}">
+  {{ partial "components/c-header" (dict "override_link" "/recipes/")}}
 
-  <main class="l-recipes__main">
+  <main class="l-default__main">
