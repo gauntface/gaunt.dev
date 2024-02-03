@@ -1,6 +1,6 @@
 ---
 title: "Custard Bun"
-description: "Maangchi's Custard Bun recipe"
+description: "Maangchi's custard bun recipe"
 originalRecipeURL: https://www.maangchi.com/recipe/cream-ppang
 originalRecipeTitle: Maangchi's Cream Ppang
 ---
