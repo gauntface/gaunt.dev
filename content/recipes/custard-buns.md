@@ -1,10 +1,9 @@
 ---
 title: "Custard Bun"
 description: "Maangchi's Custard Bun recipe"
-originalRecipe: https://www.maangchi.com/recipe/cream-ppang
+originalRecipeURL: https://www.maangchi.com/recipe/cream-ppang
+originalRecipeTitle: Maangchi's Cream Ppang
 ---
-
-# Custard Bun
 
 ## Ingredients
 

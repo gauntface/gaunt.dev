@@ -1,5 +1,7 @@
 {{ define "main" }}
 {{ partial "layouts/l-recipes-open.html" . }}
+<h1>{{ .Title }}</h1>
+{{ partial "components/c-recipe-orig.html" . }}
 {{.Content}}
 {{ partial "components/c-project-github.html" . }}
 {{ partial "components/c-edit-on-github.html" . }}
