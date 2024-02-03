@@ -1,0 +1,7 @@
+{{ if and (.Params.originalRecipeTitle) (.Params.originalRecipeURL) }}
+<div class="c-edit-on-github">
+  <h3>Where is this recipe from?</h3>
+  <p>I am not the original author of this recipe, you can find that over here:</p>
+  <p><a href="{{ .Params.originalRecipeURL }}" target="_blank">{{ .Params.originalRecipeTitle }}</a></p>
+</div>
+{{ end }}
