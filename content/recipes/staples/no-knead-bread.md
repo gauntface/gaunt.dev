@@ -31,8 +31,10 @@ originalRecipeTitle: No Knead Crusty White Bread
     1. Prep a surface to space the dough
         - You can use parchment paper with a little flour
     1. Shape the dough into a large ball
-    1. Lightly flour the liner in a brotform bowl
     1. Place the dough seam side **up** in a brotform bowl
+    1. Lightly flour the top of the dough
+        - This avoids the dough drying out
+    1. Cover the dough
     1. Let the dough rise for 1 1/2 hours
 1. Bake the dough
     1. Put the dutch oven in the middle of the oven
