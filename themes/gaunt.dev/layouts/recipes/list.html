@@ -1,23 +1,37 @@
 {{ define "main" }}
 {{ partial "layouts/l-recipes-open.html" .}}
 
-<h1>Recipes</h1>
+{{ if eq (len .Ancestors)  1 }}
+  <h1>Recipes</h1>
 
-<p>We all know that online recipes are a mess of stories, mixed up instructions
-  and generally just noisy.</p>
+  <p>We all know that online recipes are a mess of stories, mixed up instructions
+    and generally just noisy.</p>
 
-<p>These are recipes I've tried, like and want to keep for myself.</p>
+  <p>These are recipes I've tried, like and want to keep for myself.</p>
 
-{{ $paginator := .Paginator 25 }}
-<ul>
-{{ range $paginator.Pages }}
-  <li>
-    <a class="c-project-item" href="{{.RelPermalink}}">{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}</a>
-  </li>
+  {{ range .Sections }}
+  <h2>{{ .Title }}</h2>
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a class="c-project-item" href="{{.RelPermalink}}">{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}</a>
+      </li>
+    {{ end }}
+    </ul>
 {{ end }}
-</ul>
+{{ else }}
+  {{ .Content }}
 
-{{ partial "components/c-pagination.html" $paginator}}
+  <ul>
+  {{ range .Pages }}
+    <li>
+      <a class="c-project-item" href="{{.RelPermalink}}">{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}</a>
+    </li>
+  {{ end }}
+  </ul>
+{{ end }}
+
+
 
 {{ partial "layouts/l-recipes-close.html"}}
 {{ end }}
