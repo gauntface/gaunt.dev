@@ -25,32 +25,34 @@ on the extension icon, it'll set your pinned tabs to your sites.
 ## How?
 
 ### Step 1
+
 Download the Chrome extension from the
 [Chrome Webstore here](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme).
 
 ### Step 2
 
-Open the options page by clicking on the Pin-It extension icon.
+Open the options page for the Pin-It extension.
 
-![Screenshot showing clicking the Pin-It extension](/images/projects/pin-it/pin-it-step-1.png)
+![Screenshot showing clicking the Pin-It extension](/images/projects/pin-it/pin-it-open-options.png)
 
 ### Step 3
 
-Click the `Edit URLs` button
+From the options page, click on the `Add URL` button to add the sites
+you want pinned.
 
-![Screenshot of the options page](/images/projects/pin-it/pin-it-step-2.png)
+![Screenshot of the options page](/images/projects/pin-it/pin-it-empty-options.png)
 
-### Step 4
+Do this for each site you want pinned.
 
-Add your sites and click the `Save` button
+![Screenshot of the options page](/images/projects/pin-it/pin-it-options-with-urls.png)
 
-![Screenshot of the options page](/images/projects/pin-it/pin-it-step-3.png)
+Your sites will save as you type.
 
 ### Step 5
 
-Now, click the Pin-It extension icon to update your pinned tabs
+Now, click the Pin-It extension icon to open your pinned tabs
 
-![Screenshot showing the Pin-It extension creating pinned tabs](/images/projects/pin-it/pin-it-step-4.png)
+![Screenshot showing the Pin-It extension creating pinned tabs](/images/projects/pin-it/pin-it-open-tabs.png)
 
 ### Step 6 - *Optional*
 
@@ -61,11 +63,11 @@ extension itself.
 
 Once it's pinned, you can click on the Pin-It icon to set up your tabs.
 
-![Screenshot showing how to pin the Pin-It extension](/images/projects/pin-it/pin-it-pinned.png)
+![Screenshot showing how to pin the Pin-It extension](/images/projects/pin-it/pin-it-extension-pinned.png)
 
 ## Changing your URLs
 
 You can change the pinned URLs at any time by right-clicking the Pin-It
 extension (or the menu icon) and selecting `Options`.
 
-![Screenshot showing how to open the Pin-It extension options page](/images/projects/pin-it/pin-it-options.png)
+![Screenshot showing how to open the Pin-It extension options page](/images/projects/pin-it/pin-it-open-options.png)
