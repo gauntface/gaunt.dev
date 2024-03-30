@@ -15,7 +15,7 @@
   "private": true,
   "devDependencies": {
     "@sentry/browser": "7.109.0",
-    "@types/node": "20.12.1",
+    "@types/node": "20.12.2",
     "ava": "6.1.2",
     "performance-leaderboard": "11.6.1",
     "puppeteer": "22.6.1",
