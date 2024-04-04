@@ -20,7 +20,7 @@
     "performance-leaderboard": "11.6.1",
     "puppeteer": "22.6.2",
     "static-server": "2.2.1",
-    "typescript": "5.4.3"
+    "typescript": "5.4.4"
   },
   "dependencies": {
     "stylelint-config-standard": "^36.0.0"
