@@ -15,10 +15,10 @@
   "private": true,
   "devDependencies": {
     "@sentry/browser": "7.109.0",
-    "@types/node": "20.12.4",
+    "@types/node": "20.12.5",
     "ava": "6.1.2",
     "performance-leaderboard": "11.6.1",
-    "puppeteer": "22.6.2",
+    "puppeteer": "22.6.3",
     "static-server": "2.2.1",
     "typescript": "5.4.4"
   },
