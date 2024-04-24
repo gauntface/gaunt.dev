@@ -7,7 +7,7 @@ originalRecipeTitle: No Knead Crusty White Bread
 
 ## Ingredients
 
-- 2 1/2 cups (300g) All-Purpose Flour
+- 2 1/2 cups (300g) all-purpose flour
 - 1/3 tbsp (6g) table salt
 - 1/2 tbsp (4.6g) instant yeast or active dry yeast
 - 1 cup (226g) water, lukewarm
