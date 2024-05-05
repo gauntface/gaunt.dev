@@ -114,7 +114,7 @@ Technologies I'm regularly using at the moment:
 <li>Open Source</li>
 </ul>
 
-Tecnologies I'm less familiar (i.e. learning or have used in the past):
+Technologies I'm less familiar (i.e. learning or have used in the past):
 
 <ul class="c-resume-col-list">
 <li>AWS SAM, S3, Lambda</li>
