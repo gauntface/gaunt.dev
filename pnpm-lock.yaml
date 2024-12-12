@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       stylelint-config-standard:
-        specifier: ^36.0.1
+        specifier: ^36.0.0
         version: 36.0.1(stylelint@16.5.0(typescript@5.4.5))
     devDependencies:
       '@sentry/browser':
