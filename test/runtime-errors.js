@@ -85,6 +85,10 @@ for (const p of pages) {
 		const consoleErrors = [];
 		// Catch all failed requests like 4xx..5xx status codes
 		page.on('requestfailed', request => {
+			if (!request.url().startsWith(addr)) {
+				console.warn(`Non-200 reponse from third party site: url: ${request.url()}, errText: ${request.failure().errorText}, method: ${request.method()}`)
+				return;
+			}
 			failedRequests.push(request);
 		});
 		// Catch console log errors
