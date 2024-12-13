@@ -24,6 +24,7 @@ test.after('cleanup', async () => {
 test.beforeEach(async (t) => {
 	// Create new page for test
 	t.context.page = await browser.newPage();
+	t.context.page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36');
 
 	// Ensure we get 200 responses from the server
 	t.context.page.on('response', (response) => {
@@ -85,10 +86,6 @@ for (const p of pages) {
 		const consoleErrors = [];
 		// Catch all failed requests like 4xx..5xx status codes
 		page.on('requestfailed', request => {
-			if (!request.url().startsWith(addr)) {
-				console.warn(`Non-200 reponse from third party site: url: ${request.url()}, errText: ${request.failure().errorText}, method: ${request.method()}`)
-				return;
-			}
 			failedRequests.push(request);
 		});
 		// Catch console log errors
