@@ -15,23 +15,24 @@ pageClass: l-resume
 
 ## Work Experience
 
-### Stealth Startup
+### Augment Code
 
 <div class="c-job-subtitle">October 2023 - Present [Technical Team Member]</div>
 
-- Frontend
+- Introduced OAuth, WebViews and release process for VSCode extension
+- Implemented features into early versions of the IntelliJ extension
+- Improved completions in VSCode and introduced them into IntelliJ
+- Introduced a cross-client framework for running agents across both clients
+- Team lead for IntelliJ extension, improving performance and reliability
 
 ### Sentry
 
-<div class="c-job-subtitle">Augest 2022 - October 2023 [Senior Software Engineer - Developer Infrastructure]</div>
+<div class="c-job-subtitle">August 2022 - October 2023 [Senior Software Engineer - Developer Infrastructure]</div>
 
 - Supporting junior engineer and guiding team goals
 - Lead effort to move services to a multi-region deployment process
-- Learning service management with Docker and Kubernetes
 - Worked on several projects surrounding the integration of GoCD with developer workflows
-- Introducing canary deployments and libraries to block bad deploys
 - Establishing team alerts and rotation for core services
-- Learning Python
 - Changing continuous deployment service
 
 ### Google
@@ -66,6 +67,8 @@ Web SDK, adding support for service workers to the SDK, supporting
 long-term plans in the API design and working with early access partners.
 - After its release, I became web platform lead for the Firebase API team, reviewing new API proposals and participating in design reviews for new features and overall SDK architecture.
 
+{{< resume-secondary-role >}}
+
 <div class="c-job-subtitle__section">Chromium-based WebView in Android</div>
 
 - Working with the engineering team, producing educational content, working with key partners
@@ -81,8 +84,6 @@ conferences.
 - Worked in a small team to deliver various applications to clients.
 - Developed for the Android, iOS, Nokia QT, and Blackberry platforms.
 - Worked on a cross-platform framework called KirinJS.
-
-{{< resume-secondary-role >}}
 
 ### Mubaloo
 
@@ -103,26 +104,10 @@ I was an intern for Mubaloo and a consultant before joining
 Technologies I'm regularly using at the moment:
 
 <ul class="c-resume-col-list">
-<li>Testing</li>
-<li>Golang</li>
+<li>Kotlin</li>
 <li>TypeScript / JavaScript</li>
 <li>HTML / CSS / JS</li>
-<li>Progressive Web Apps</li>
 <li>Node</li>
-<li>GitHub</li>
-<li>Google CloudSQL</li>
-<li>Open Source</li>
-</ul>
-
-Technologies I'm less familiar (i.e. learning or have used in the past):
-
-<ul class="c-resume-col-list">
-<li>AWS SAM, S3, Lambda</li>
-<li>GCP, GKE, Cloud Build, Cloud Run</li>
-<li>GraphQL</li>
-<li>React</li>
-<li>Java</li>
-<li>Android Development</li>
 </ul>
 
 ## Education
