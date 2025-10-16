@@ -1,3 +1,7 @@
 .c-resume-col-list {
 	column-count: 3;
 }
+
+.c-resume-col-list > li {
+	margin-top: 0;
+}

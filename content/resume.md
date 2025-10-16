@@ -104,10 +104,10 @@ I was an intern for Mubaloo and a consultant before joining
 Technologies I'm regularly using at the moment:
 
 <ul class="c-resume-col-list">
-<li>Kotlin</li>
 <li>TypeScript / JavaScript</li>
 <li>HTML / CSS / JS</li>
 <li>Node</li>
+<li>Kotlin</li>
 </ul>
 
 ## Education
