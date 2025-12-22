@@ -7,10 +7,14 @@ githubFullName: "gauntface/pin-it-extension"
 
 ![Promo image for the Pin-It Chrome extension](/images/projects/pin-it/default-social.png)
 
-[Pin-It](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme)
-is a simple Chrome extension that makes it easy to keep a set of tabs pinned.
+Pin-It is a simple [Chrome](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme)
+and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gaunt-dev-pin-it/)
+extension that makes it easy to keep a set of tabs pinned.
 
-<p class="u-center"><a class="c-btn" href="https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme">Install Pin-It Here</a></p>
+<p class="u-center">
+  <a class="c-btn" href="https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme">Install on Chrome</a>
+  <a class="c-btn" href="https://addons.mozilla.org/en-US/firefox/addon/gaunt-dev-pin-it/">Install on Firefox</a>
+</p>
 
 ## Why?
 
@@ -26,8 +30,9 @@ on the extension icon, it'll set your pinned tabs to your sites.
 
 ### Step 1
 
-Download the Chrome extension from the
-[Chrome Webstore here](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme).
+Download the extension from the
+[Chrome Webstore](https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme)
+or via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/gaunt-dev-pin-it/).
 
 ### Step 2
 
