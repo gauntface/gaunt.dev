@@ -1,0 +1,7 @@
+.c-pin-it-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding);
+  max-width: 260px;
+  margin-inline: auto;
+}

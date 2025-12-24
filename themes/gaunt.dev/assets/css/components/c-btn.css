@@ -1,6 +1,6 @@
 .c-btn {
 	display: inline-block;
-	height: 2rem;
+	min-height: 2rem;
 	line-height: 2rem;
 	font-size: 1.4rem;
 	padding: var(--padding);
