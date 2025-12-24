@@ -1,7 +1,7 @@
 code {
 	/* System fonts */
-	--system-font-mono-space: menlo, consolas, monaco, "Liberation Mono",
-		lucida console, monospace;
+	--system-font-mono-space:
+		menlo, consolas, monaco, "Liberation Mono", lucida console, monospace;
 
 	background: var(--t-base-2);
 	color: var(--t-opposite-2);
