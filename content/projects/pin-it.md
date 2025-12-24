@@ -11,7 +11,7 @@ Pin-It is a simple [Chrome](https://chrome.google.com/webstore/detail/pin-it/iae
 and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gaunt-dev-pin-it/)
 extension that makes it easy to keep a set of tabs pinned.
 
-<p class="u-center">
+<p class="u-center c-pin-it-links">
   <a class="c-btn" href="https://chrome.google.com/webstore/detail/pin-it/iaebojjjijdaeinlldahkekclhdjgkme">Install on Chrome</a>
   <a class="c-btn" href="https://addons.mozilla.org/en-US/firefox/addon/gaunt-dev-pin-it/">Install on Firefox</a>
 </p>
