@@ -20,7 +20,7 @@ pageClass: l-resume
 <div class="c-job-subtitle">November 2025 - Present [Founding Engineer]</div>
 
 - Improved web app UX across core user flows
-- Added support for new scan types
+- Adding and supporting the addition of new scan types and features
 
 ### Augment Code
 
