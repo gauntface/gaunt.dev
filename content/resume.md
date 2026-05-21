@@ -15,9 +15,16 @@ pageClass: l-resume
 
 ## Work Experience
 
+### Detail
+
+<div class="c-job-subtitle">November 2025 - Present [Founding Engineer]</div>
+
+- Improved web app UX across core user flows
+- Adding and supporting the addition of new scan types and features
+
 ### Augment Code
 
-<div class="c-job-subtitle">October 2023 - Present [Technical Team Member]</div>
+<div class="c-job-subtitle">October 2023 - November 2025 [Technical Team Member]</div>
 
 - Introduced OAuth, WebViews and release process for VSCode extension
 - Implemented features into early versions of the IntelliJ extension
