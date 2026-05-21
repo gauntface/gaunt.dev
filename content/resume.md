@@ -36,11 +36,9 @@ pageClass: l-resume
 
 <div class="c-job-subtitle">August 2022 - October 2023 [Senior Software Engineer - Developer Infrastructure]</div>
 
-- Supporting junior engineer and guiding team goals
-- Lead effort to move services to a multi-region deployment process
-- Worked on several projects surrounding the integration of GoCD with developer workflows
-- Establishing team alerts and rotation for core services
-- Changing continuous deployment service
+- Led effort to move services to a multi-region deployment process
+- Worked on integrating GoCD into developer workflows
+- Supported junior engineers and guided team goals
 
 ### Google
 
@@ -56,23 +54,8 @@ to improve quality and coverage.
 
 <div class="c-job-subtitle">April 2013 - April 2018 [Staff Developer Programs Engineer - Chrome Dev Rel]</div>
 
-Below are some of the larger projects I was involved in as a developer programs engineer on the Chrome DevRel team; however, this does not include [YouTube videos & presentations](https://www.youtube.com/playlist?list=PLo4WeLIpjn15yye0FCQRy47YjrrCTh99s), [docs & blog posts](https://web.dev/authors/mattgaunt/) and other day-to-day tasks.
-
-<div class="c-job-subtitle__section">Workbox</div>
-
-- I worked with the early implementations of service workers, writing
-[a chapter for Smashing Book 5](https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design)
-on the topic and later became a team lead and core dev for the early
-versions of [Workbox](https://developers.google.com/web/tools/workbox), a set of
-libraries and tools that simplify using service workers to build progressive web apps (PWAs).
-
-<div class="c-job-subtitle__section">Firebase Cloud Messaging</div>
-
-- After working on native
-[web push](https://w3c.github.io/push-api/#acknowledgements), I lead the design and implementation of the [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging)
-Web SDK, adding support for service workers to the SDK, supporting
-long-term plans in the API design and working with early access partners.
-- After its release, I became web platform lead for the Firebase API team, reviewing new API proposals and participating in design reviews for new features and overall SDK architecture.
+- Team lead and core developer for early versions of [Workbox](https://developers.google.com/web/tools/workbox), a service worker library for building PWAs; wrote a chapter on service workers for [Smashing Book 5](https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design)
+- Led design and implementation of the [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging) Web SDK; later served as web platform lead reviewing API proposals and SDK architecture
 
 {{< resume-secondary-role >}}
 
