@@ -59,12 +59,6 @@ to improve quality and coverage.
 
 {{< resume-secondary-role >}}
 
-<div class="c-job-subtitle__section">Chromium-based WebView in Android</div>
-
-- Working with the engineering team, producing educational content, working with key partners
-in early access programs, advocating the change with external communities online, and presenting at
-conferences.
-
 ### Future Platforms
 
 <div class="c-job-subtitle">May 2011 - June 2012 [Software Engineer]</div>
