@@ -56,7 +56,6 @@ to improve quality and coverage.
 
 - Team lead and core developer for early versions of [Workbox](https://developers.google.com/web/tools/workbox), a service worker library for building PWAs; wrote a chapter on service workers for [Smashing Book 5](https://shop.smashingmagazine.com/products/smashing-book-5-real-life-responsive-web-design)
 - Led design and implementation of the [Firebase Cloud Messaging](https://firebase.google.com/products/cloud-messaging) Web SDK; later served as web platform lead reviewing API proposals and SDK architecture
-- Supported the Chromium-based WebView in Android launch: worked with the engineering team, produced educational content, partnered with early access partners, advocated with external communities, and presented at conferences
 
 {{< resume-secondary-role >}}
 
