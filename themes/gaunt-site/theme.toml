@@ -1,0 +1,9 @@
+name = "Gaunt Site"
+license = "MIT"
+description = "Theme for gaunt.dev"
+homepage = "https://www.gaunt.dev"
+min_version = "0.41.0"
+
+[author]
+  name = "Matt Gaunt-Seo"
+  homepage = "https://www.gaunt.dev"

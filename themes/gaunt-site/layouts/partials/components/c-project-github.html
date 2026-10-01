@@ -1,0 +1,7 @@
+{{ if .Params.githubFullName }}
+<h2>Found an Issue?</h2>
+<p>If you've found an issue, <a href="https://github.com/{{.Params.githubFullName}}/issues/new">please report it here</a>.</p>
+
+<h2>Want the Source Code?</h2>
+<p>This project is available on GitHub at <a href="https://github.com/{{.Params.githubFullName}}">github.com/{{.Params.githubFullName}}</a>.</p>
+{{ end }}

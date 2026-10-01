@@ -1,0 +1,10 @@
+{{- $page := . -}}
+{{- $headerLink := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $page = .Page -}}
+  {{- $headerLink = .HeaderLink -}}
+{{- end -}}
+<div class="l-default{{ with $page.Params.pageClass }} {{ . }}{{ end }}">
+  {{ partial "components/c-header.html" (dict "Link" $headerLink) }}
+  {{ partial "components/c-nav.html" $page }}
+  <main class="l-default__main">

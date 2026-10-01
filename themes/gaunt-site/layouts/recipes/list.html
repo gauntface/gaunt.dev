@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ partial "layouts/l-default-open.html" (dict "Page" . "HeaderLink" "/recipes/") }}
+{{ if eq (len .Ancestors) 1 }}
+  <h1>Recipes</h1>
+
+  <p>We all know that online recipes are a mess of stories, mixed up instructions
+    and generally just noisy.</p>
+
+  <p>These are recipes I've tried, like and want to keep for myself.</p>
+
+  {{ range .Sections }}
+    <h2>{{ .Title }}</h2>
+    <ul>
+      {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ else }}
+  {{ .Content }}
+  <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</a></li>
+    {{ end }}
+  </ul>
+{{ end }}
+{{ partial "layouts/l-default-close.html" . }}
+{{ end }}

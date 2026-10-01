@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "layouts/l-default-open.html" . }}
+<h1>Blog</h1>
+{{ $paginator := .Paginator 25 }}
+<div class="l-blog-list">
+  {{ range $paginator.Pages }}
+    {{ partial "components/c-blog-item.html" . }}
+  {{ end }}
+</div>
+{{ partial "components/c-pagination.html" $paginator }}
+{{ partial "layouts/l-default-close.html" . }}
+{{ end }}

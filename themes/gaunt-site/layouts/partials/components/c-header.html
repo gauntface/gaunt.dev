@@ -1,0 +1,7 @@
+{{- $link := "" -}}
+{{- if reflect.IsMap . }}{{ $link = .Link }}{{ end -}}
+<header class="c-header">
+  <a class="c-header__anchor" href="{{ or $link ("/" | relURL) }}" title="Home">
+    {{ partial "svgs/logo-1024x1024.svg" }}
+  </a>
+</header>
