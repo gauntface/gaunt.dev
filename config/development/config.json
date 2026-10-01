@@ -2,6 +2,7 @@
   "theme": ["gaunt-site", "styleguide", "base-theme"],
   "ignoreFiles": [],
   "params": {
+    "styleguideSection": "styleguide",
     "baseTheme": {
       "themes": ["gaunt-site", "styleguide", "base-theme"]
     }
