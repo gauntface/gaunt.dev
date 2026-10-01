@@ -12,7 +12,7 @@
   },
 
   "baseURL": "https://www.gaunt.dev/",
-  "languageCode": "en-us",
+  "locale": "en-us",
   "title": "The homepage of Matt Gaunt-Seo - gaunt.dev",
   "theme": ["gaunt.dev", "base-theme"],
   "ignoreFiles": ["/content/styleguide/"],
