@@ -1,0 +1,9 @@
+{
+  "theme": ["gaunt-site", "styleguide", "base-theme"],
+  "ignoreFiles": [],
+  "params": {
+    "baseTheme": {
+      "themes": ["gaunt-site", "styleguide", "base-theme"]
+    }
+  }
+}

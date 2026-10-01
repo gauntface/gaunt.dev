@@ -1,0 +1,9 @@
+<div class="l-blog">
+  {{ partial "components/c-header.html" (dict "Link" "") }}
+  {{ partial "components/c-nav.html" . }}
+  {{ with .Params.mainImage }}
+    <div class="l-blog__keyart">
+      <img src="{{ . }}" alt="{{ or $.Params.mainImageAlt (printf "Key art image for %s" $.Title) }}" />
+    </div>
+  {{ end }}
+  <main class="l-blog__main">

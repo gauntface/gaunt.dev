@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ partial "layouts/l-blog-open.html" . }}
+{{ .Content }}
+{{ partial "components/c-edit-on-github.html" . }}
+{{ partial "layouts/l-blog-close.html" . }}
+{{ end }}
