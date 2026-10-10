@@ -11,7 +11,7 @@ npm install -g avif
 
 ## Themes
 
-`gaunt.dev` is the live theme. `gaunt-site` is the redesign and `styleguide`
+`gaunt.dev` is the live theme. `gaunt.dev-v2` is the redesign and `styleguide`
 is for building its components. `config/development/config.json` switches to
 the new themes, so `npm run dev` previews them and production builds are
 unchanged.

@@ -1,10 +1,10 @@
 {
-  "theme": ["gaunt-site", "styleguide", "base-theme"],
+  "theme": ["gaunt.dev-v2", "styleguide", "base-theme"],
   "ignoreFiles": [],
   "params": {
     "styleguideSection": "styleguide",
     "baseTheme": {
-      "themes": ["gaunt-site", "styleguide", "base-theme"]
+      "themes": ["gaunt.dev-v2", "styleguide", "base-theme"]
     }
   }
 }
